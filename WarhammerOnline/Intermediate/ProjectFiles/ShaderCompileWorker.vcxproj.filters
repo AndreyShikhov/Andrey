@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{81552FED-1BA1-44AB-8DF3-73C7A65A2828}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Config\Mac">
+			<UniqueIdentifier>{27B0D2C3-8D9E-4042-A88F-995C475049B9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
+			<Filter>Config\Mac</Filter>
+		</None >
+		<None Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{E973FCBA-DDD5-4B4E-B837-3FE3AC7E7EC7}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{09B13514-925E-4F28-80C6-9B3EB6FEB39E}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<ClInclude Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\Resources\resource.h">
+			<Filter>Resources</Filter>
+		</ClInclude >
+		<ResourceCompile Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\Resources\Resource.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+		<None Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\Resources\ShaderCompileWorker.ico">
+			<Filter>Resources</Filter>
+		</None >
+		<Manifest Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\Resources\Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\ShaderCompileWorker\Resources\Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+	</ItemGroup>
+</Project>
