@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\WarhammerOnline.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{043E401D-868A-456B-B62A-36EF34BEF6FC}</UniqueIdentifier>
+			<UniqueIdentifier>{2AD4C528-D21E-41EC-BAA5-D4726633DDB0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\WarhammerOnline.Target.cs">
 			<Filter>Source</Filter>
@@ -12,8 +12,11 @@
 		<None Include="..\..\Source\WarhammerOnlineEditor.Target.cs">
 			<Filter>Source</Filter>
 		</None >
+		<None Include="..\..\Source\WarhammerOnlineServer.Target.cs">
+			<Filter>Source</Filter>
+		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{DA03AF91-D481-4062-80F8-CFE0E2FCED87}</UniqueIdentifier>
+			<UniqueIdentifier>{32475C4C-04E2-4B8D-8CFF-DC28B0AA0AC8}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\WarhammerOnline">
-			<UniqueIdentifier>{391C3BC7-393E-4E9A-99B9-8696E7A8CD9A}</UniqueIdentifier>
+			<UniqueIdentifier>{E9545847-B321-4B11-860F-D568EED30C52}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\WarhammerOnline\WarhammerOnline.Build.cs">
 			<Filter>Source\WarhammerOnline</Filter>

@@ -1,3 +1,4 @@
 D:\Unreal\UnrealProject\WarhammerOnline\Source\WarhammerOnline\WarhammerOnline.Build.cs
 D:\Unreal\UnrealProject\WarhammerOnline\Source\WarhammerOnline.Target.cs
 D:\Unreal\UnrealProject\WarhammerOnline\Source\WarhammerOnlineEditor.Target.cs
+D:\Unreal\UnrealProject\WarhammerOnline\Source\WarhammerOnlineServer.Target.cs

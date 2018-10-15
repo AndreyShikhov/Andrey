@@ -5,7 +5,7 @@
 		<None Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Target.cs" />
 		<None Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{62169109-7BB0-476B-BA5D-307D724F795E}</UniqueIdentifier>
+			<UniqueIdentifier>{9A679961-185A-4016-85C0-31400BBC8B2E}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.cpp">
 			<Filter>Private</Filter>
@@ -14,10 +14,10 @@
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{C347EC93-9B66-4E4B-898E-91D0E3A43355}</UniqueIdentifier>
+			<UniqueIdentifier>{3F82907B-5EC8-4FD2-AC71-DC6362E15D2B}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{9CE9B441-106E-4331-8E08-B8F01B9107E3}</UniqueIdentifier>
+			<UniqueIdentifier>{559FCC7D-86E4-423F-9A1C-0BD98EF2A7F9}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\..\..\..\Engine\UnrealEngine-4.20\Engine\Source\Programs\Windows\BootstrapPackagedGame\Resources\Windows\BootstrapPackagedGame.ico">
 			<Filter>Resources\Windows</Filter>

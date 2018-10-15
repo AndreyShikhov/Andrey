@@ -18,6 +18,14 @@
 			<Configuration>Debug_Editor</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Server|Win32">
+			<Configuration>Debug_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Server|x64">
+			<Configuration>Debug_Server</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="Mac_Debug_Game|Win32">
 			<Configuration>Mac_Debug_Game</Configuration>
 			<Platform>Win32</Platform>
@@ -32,6 +40,14 @@
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Mac_Debug_Editor|x64">
 			<Configuration>Mac_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Server|Win32">
+			<Configuration>Mac_Debug_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Server|x64">
+			<Configuration>Mac_Debug_Server</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Debug_Game|Win32">
@@ -50,6 +66,14 @@
 			<Configuration>HTML5_Debug_Editor</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Server|Win32">
+			<Configuration>HTML5_Debug_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Server|x64">
+			<Configuration>HTML5_Debug_Server</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="DebugGame_Game|Win32">
 			<Configuration>DebugGame_Game</Configuration>
 			<Platform>Win32</Platform>
@@ -64,6 +88,14 @@
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="DebugGame_Editor|x64">
 			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Server|Win32">
+			<Configuration>DebugGame_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Server|x64">
+			<Configuration>DebugGame_Server</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Mac_DebugGame_Game|Win32">
@@ -82,6 +114,14 @@
 			<Configuration>Mac_DebugGame_Editor</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Server|Win32">
+			<Configuration>Mac_DebugGame_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Server|x64">
+			<Configuration>Mac_DebugGame_Server</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_DebugGame_Game|Win32">
 			<Configuration>HTML5_DebugGame_Game</Configuration>
 			<Platform>Win32</Platform>
@@ -96,6 +136,14 @@
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_DebugGame_Editor|x64">
 			<Configuration>HTML5_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Server|Win32">
+			<Configuration>HTML5_DebugGame_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Server|x64">
+			<Configuration>HTML5_DebugGame_Server</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Development_Game|Win32">
@@ -114,6 +162,14 @@
 			<Configuration>Development_Editor</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Server|Win32">
+			<Configuration>Development_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Server|x64">
+			<Configuration>Development_Server</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="Mac_Development_Game|Win32">
 			<Configuration>Mac_Development_Game</Configuration>
 			<Platform>Win32</Platform>
@@ -128,6 +184,14 @@
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Mac_Development_Editor|x64">
 			<Configuration>Mac_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Server|Win32">
+			<Configuration>Mac_Development_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Server|x64">
+			<Configuration>Mac_Development_Server</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Development_Game|Win32">
@@ -146,12 +210,28 @@
 			<Configuration>HTML5_Development_Editor</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Server|Win32">
+			<Configuration>HTML5_Development_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Server|x64">
+			<Configuration>HTML5_Development_Server</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="Shipping_Game|Win32">
 			<Configuration>Shipping_Game</Configuration>
 			<Platform>Win32</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Shipping_Game|x64">
 			<Configuration>Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Server|Win32">
+			<Configuration>Shipping_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Server|x64">
+			<Configuration>Shipping_Server</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Mac_Shipping_Game|Win32">
@@ -162,12 +242,28 @@
 			<Configuration>Mac_Shipping_Game</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Server|Win32">
+			<Configuration>Mac_Shipping_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Server|x64">
+			<Configuration>Mac_Shipping_Server</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Shipping_Game|Win32">
 			<Configuration>HTML5_Shipping_Game</Configuration>
 			<Platform>Win32</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Shipping_Game|x64">
 			<Configuration>HTML5_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Server|Win32">
+			<Configuration>HTML5_Shipping_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Server|x64">
+			<Configuration>HTML5_Shipping_Server</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="Test_Game|Win32">
@@ -178,6 +274,14 @@
 			<Configuration>Test_Game</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="Test_Server|Win32">
+			<Configuration>Test_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Test_Server|x64">
+			<Configuration>Test_Server</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="Mac_Test_Game|Win32">
 			<Configuration>Mac_Test_Game</Configuration>
 			<Platform>Win32</Platform>
@@ -186,12 +290,28 @@
 			<Configuration>Mac_Test_Game</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Test_Server|Win32">
+			<Configuration>Mac_Test_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Test_Server|x64">
+			<Configuration>Mac_Test_Server</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Test_Game|Win32">
 			<Configuration>HTML5_Test_Game</Configuration>
 			<Platform>Win32</Platform>
 		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Test_Game|x64">
 			<Configuration>HTML5_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Test_Server|Win32">
+			<Configuration>HTML5_Test_Server</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Test_Server|x64">
+			<Configuration>HTML5_Test_Server</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
 	</ItemGroup>
@@ -224,6 +344,14 @@
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
@@ -237,6 +365,14 @@
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Server|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
@@ -256,6 +392,14 @@
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Server|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
@@ -269,6 +413,14 @@
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
@@ -288,6 +440,14 @@
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Server|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
@@ -301,6 +461,14 @@
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Server|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
@@ -320,6 +488,14 @@
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
@@ -333,6 +509,14 @@
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Server|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
@@ -352,11 +536,27 @@
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Server|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
@@ -368,11 +568,27 @@
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Server|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Server|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
@@ -384,6 +600,14 @@
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
@@ -392,11 +616,27 @@
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Server|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Game|Win32'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Server|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Server|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
@@ -437,6 +677,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>D:\Engine\UnrealEngine-4.20\Engine\Binaries\Win32\UE4Editor-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\WarhammerOnlineServer-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -470,6 +727,23 @@
 		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>D:\Engine\UnrealEngine-4.20\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\WarhammerOnlineServer-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -505,6 +779,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>D:\Engine\UnrealEngine-4.20\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Mac Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Mac Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Mac Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\WarhammerOnlineServer-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -538,6 +829,23 @@
 		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnlineEditor-HTML5-Debug.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnlineServer-HTML5-Debug.js</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -573,6 +881,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>D:\Engine\UnrealEngine-4.20\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\WarhammerOnlineServer-Win32-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -606,6 +931,23 @@
 		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>D:\Engine\UnrealEngine-4.20\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\WarhammerOnlineServer-Win64-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -641,6 +983,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>D:\Engine\UnrealEngine-4.20\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\WarhammerOnlineServer-Mac-DebugGame</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -674,6 +1033,23 @@
 		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnlineEditor-HTML5-DebugGame.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnlineServer-HTML5-DebugGame.js</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -709,6 +1085,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>D:\Engine\UnrealEngine-4.20\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\WarhammerOnlineServer.exe</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -742,6 +1135,23 @@
 		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>D:\Engine\UnrealEngine-4.20\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\WarhammerOnlineServer.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -777,6 +1187,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor Mac Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>D:\Engine\UnrealEngine-4.20\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Mac Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Mac Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Mac Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\WarhammerOnlineServer</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -811,6 +1238,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnlineEditor.js</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnlineServer.js</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -827,6 +1271,23 @@
 		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnline Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnline Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\WarhammerOnline-Win32-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\WarhammerOnlineServer-Win32-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -845,6 +1306,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnline Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\WarhammerOnline-Win64-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\WarhammerOnlineServer-Win64-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -861,6 +1339,23 @@
 		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnline Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnline Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Mac\WarhammerOnline-Mac-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\WarhammerOnlineServer-Mac-Shipping</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -879,6 +1374,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnline HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnline-HTML5-Shipping.js</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnlineServer-HTML5-Shipping.js</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -895,6 +1407,23 @@
 		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnline Win32 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnline Win32 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\WarhammerOnline-Win32-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win32 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win32 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win32 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\WarhammerOnlineServer-Win32-Test.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -913,6 +1442,23 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnline Win64 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\WarhammerOnline-Win64-Test.exe</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Win64 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Win64 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Win64 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\WarhammerOnlineServer-Win64-Test.exe</NMakeOutput>
+	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
 	</ImportGroup>
@@ -929,6 +1475,23 @@
 		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnline Mac Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnline Mac Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Mac\WarhammerOnline-Mac-Test</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer Mac Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer Mac Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer Mac Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\WarhammerOnlineServer-Mac-Test</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -947,10 +1510,28 @@
 		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnline HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnline-HTML5-Test.js</NMakeOutput>
 	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Server|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Server|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Build.bat WarhammerOnlineServer HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Rebuild.bat WarhammerOnlineServer HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Engine\UnrealEngine-4.20\Engine\Build\BatchFiles\Clean.bat WarhammerOnlineServer HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\WarhammerOnlineServer-HTML5-Test.js</NMakeOutput>
+	</PropertyGroup>
 	<ItemGroup>
 		<None Include="..\..\WarhammerOnline.uproject" />
 		<None Include="..\..\Source\WarhammerOnline.Target.cs" />
 		<None Include="..\..\Source\WarhammerOnlineEditor.Target.cs" />
+		<None Include="..\..\Source\WarhammerOnlineServer.Target.cs" />
 		<None Include="..\..\Config\DefaultEditor.ini" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
