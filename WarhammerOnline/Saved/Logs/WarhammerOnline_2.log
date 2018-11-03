@@ -1,4 +1,4 @@
-﻿Log file open, 11/03/18 02:36:21
+﻿Log file open, 11/04/18 01:14:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WarhammerOnline
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.456967
+LogStats: Stats thread started at 0.242404
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.106s to configure plugins.
+LogStreaming: Display: Took  0.095s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -146,185 +146,188 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.004s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.02-21.36.22:434][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.02-21.36.22:434][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.02-21.36.22:440][  0]LogHAL: Display: Platform has ~ 8 GB [8473120768 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.02-21.36.22:440][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.02-21.36.22:440][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.02-21.36.22:440][  0]LogInit: Computer: DESKTOP-O8P7830
-[2018.11.02-21.36.22:441][  0]LogInit: User: Andre
-[2018.11.02-21.36.22:441][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.11.02-21.36.22:441][  0]LogInit: High frequency timer resolution =2.533317 MHz
-[2018.11.02-21.36.22:441][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.11.02-21.36.22:441][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.02-21.36.22:441][  0]LogMemory: Process Physical Memory: 125.91 MB used, 125.91 MB peak
-[2018.11.02-21.36.22:441][  0]LogMemory: Process Virtual Memory: 97.43 MB used, 97.43 MB peak
-[2018.11.02-21.36.22:441][  0]LogMemory: Physical Memory: 5685.61 MB used,  2394.99 MB free, 8080.60 MB total
-[2018.11.02-21.36.22:441][  0]LogMemory: Virtual Memory: 4727.68 MB used,  2394.99 MB free, 134217728.00 MB total
-[2018.11.02-21.36.22:473][  0]LogInit: Using OS detected language (ru-RU).
-[2018.11.02-21.36.22:473][  0]LogInit: Using OS detected locale (ru-RU).
-[2018.11.02-21.36.22:473][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
-[2018.11.02-21.36.22:475][  0]LogStreaming: Display: Took  0.003s to InitEngineTextLocalization.
-[2018.11.02-21.36.22:503][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.02-21.36.22:503][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.02-21.36.22:530][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.02-21.36.22:644][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
-[2018.11.02-21.36.22:644][  0]LogD3D11RHI:       2007/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.11.02-21.36.22:652][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
-[2018.11.02-21.36.22:653][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.11.02-21.36.22:658][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.02-21.36.22:658][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.02-21.36.22:658][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.02-21.36.22:687][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.02-21.36.22:688][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.02-21.36.22:688][  0]LogWindows: EnumDisplayDevices:
-[2018.11.02-21.36.22:688][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2018.11.02-21.36.22:688][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2018.11.02-21.36.22:689][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2018.11.02-21.36.22:689][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.11.02-21.36.22:689][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
-[2018.11.02-21.36.22:689][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.11.02-21.36.22:689][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.11.02-21.36.22:689][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
-[2018.11.02-21.36.22:783][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.02-21.36.22:804][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.02-21.36.22:805][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../Unreal/UnrealProject/WarhammerOnline/Intermediate/Shaders/WorkingDirectory/10304/).
-[2018.11.02-21.36.22:805][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/E0F0B9154E37A35721966BB159453B5E/'.
-[2018.11.02-21.36.23:383][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.02-21.36.23:403][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.02-21.36.23:428][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.02-21.36.23:448][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.02-21.36.23:448][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.02-21.36.23:532][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.02-21.36.23:532][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.02-21.36.23:532][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.02-21.36.24:627][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.02-21.36.24:730][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
-[2018.11.02-21.36.24:731][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc
-[2018.11.02-21.36.24:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.02-21.36.24:731][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.02-21.36.24:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.02-21.36.24:731][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2018.11.02-21.36.24:744][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2018.11.02-21.36.24:744][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.02-21.36.24:744][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.02-21.36.24:791][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.02-21.36.24:793][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.02-21.36.24:794][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.02-21.36.24:862][  0]LogInit: Using OS detected language (ru-RU).
-[2018.11.02-21.36.24:862][  0]LogInit: Using OS detected locale (ru-RU).
-[2018.11.02-21.36.24:862][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
-[2018.11.02-21.36.24:862][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
-[2018.11.02-21.36.25:506][  0]LogStreaming: Display: Took  0.644s to InitGameTextLocalization.
-[2018.11.02-21.36.25:517][  0]LogAssetRegistry: FAssetRegistry took 0.0050 seconds to start up
-[2018.11.02-21.36.25:894][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.018924 seconds
-[2018.11.02-21.36.25:997][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.02-21.36.26:181][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.02-21.36.26:181][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.02-21.36.26:181][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.02-21.36.26:181][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2018.11.02-21.36.26:181][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2018.11.02-21.36.26:198][  0]LogNetVersion: WarhammerOnline 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4240001505)
-[2018.11.02-21.36.26:888][  0]LogMoviePlayer: Initializing movie player
-[2018.11.02-21.36.27:269][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.02-21.36.27:287][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.02-21.36.27:482][  0]SourceControl: Source control is disabled
-[2018.11.02-21.36.27:482][  0]SourceControl: Source control is disabled
-[2018.11.02-21.36.27:485][  0]SourceControl: Source control is disabled
-[2018.11.02-21.36.27:887][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.02-21.36.28:135][  0]LogOcInput: OculusInput pre-init called
-[2018.11.02-21.36.28:159][  0]LogUObjectArray: 42755 objects as part of root set at end of initial load.
-[2018.11.02-21.36.28:159][  0]LogUObjectAllocator: 7543096 out of 0 bytes used by permanent object pool.
-[2018.11.02-21.36.28:159][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.02-21.36.28:259][  0]LogEngine: Initializing Engine...
-[2018.11.02-21.36.28:275][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.02-21.36.28:275][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.02-21.36.28:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.02-21.36.28:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.02-21.36.28:661][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.02-21.36.28:727][  0]LogInit: XAudio2 using 'Наушники (2- Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.02-21.36.28:768][  0]LogInit: FAudioDevice initialized.
-[2018.11.02-21.36.28:785][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.02-21.36.28:785][  0]LogInit: Texture streaming: Enabled
-[2018.11.02-21.36.29:206][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.02-21.36.29:207][  0]LogInit: Display: Game Engine Initialized.
-[2018.11.02-21.36.29:207][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.02-21.36.29:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.02-21.36.29:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.02-21.36.29:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
-[2018.11.02-21.36.29:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.02-21.36.29:248][  0]LogInit: Display: Starting Game.
-[2018.11.02-21.36.29:249][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
-[2018.11.02-21.36.29:249][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
-[2018.11.02-21.36.29:925][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.11.02-21.36.29:926][  0]LogLoad: Game class is 'GameModeBase'
-[2018.11.02-21.36.29:927][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2018.11.03-02.36.29
-[2018.11.02-21.36.29:928][  0]LogWorld: Bringing up level for play took: 0.000943
-[2018.11.02-21.36.29:929][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.11.02-21.36.29:943][  0]LogLoad: Took 0.693767 seconds to LoadMap(/Game/Maps/MainMenu)
-[2018.11.02-21.36.30:054][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2018.11.02-21.36.30:054][  0]LogLoad: (Engine Initialization) Total time: 9.70 seconds
-[2018.11.02-21.36.30:054][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.02-21.36.30:077][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.02-21.36.44:295][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.02-21.36.44:392][844]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.02-21.36.46:168][954]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.02-21.36.46:168][954]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.02-21.36.47:814][ 57]LogOnline: Warning: STEAM: Empty session setting PASSWORD  : OnlineService of type String
-[2018.11.02-21.36.47:838][ 57]LogOnlineSession: Verbose: OSS: dumping NamedSession: 
-[2018.11.02-21.36.47:838][ 57]LogOnlineSession: Verbose: OSS: 	SessionName: GameSession
-[2018.11.02-21.36.47:838][ 57]LogOnlineSession: Verbose: OSS: 	HostingPlayerNum: 0
-[2018.11.02-21.36.47:838][ 57]LogOnlineSession: Verbose: OSS: 	SessionState: Pending
-[2018.11.02-21.36.47:838][ 57]LogOnlineSession: Verbose: OSS: 	RegisteredPlayers: 
-[2018.11.02-21.36.47:838][ 57]LogOnlineSession: Verbose: OSS: 	    0 registered players
-[2018.11.02-21.36.47:838][ 57]LogOnlineSession: Verbose: OSS: dumping Session: 
-[2018.11.02-21.36.47:839][ 57]LogOnlineSession: Verbose: OSS: 	OwningPlayerName: ???????????????????? ??????????
-[2018.11.02-21.36.47:839][ 57]LogOnlineSession: Verbose: OSS: 	OwningPlayerId: Безмозглый Билли [0x11000010713DAC9]
-[2018.11.02-21.36.47:839][ 57]LogOnlineSession: Verbose: OSS: 	NumOpenPrivateConnections: 0
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	NumOpenPublicConnections: 1
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	SessionInfo: HostIP: INVALID SteamP2P: 76561198079007433:7777 Type: Lobby session SessionId: Lobby [0x186000001A0122A]
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: dumping SessionSettings: 
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	NumPublicConnections: 2
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	NumPrivateConnections: 0
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	bIsLanMatch: false
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	bIsDedicated: false
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	bUsesStats: false
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	bShouldAdvertise: true
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	bAllowJoinInProgress: true
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	bAllowInvites: true
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	bUsesPresence: true
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresence: true
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresenceFriendsOnly: false
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	BuildUniqueId: 0x00000000
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 	Settings:
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 		NAME=asd : OnlineService
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 		MAP=Map1 : OnlineService
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 		MODE=DeathMatch : OnlineService
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 		LAN=false : OnlineService
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 		ISPASSWORD=false : OnlineService
-[2018.11.02-21.36.47:840][ 57]LogOnlineSession: Verbose: OSS: 		PASSWORD= : OnlineService
-[2018.11.02-21.36.47:915][ 57]LogPackageName: SearchForPackageOnDisk took   0.075s to resolve Lobby.umap.
-[2018.11.02-21.36.47:989][ 57]LogPackageName: SearchForPackageOnDisk took   0.073s to resolve Lobby.umap.
-[2018.11.02-21.36.47:989][ 57]LogNet: Browse: /Game/Maps/Lobby?listen
-[2018.11.02-21.36.47:990][ 57]LogLoad: LoadMap: /Game/Maps/Lobby?listen
-[2018.11.02-21.36.48:422][ 57]LogAIModule: Creating AISystem for world Lobby
-[2018.11.02-21.36.48:422][ 57]LogLoad: Game class is 'GameModeLobby_C'
-[2018.11.02-21.36.48:423][ 57]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.11.02-21.36.48:423][ 57]LogTemp: Display: ParseSettings for SteamNetDriver_0
-[2018.11.02-21.36.48:423][ 57]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.11.02-21.36.48:423][ 57]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2018.11.02-21.36.48:423][ 57]LogNet: Display: SteamNetDriver_0 bound to port 7777
-[2018.11.02-21.36.48:423][ 57]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.11.02-21.36.48:424][ 57]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
-[2018.11.02-21.36.48:427][ 57]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2018.11.03-02.36.48
-[2018.11.02-21.36.48:427][ 57]LogWorld: Bringing up level for play took: 0.002811
-[2018.11.02-21.36.48:429][ 57]LogScript: Warning: Accessed None trying to read property Lobby
+[2018.11.03-20.14.44:406][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-20.14.44:406][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.03-20.14.44:414][  0]LogHAL: Display: Platform has ~ 8 GB [8473120768 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.03-20.14.44:415][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.03-20.14.44:415][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.03-20.14.44:415][  0]LogInit: Computer: DESKTOP-O8P7830
+[2018.11.03-20.14.44:415][  0]LogInit: User: Andre
+[2018.11.03-20.14.44:415][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.03-20.14.44:416][  0]LogInit: High frequency timer resolution =2.533317 MHz
+[2018.11.03-20.14.44:416][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.03-20.14.44:416][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.03-20.14.44:416][  0]LogMemory: Process Physical Memory: 126.59 MB used, 126.59 MB peak
+[2018.11.03-20.14.44:416][  0]LogMemory: Process Virtual Memory: 97.63 MB used, 97.63 MB peak
+[2018.11.03-20.14.44:416][  0]LogMemory: Physical Memory: 5786.31 MB used,  2294.29 MB free, 8080.60 MB total
+[2018.11.03-20.14.44:416][  0]LogMemory: Virtual Memory: 4734.09 MB used,  2294.29 MB free, 134217728.00 MB total
+[2018.11.03-20.14.44:470][  0]LogInit: Using OS detected language (ru-RU).
+[2018.11.03-20.14.44:470][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.11.03-20.14.44:471][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2018.11.03-20.14.44:476][  0]LogStreaming: Display: Took  0.007s to InitEngineTextLocalization.
+[2018.11.03-20.14.44:518][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.03-20.14.44:519][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.03-20.14.44:552][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.03-20.14.44:667][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
+[2018.11.03-20.14.44:667][  0]LogD3D11RHI:       2007/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.03-20.14.44:675][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.11.03-20.14.44:675][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.03-20.14.44:680][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.03-20.14.44:680][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.03-20.14.44:680][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.03-20.14.44:709][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.03-20.14.44:709][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.03-20.14.44:709][  0]LogWindows: EnumDisplayDevices:
+[2018.11.03-20.14.44:710][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.11.03-20.14.44:710][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.11.03-20.14.44:710][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.11.03-20.14.44:710][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.03-20.14.44:710][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
+[2018.11.03-20.14.44:710][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.03-20.14.44:710][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.03-20.14.44:710][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2018.11.03-20.14.44:787][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.03-20.14.44:807][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.03-20.14.44:809][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../Unreal/UnrealProject/WarhammerOnline/Intermediate/Shaders/WorkingDirectory/12452/).
+[2018.11.03-20.14.44:809][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/7A6614A84481D5CA1182848709F403FC/'.
+[2018.11.03-20.14.45:192][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.03-20.14.45:206][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.03-20.14.45:223][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.03-20.14.45:238][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.03-20.14.45:238][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.03-20.14.45:303][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.03-20.14.45:303][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.03-20.14.45:303][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.03-20.14.46:260][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.03-20.14.46:335][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
+[2018.11.03-20.14.46:335][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc
+[2018.11.03-20.14.46:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.03-20.14.46:335][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.03-20.14.46:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.03-20.14.46:335][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.11.03-20.14.46:347][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.11.03-20.14.46:347][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.03-20.14.46:347][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.03-20.14.46:374][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.03-20.14.46:376][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.03-20.14.46:377][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.03-20.14.46:430][  0]LogInit: Using OS detected language (ru-RU).
+[2018.11.03-20.14.46:430][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.11.03-20.14.46:430][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2018.11.03-20.14.46:430][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2018.11.03-20.14.46:901][  0]LogStreaming: Display: Took  0.471s to InitGameTextLocalization.
+[2018.11.03-20.14.46:909][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2018.11.03-20.14.47:230][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.021867 seconds
+[2018.11.03-20.14.47:330][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-20.14.47:509][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.03-20.14.47:509][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.03-20.14.47:509][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.03-20.14.47:509][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.11.03-20.14.47:509][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.11.03-20.14.47:526][  0]LogNetVersion: WarhammerOnline 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4240001505)
+[2018.11.03-20.14.48:148][  0]LogMoviePlayer: Initializing movie player
+[2018.11.03-20.14.48:444][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.03-20.14.48:457][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.03-20.14.48:579][  0]SourceControl: Source control is disabled
+[2018.11.03-20.14.48:579][  0]SourceControl: Source control is disabled
+[2018.11.03-20.14.48:582][  0]SourceControl: Source control is disabled
+[2018.11.03-20.14.48:765][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.03-20.14.48:885][  0]LogOcInput: OculusInput pre-init called
+[2018.11.03-20.14.48:908][  0]LogUObjectArray: 42755 objects as part of root set at end of initial load.
+[2018.11.03-20.14.48:908][  0]LogUObjectAllocator: 7543088 out of 0 bytes used by permanent object pool.
+[2018.11.03-20.14.48:908][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.03-20.14.48:999][  0]LogEngine: Initializing Engine...
+[2018.11.03-20.14.49:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.03-20.14.49:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.03-20.14.49:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.03-20.14.49:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.03-20.14.49:319][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.03-20.14.49:335][  0]LogInit: XAudio2 using 'Динамики (2- Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-20.14.49:350][  0]LogInit: FAudioDevice initialized.
+[2018.11.03-20.14.49:362][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.03-20.14.49:363][  0]LogInit: Texture streaming: Enabled
+[2018.11.03-20.14.49:664][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-20.14.49:665][  0]LogInit: Display: Game Engine Initialized.
+[2018.11.03-20.14.49:665][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.03-20.14.49:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.03-20.14.49:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.03-20.14.49:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.03-20.14.49:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.03-20.14.49:700][  0]LogInit: Display: Starting Game.
+[2018.11.03-20.14.49:700][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
+[2018.11.03-20.14.49:701][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
+[2018.11.03-20.14.50:173][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.11.03-20.14.50:174][  0]LogLoad: Game class is 'GameModeBase'
+[2018.11.03-20.14.50:175][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2018.11.04-01.14.50
+[2018.11.03-20.14.50:175][  0]LogWorld: Bringing up level for play took: 0.000783
+[2018.11.03-20.14.50:176][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.03-20.14.50:183][  0]LogLoad: Took 0.482564 seconds to LoadMap(/Game/Maps/MainMenu)
+[2018.11.03-20.14.50:263][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.11.03-20.14.50:263][  0]LogLoad: (Engine Initialization) Total time: 7.70 seconds
+[2018.11.03-20.14.50:263][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.03-20.14.50:281][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-20.14.50:284][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.03-20.15.53:010][809]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-20.15.53:010][809]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-20.15.54:769][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-20.15.54:882][925]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.03-20.15.56:321][ 14]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-20.15.56:321][ 14]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-20.15.58:802][169]LogOnline: Warning: STEAM: Empty session setting PASSWORD  : OnlineService of type String
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: dumping NamedSession: 
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	SessionName: GameSession
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	HostingPlayerNum: 0
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	SessionState: Pending
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	RegisteredPlayers: 
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	    0 registered players
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: dumping Session: 
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	OwningPlayerName: ???????????????????? ??????????
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	OwningPlayerId: Безмозглый Билли [0x11000010713DAC9]
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	NumOpenPrivateConnections: 0
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	NumOpenPublicConnections: 1
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	SessionInfo: HostIP: INVALID SteamP2P: 76561198079007433:7777 Type: Lobby session SessionId: Lobby [0x186000001B2492B]
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: dumping SessionSettings: 
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	NumPublicConnections: 2
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	NumPrivateConnections: 0
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	bIsLanMatch: false
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	bIsDedicated: false
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	bUsesStats: false
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	bShouldAdvertise: true
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	bAllowJoinInProgress: true
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	bAllowInvites: true
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	bUsesPresence: true
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresence: true
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresenceFriendsOnly: false
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	BuildUniqueId: 0x00000000
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 	Settings:
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 		NAME=asd : OnlineService
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 		MAP=Map1 : OnlineService
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 		MODE=DeathMatch : OnlineService
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 		LAN=false : OnlineService
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 		ISPASSWORD=false : OnlineService
+[2018.11.03-20.15.58:822][169]LogOnlineSession: Verbose: OSS: 		PASSWORD= : OnlineService
+[2018.11.03-20.15.58:901][169]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve Lobby.umap.
+[2018.11.03-20.15.58:981][169]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve Lobby.umap.
+[2018.11.03-20.15.58:981][169]LogNet: Browse: /Game/Maps/Lobby?listen
+[2018.11.03-20.15.58:981][169]LogLoad: LoadMap: /Game/Maps/Lobby?listen
+[2018.11.03-20.15.59:530][169]LogAIModule: Creating AISystem for world Lobby
+[2018.11.03-20.15.59:531][169]LogLoad: Game class is 'GameModeLobby_C'
+[2018.11.03-20.15.59:531][169]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.03-20.15.59:531][169]LogTemp: Display: ParseSettings for SteamNetDriver_0
+[2018.11.03-20.15.59:531][169]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.03-20.15.59:532][169]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.11.03-20.15.59:532][169]LogNet: Display: SteamNetDriver_0 bound to port 7777
+[2018.11.03-20.15.59:532][169]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.03-20.15.59:532][169]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2018.11.03-20.15.59:535][169]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2018.11.04-01.15.59
+[2018.11.03-20.15.59:535][169]LogWorld: Bringing up level for play took: 0.002743
+[2018.11.03-20.15.59:538][169]LogScript: Warning: Accessed None trying to read property Lobby
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:09BE
-[2018.11.02-21.36.48:429][ 57]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E78
+[2018.11.03-20.15.59:538][169]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
@@ -336,10 +339,10 @@ LogInit: Object subsystem initialized
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Player_List
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Accessed None trying to read property Lobby
+[2018.11.03-20.15.59:539][169]LogScript: Warning: Accessed None trying to read property Lobby
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0975
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E2F
+[2018.11.03-20.15.59:539][169]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
@@ -351,10 +354,10 @@ LogInit: Object subsystem initialized
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Player
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Accessed None trying to read property Lobby
+[2018.11.03-20.15.59:539][169]LogScript: Warning: Accessed None trying to read property Lobby
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0B2B
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FE5
+[2018.11.03-20.15.59:539][169]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
@@ -366,10 +369,10 @@ LogInit: Object subsystem initialized
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Attempted to assign to None
+[2018.11.03-20.15.59:539][169]LogScript: Warning: Attempted to assign to None
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0B40
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FFA
+[2018.11.03-20.15.59:539][169]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
@@ -381,10 +384,10 @@ LogInit: Object subsystem initialized
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Accessed None trying to read property Lobby
+[2018.11.03-20.15.59:539][169]LogScript: Warning: Accessed None trying to read property Lobby
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FEA
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:14A4
+[2018.11.03-20.15.59:539][169]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
@@ -402,10 +405,10 @@ LogInit: Object subsystem initialized
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Mesage_To_Chat
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Accessed None
+[2018.11.03-20.15.59:540][169]LogScript: Warning: Accessed None
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FFF
-[2018.11.02-21.36.48:430][ 57]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:14B9
+[2018.11.03-20.15.59:540][169]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
@@ -423,39 +426,718 @@ LogInit: Object subsystem initialized
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Mesage_To_Chat
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.02-21.36.48:436][ 57]LogLoad: Took 0.446925 seconds to LoadMap(/Game/Maps/Lobby)
-[2018.11.02-21.36.49:950][134]LogGameMode: ProcessServerTravel: /Game/Maps/Map1
-[2018.11.02-21.36.49:950][134]LogWorld: SeamlessTravel to: /Game/Maps/Map1
-[2018.11.02-21.36.49:992][135]LogAIModule: Creating AISystem for world TransitionMap
-[2018.11.02-21.36.49:994][135]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
-[2018.11.02-21.36.49:994][135]LogWorld: Bringing World /Game/Maps/TransitionMap.TransitionMap up for play (max tick rate 0) at 2018.11.03-02.36.49
-[2018.11.02-21.36.49:994][135]LogWorld: Bringing up level for play took: 0.000473
-[2018.11.02-21.36.49:994][135]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
-[2018.11.02-21.36.49:994][135]LogNet: Verbose: NotifyLoadedWorld Begin
-[2018.11.02-21.36.49:994][135]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2018.11.02-21.36.49:994][135]LogNet: Verbose: NotifyLoadedWorld End
-[2018.11.02-21.36.49:994][135]LogWorld: StartLoadingDestination to: /Game/Maps/Map1
-[2018.11.02-21.36.50:176][139]LogAIModule: Creating AISystem for world map1
-[2018.11.02-21.36.50:176][139]LogLoad: Game class is 'GameModeLobby_C'
-[2018.11.02-21.36.50:177][139]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.000 s
-[2018.11.02-21.36.50:179][139]LogWorld: Bringing World /Game/Maps/Map1.map1 up for play (max tick rate 0) at 2018.11.03-02.36.50
-[2018.11.02-21.36.50:180][139]LogWorld: Bringing up level for play took: 0.002402
-[2018.11.02-21.36.50:180][139]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
-[2018.11.02-21.36.50:180][139]LogNet: Verbose: NotifyLoadedWorld Begin
-[2018.11.02-21.36.50:180][139]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2018.11.02-21.36.50:180][139]LogNet: Verbose: NotifyLoadedWorld End
-[2018.11.02-21.36.50:180][139]LogWorld: ----SeamlessTravel finished in 0.23 seconds ------
-[2018.11.02-21.36.50:265][141]LogScript: Warning: Script Msg: DestroySessionCallback - Invalid player state
-[2018.11.02-21.36.51:904][242]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.02-21.36.52:822][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.02-21.36.58:508][650]LogSlate: Window 'WarhammerOnline (64-bit Development PCD3D_SM5) ' being destroyed
-[2018.11.02-21.36.58:509][650]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.02-21.36.58:513][650]LogOnline: Warning: STEAM: No game present to leave for session (GameSession)
-[2018.11.02-21.36.58:514][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.02-21.36.58:514][650]LogEngine: All Windows Closed
-[2018.11.02-21.36.58:514][650]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.11.02-21.36.58:520][651]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
-[2018.11.02-21.36.58:520][651]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
-[2018.11.02-21.36.58:520][651]LogExit: GameNetDriver SteamNetDriver_0 shut down
-[2018.11.02-21.36.59:290][651]LogExit: Preparing to exit.
-[2018.11.02-21.36.59:291][651]LogMoviePlayer: Shutting down movie player
+[2018.11.03-20.15.59:546][169]LogLoad: Took 0.564932 seconds to LoadMap(/Game/Maps/Lobby)
+[2018.11.03-20.16.00:920][240]LogGameMode: ProcessServerTravel: /Game/Maps/Map1
+[2018.11.03-20.16.00:920][240]LogWorld: SeamlessTravel to: /Game/Maps/Map1
+[2018.11.03-20.16.00:964][241]LogAIModule: Creating AISystem for world TransitionMap
+[2018.11.03-20.16.00:964][241]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.000 s
+[2018.11.03-20.16.00:965][241]LogWorld: Bringing World /Game/Maps/TransitionMap.TransitionMap up for play (max tick rate 0) at 2018.11.04-01.16.00
+[2018.11.03-20.16.00:965][241]LogWorld: Bringing up level for play took: 0.000589
+[2018.11.03-20.16.00:965][241]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
+[2018.11.03-20.16.00:965][241]LogNet: Verbose: NotifyLoadedWorld Begin
+[2018.11.03-20.16.00:966][241]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
+[2018.11.03-20.16.00:966][241]LogNet: Verbose: NotifyLoadedWorld End
+[2018.11.03-20.16.00:966][241]LogWorld: StartLoadingDestination to: /Game/Maps/Map1
+[2018.11.03-20.16.01:174][246]LogAIModule: Creating AISystem for world map1
+[2018.11.03-20.16.01:175][246]LogLoad: Game class is 'GameModeLobby_C'
+[2018.11.03-20.16.01:175][246]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.000 s
+[2018.11.03-20.16.01:177][246]LogWorld: Bringing World /Game/Maps/Map1.map1 up for play (max tick rate 0) at 2018.11.04-01.16.01
+[2018.11.03-20.16.01:178][246]LogWorld: Bringing up level for play took: 0.002182
+[2018.11.03-20.16.01:178][246]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
+[2018.11.03-20.16.01:178][246]LogNet: Verbose: NotifyLoadedWorld Begin
+[2018.11.03-20.16.01:178][246]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
+[2018.11.03-20.16.01:178][246]LogNet: Verbose: NotifyLoadedWorld End
+[2018.11.03-20.16.01:178][246]LogWorld: ----SeamlessTravel finished in 0.26 seconds ------
+[2018.11.03-20.16.01:183][247]LogScript: Warning: Script Msg: DestroySessionCallback - Invalid player state
+[2018.11.03-20.16.02:136][305]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	GameModeLobby_C /Game/Maps/Map1.map1:PersistentLevel.GameModeLobby_C_0
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board:0000
+[2018.11.03-20.16.02:136][305]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+
+[2018.11.03-20.16.05:137][491]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E78
+[2018.11.03-20.16.05:137][491]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_Z_K2Node_InputKeyEvent_2
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Death
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Player_List
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.05:138][491]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E2F
+[2018.11.03-20.16.05:138][491]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_Z_K2Node_InputKeyEvent_2
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Death
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Player
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.05:138][491]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FE5
+[2018.11.03-20.16.05:138][491]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_Z_K2Node_InputKeyEvent_2
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Death
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.05:138][491]LogScript: Warning: Attempted to assign to None
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FFA
+[2018.11.03-20.16.05:138][491]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_Z_K2Node_InputKeyEvent_2
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Death
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.05:138][491]LogBlueprintUserMessages: [LobbyPlayerController_C_1] 1
+[2018.11.03-20.16.05:139][491]LogBlueprintUserMessages: [LobbyPlayerController_C_1] DEATH
+[2018.11.03-20.16.05:331][503]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E78
+[2018.11.03-20.16.05:332][503]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_Z_K2Node_InputKeyEvent_2
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Death
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Player_List
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.05:332][503]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E2F
+[2018.11.03-20.16.05:332][503]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_Z_K2Node_InputKeyEvent_2
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Death
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Player
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.05:332][503]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FE5
+[2018.11.03-20.16.05:332][503]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_Z_K2Node_InputKeyEvent_2
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Death
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.05:332][503]LogScript: Warning: Attempted to assign to None
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FFA
+[2018.11.03-20.16.05:332][503]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_Z_K2Node_InputKeyEvent_2
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Death
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.05:332][503]LogBlueprintUserMessages: [LobbyPlayerController_C_1] 2
+[2018.11.03-20.16.05:332][503]LogBlueprintUserMessages: [LobbyPlayerController_C_1] DEATH
+[2018.11.03-20.16.07:187][618]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E78
+[2018.11.03-20.16.07:187][618]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_G_K2Node_InputKeyEvent_3
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Kill
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Player_List
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.07:188][618]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E2F
+[2018.11.03-20.16.07:188][618]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_G_K2Node_InputKeyEvent_3
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Kill
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Player
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.07:188][618]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FE5
+[2018.11.03-20.16.07:188][618]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_G_K2Node_InputKeyEvent_3
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Kill
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.07:188][618]LogScript: Warning: Attempted to assign to None
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FFA
+[2018.11.03-20.16.07:188][618]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_G_K2Node_InputKeyEvent_3
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Kill
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.07:188][618]LogBlueprintUserMessages: [LobbyPlayerController_C_1] KILL
+[2018.11.03-20.16.07:316][626]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E78
+[2018.11.03-20.16.07:316][626]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_G_K2Node_InputKeyEvent_3
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Kill
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Player_List
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.07:317][626]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E2F
+[2018.11.03-20.16.07:317][626]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_G_K2Node_InputKeyEvent_3
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Kill
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Player
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.07:317][626]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FE5
+[2018.11.03-20.16.07:317][626]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_G_K2Node_InputKeyEvent_3
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Kill
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.07:317][626]LogScript: Warning: Attempted to assign to None
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0FFA
+[2018.11.03-20.16.07:317][626]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_G_K2Node_InputKeyEvent_3
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Kill
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.07:317][626]LogBlueprintUserMessages: [LobbyPlayerController_C_1] KILL
+[2018.11.03-20.16.07:461][635]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Map1.map1:PersistentLevel.LobbyPlayerController_C_1
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:0E78
+[2018.11.03-20.16.07:461][635]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:InpActEvt_G_K2Node_InputKeyEvent_3
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Kill
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Player_List
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.03-20.16.07:462][635]LogBlueprintUserMessages: [LobbyPlayerController_C_1] KILL
+[2018.11.03-20.16.11:060][858]LogBlueprintUserMessages: [LobbyPlayerController_C_1] 3
+[2018.11.03-20.16.11:060][858]LogBlueprintUserMessages: [LobbyPlayerController_C_1] DEATH
+[2018.11.03-20.16.11:269][871]LogBlueprintUserMessages: [LobbyPlayerController_C_1] 4
+[2018.11.03-20.16.11:269][871]LogBlueprintUserMessages: [LobbyPlayerController_C_1] DEATH
+[2018.11.03-20.16.12:842][967]LogSlate: Window 'WarhammerOnline (64-bit Development PCD3D_SM5) ' being destroyed
+[2018.11.03-20.16.12:843][967]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-20.16.12:850][967]LogOnline: Warning: STEAM: No game present to leave for session (GameSession)
+[2018.11.03-20.16.12:850][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-20.16.12:850][967]LogEngine: All Windows Closed
+[2018.11.03-20.16.12:850][967]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.11.03-20.16.12:880][968]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2018.11.03-20.16.12:880][968]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2018.11.03-20.16.12:880][968]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2018.11.03-20.16.13:050][968]LogExit: Preparing to exit.
+[2018.11.03-20.16.13:050][968]LogMoviePlayer: Shutting down movie player
+[2018.11.03-20.16.13:520][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-20.16.13:532][968]LogExit: Game engine shut down
+[2018.11.03-20.16.13:745][968]LogExit: Object subsystem successfully closed.
+[2018.11.03-20.16.13:760][968]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.03-20.16.13:763][968]LogD3D11RHI: Shutdown
+[2018.11.03-20.16.13:763][968]LogD3D11RHI: CleanupD3DDevice
+[2018.11.03-20.16.13:765][968]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.03-20.16.13:776][968]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (374)
+[2018.11.03-20.16.13:776][968]LogModuleManager: Shutting down and abandoning module SequenceRecorder (372)
+[2018.11.03-20.16.13:776][968]LogModuleManager: Shutting down and abandoning module AutomationController (370)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module AutomationWorker (368)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module AIModule (366)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module GameplayDebugger (365)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module AITestSuite (363)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module NavigationSystem (361)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (358)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (356)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (354)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (352)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (350)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (348)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module CharacterAI (346)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module SessionServices (344)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (342)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (340)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module MovieScene (338)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (336)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module PortalServices (334)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
+[2018.11.03-20.16.13:777][968]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.11.03-20.16.13:821][968]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.11.03-20.16.13:821][968]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (324)
+[2018.11.03-20.16.13:821][968]LogModuleManager: Shutting down and abandoning module OculusInput (322)
+[2018.11.03-20.16.13:821][968]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (320)
+[2018.11.03-20.16.13:821][968]LogModuleManager: Shutting down and abandoning module EditableMesh (318)
+[2018.11.03-20.16.13:821][968]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (316)
+[2018.11.03-20.16.13:821][968]LogModuleManager: Shutting down and abandoning module CableComponent (314)
+[2018.11.03-20.16.13:821][968]LogModuleManager: Shutting down and abandoning module AudioCapture (312)
+[2018.11.03-20.16.13:822][968]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2018.11.03-20.16.13:822][968]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2018.11.03-20.16.13:822][968]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
+[2018.11.03-20.16.13:822][968]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
+[2018.11.03-20.16.13:822][968]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
+[2018.11.03-20.16.13:822][968]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
+[2018.11.03-20.16.13:822][968]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
+[2018.11.03-20.16.13:824][968]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
+[2018.11.03-20.16.13:824][968]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
+[2018.11.03-20.16.13:824][968]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
+[2018.11.03-20.16.13:824][968]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
+[2018.11.03-20.16.13:824][968]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
+[2018.11.03-20.16.13:824][968]LogModuleManager: Shutting down and abandoning module BackChannel (284)
+[2018.11.03-20.16.13:824][968]LogModuleManager: Shutting down and abandoning module AppleVision (282)
+[2018.11.03-20.16.13:824][968]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2018.11.03-20.16.13:824][968]LogModuleManager: Shutting down and abandoning module DatasmithContent (278)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module WarhammerOnline (254)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (252)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (250)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module PhysXVehicles (248)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (246)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (244)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (242)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module ActorSequence (240)
+[2018.11.03-20.16.13:825][968]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2018.11.03-20.16.13:926][968]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (234)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module FacialAnimation (230)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module DataValidation (228)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module TreeMap (225)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module AISupportModule (220)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (218)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module AdvancedSessions (216)
+[2018.11.03-20.16.14:497][968]LogModuleManager: Shutting down and abandoning module Paper2D (214)
+[2018.11.03-20.16.14:498][968]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (212)
+[2018.11.03-20.16.14:498][968]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (210)
+[2018.11.03-20.16.14:498][968]LogModuleManager: Shutting down and abandoning module WmfMedia (208)
+[2018.11.03-20.16.14:498][968]LogModuleManager: Shutting down and abandoning module Media (207)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module PacketHandler (204)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (202)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (200)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module MediaAssets (198)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module Overlay (196)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module OverlayEditor (195)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module StringTableEditor (190)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (181)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module UMG (178)
+[2018.11.03-20.16.14:504][968]LogModuleManager: Shutting down and abandoning module UMGEditor (177)
+[2018.11.03-20.16.14:505][968]LogModuleManager: Shutting down and abandoning module Sequencer (176)
+[2018.11.03-20.16.14:505][968]LogModuleManager: Shutting down and abandoning module MessageLog (173)
+[2018.11.03-20.16.14:505][968]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2018.11.03-20.16.14:505][968]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2018.11.03-20.16.14:505][968]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module MRMesh (162)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module Messaging (160)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (158)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (156)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module XAudio2 (154)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module Networking (152)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module Core (150)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (143)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (142)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (141)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2018.11.03-20.16.14:506][968]LogModuleManager: Shutting down and abandoning module MaterialBaking (135)
+[2018.11.03-20.16.14:507][968]LogModuleManager: Shutting down and abandoning module DerivedDataCache (130)
+[2018.11.03-20.16.14:694][968]LogDerivedDataCache: Shutdown
+[2018.11.03-20.16.14:694][968]LogModuleManager: Shutting down and abandoning module XGEController (128)
+[2018.11.03-20.16.14:694][968]LogModuleManager: Shutting down and abandoning module TargetPlatform (126)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (125)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (123)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (121)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (119)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (117)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (115)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (113)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (111)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (109)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (103)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (101)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (99)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (97)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (95)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (93)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (91)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (89)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.03-20.16.14:695][968]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.03-20.16.14:695][968]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.11.03-20.16.14:733][968]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.11.03-20.16.14:733][968]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.03-20.16.14:733][968]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.03-20.16.14:749][968]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.03-20.16.14:768][968]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.03-20.16.14:770][968]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.03-20.16.14:770][968]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.03-20.16.14:770][968]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.03-20.16.14:770][968]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.03-20.16.14:770][968]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.03-20.16.14:770][968]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.03-20.16.14:770][968]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.03-20.16.14:770][968]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.03-20.16.14:770][968]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.03-20.16.14:771][968]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.03-20.16.14:771][968]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.03-20.16.14:772][968]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.03-20.16.14:772][968]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.03-20.16.14:772][968]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.03-20.16.14:772][968]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.03-20.16.14:772][968]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.03-20.16.14:772][968]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.03-20.16.14:772][968]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.03-20.16.14:772][968]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.03-20.16.14:774][968]LogExit: Exiting.
+[2018.11.03-20.16.14:779][968]Log file closed, 11/04/18 01:16:14
