@@ -1,4 +1,4 @@
-﻿Log file open, 11/06/18 22:44:50
+﻿Log file open, 11/24/18 02:46:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WarhammerOnline
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.177594
+LogStats: Stats thread started at 0.400700
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.124s to configure plugins.
+LogStreaming: Display: Took  0.122s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -112,8 +112,6 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogOnline: Display: STEAM: Loading Steam SDK 1.39
-LogOnline: Warning: STEAM: Steam API disabled!
-LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogInit: Build: ++UE4+Release-4.20-CL-0
 LogInit: Engine Version: 4.20.3-0+++UE4+Release-4.20
@@ -124,7 +122,7 @@ LogInit: Compiled (64-bit): Sep 30 2018 14:13:00
 LogInit: Compiled with Visual C++: 19.15.26730.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
+LogInit: Command Line:  /Game/Maps/MainMenu -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
 LogInit: Base Directory: D:/Engine/UnrealEngine-4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 0
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -148,811 +146,622 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.003s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.06-17.44.50:701][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.06-17.44.50:701][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.06-17.44.50:717][  0]LogHAL: Display: Platform has ~ 8 GB [8473120768 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.06-17.44.50:717][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.06-17.44.50:717][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.06-17.44.50:717][  0]LogInit: Computer: DESKTOP-O8P7830
-[2018.11.06-17.44.50:717][  0]LogInit: User: Andre
-[2018.11.06-17.44.50:717][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.11.06-17.44.50:717][  0]LogInit: High frequency timer resolution =2.533317 MHz
-[2018.11.06-17.44.50:718][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.11.06-17.44.50:718][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.06-17.44.50:718][  0]LogMemory: Process Physical Memory: 98.33 MB used, 98.33 MB peak
-[2018.11.06-17.44.50:718][  0]LogMemory: Process Virtual Memory: 90.05 MB used, 90.05 MB peak
-[2018.11.06-17.44.50:718][  0]LogMemory: Physical Memory: 5238.36 MB used,  2842.24 MB free, 8080.60 MB total
-[2018.11.06-17.44.50:718][  0]LogMemory: Virtual Memory: 4619.17 MB used,  2842.24 MB free, 134217728.00 MB total
-[2018.11.06-17.44.50:737][  0]LogInit: Using OS detected language (ru-RU).
-[2018.11.06-17.44.50:737][  0]LogInit: Using OS detected locale (ru-RU).
-[2018.11.06-17.44.50:738][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
-[2018.11.06-17.44.50:739][  0]LogStreaming: Display: Took  0.003s to InitEngineTextLocalization.
-[2018.11.06-17.44.50:740][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.06-17.44.50:783][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.06-17.44.50:784][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.06-17.44.51:069][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.06-17.44.51:151][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
-[2018.11.06-17.44.51:152][  0]LogD3D11RHI:       2007/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.11.06-17.44.51:156][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
-[2018.11.06-17.44.51:156][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.11.06-17.44.51:159][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.06-17.44.51:159][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.06-17.44.51:159][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.06-17.44.51:186][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.06-17.44.51:186][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.06-17.44.51:186][  0]LogWindows: EnumDisplayDevices:
-[2018.11.06-17.44.51:186][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2018.11.06-17.44.51:187][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2018.11.06-17.44.51:187][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2018.11.06-17.44.51:187][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.11.06-17.44.51:187][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
-[2018.11.06-17.44.51:187][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.11.06-17.44.51:187][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.11.06-17.44.51:187][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
-[2018.11.06-17.44.51:254][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.06-17.44.51:274][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.06-17.44.51:275][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../Unreal/UnrealProject/WarhammerOnline/Intermediate/Shaders/WorkingDirectory/1396/).
-[2018.11.06-17.44.51:275][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/51519C2846D0919DEB6C52AA6E7EE33B/'.
-[2018.11.06-17.44.51:581][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.06-17.44.51:595][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.06-17.44.51:612][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.06-17.44.51:628][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.06-17.44.51:651][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.06-17.44.51:670][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.06-17.44.51:690][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.06-17.44.51:708][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.06-17.44.51:717][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:831][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.06-17.44.51:833][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.06-17.44.51:900][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.06-17.44.51:900][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.06-17.44.51:924][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.06-17.44.51:924][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.06-17.44.51:932][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.06-17.44.51:932][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.06-17.44.51:987][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.06-17.44.51:987][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.06-17.44.51:987][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.06-17.44.52:873][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.06-17.44.52:947][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
-[2018.11.06-17.44.52:948][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc
-[2018.11.06-17.44.52:948][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.06-17.44.52:948][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.06-17.44.52:948][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.06-17.44.52:948][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2018.11.06-17.44.52:960][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2018.11.06-17.44.52:960][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.06-17.44.52:960][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.06-17.44.52:985][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.06-17.44.52:987][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.06-17.44.52:987][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.06-17.44.53:071][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2018.11.06-17.44.53:473][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.06-17.44.53:660][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.06-17.44.53:660][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.06-17.44.53:660][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.06-17.44.53:660][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2018.11.06-17.44.53:660][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2018.11.06-17.44.53:682][  0]LogNetVersion: WarhammerOnline 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4240001505)
-[2018.11.06-17.44.54:468][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.104817 seconds
-[2018.11.06-17.44.54:475][  0]LogUObjectArray: 38165 objects as part of root set at end of initial load.
-[2018.11.06-17.44.54:475][  0]LogUObjectAllocator: 6656720 out of 0 bytes used by permanent object pool.
-[2018.11.06-17.44.54:476][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.06-17.44.55:017][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.11.06-17.44.55:017][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.11.06-17.44.55:017][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.06-17.44.55:017][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.06-17.44.55:017][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.06-17.44.55:017][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.06-17.44.55:017][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.11.06-17.44.55:017][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.11.06-17.44.55:017][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.06-17.44.55:017][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.06-17.44.55:017][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.06-17.44.55:017][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.06-17.44.55:017][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.11.06-17.44.55:018][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.06-17.44.55:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.06-17.44.55:019][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.06-17.44.55:019][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.06-17.44.55:019][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.11.06-17.44.55:019][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.11.06-17.44.55:019][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:019][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:019][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:019][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:019][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.11.06-17.44.55:019][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.11.06-17.44.55:019][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:019][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:020][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:020][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
-[2018.11.06-17.44.55:021][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:021][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.55:022][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.06-17.44.55:022][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.06-17.44.56:023][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.06-17.44.56:036][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.06-17.44.56:346][  0]SourceControl: Source control is disabled
-[2018.11.06-17.44.56:346][  0]SourceControl: Source control is disabled
-[2018.11.06-17.44.56:347][  0]SourceControl: Source control is disabled
-[2018.11.06-17.44.56:348][  0]SourceControl: Source control is disabled
-[2018.11.06-17.44.56:522][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.06-17.44.56:589][  0]LogOcInput: OculusInput pre-init called
-[2018.11.06-17.44.56:662][  0]LogEngine: Initializing Engine...
-[2018.11.06-17.44.56:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.06-17.44.56:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.06-17.44.56:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.06-17.44.56:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.06-17.44.57:000][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.06-17.44.57:013][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.06-17.44.57:031][  0]LogInit: XAudio2 using 'Динамики (2- Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.06-17.44.57:056][  0]LogInit: FAudioDevice initialized.
-[2018.11.06-17.44.57:056][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.06-17.44.57:677][  0]LogDerivedDataCache: Saved boot cache 0.62s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
-[2018.11.06-17.44.57:692][  0]LogInit: Texture streaming: Enabled
-[2018.11.06-17.44.57:711][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.06-17.44.57:726][  0]LogInit: Transaction tracking system initialized
-[2018.11.06-17.44.57:749][  0]BlueprintLog: New page: Editor Load
-[2018.11.06-17.44.57:818][  0]LocalizationService: Localization service is disabled
-[2018.11.06-17.44.58:129][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.06-17.44.58:129][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.06-17.44.58:129][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.06-17.44.58:129][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.06-17.44.58:129][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.06-17.44.58:129][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.06-17.44.58:129][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.06-17.44.58:271][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Content/' took 0.02s
-[2018.11.06-17.44.58:271][  0]SourceControl: Source control is disabled
-[2018.11.06-17.44.58:271][  0]Cmd: MAP LOAD FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.06-17.44.58:271][  0]LightingResults: New page: Lighting Build
-[2018.11.06-17.44.58:274][  0]MapCheck: New page: Map Check
-[2018.11.06-17.44.58:274][  0]LightingResults: New page: Lighting Build
-[2018.11.06-17.44.58:836][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.11.06-17.44.58:837][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.06-17.44.58:863][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.06-17.44.58:923][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60,35ms to complete.
-[2018.11.06-17.44.58:923][  0]LogFileHelpers: Loading map 'MainMenu' took 0.652
-[2018.11.06-17.44.59:266][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.06-17.44.59:276][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.06-17.44.59:286][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.06-17.44.59:296][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.06-17.44.59:306][  0]LogCollectionManager: Loaded 0 collections in 0.001215 seconds
-[2018.11.06-17.44.59:347][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Saved/Collections/' took 0.01s
-[2018.11.06-17.44.59:348][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Content/Developers/Andre/Collections/' took 0.01s
-[2018.11.06-17.44.59:348][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Content/Collections/' took 0.01s
-[2018.11.06-17.44.59:348][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.06-17.44.59:360][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2595 classes and 608 folders.
-[2018.11.06-17.44.59:366][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.06-17.45.02:720][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.11.06-17.45.02:725][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.11.06-17.45.02:812][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.06-17.45.02:815][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.06-17.45.02:949][  0]LogSlate: Took 0.123268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.06-17.45.03:424][  0]LogRenderer: Reallocating scene render targets to support 1156x512 Format 10 NumSamples 1 (Frame:1).
-[2018.11.06-17.45.03:659][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.11.06-17.45.03:659][  0]LogLoad: (Engine Initialization) Total time: 14.40 seconds
-[2018.11.06-17.45.03:659][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.06-17.45.03:669][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.06-17.45.03:691][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.06-17.45.04:018][  1]LogRenderer: Reallocating scene render targets to support 1156x528 Format 10 NumSamples 1 (Frame:3).
-[2018.11.06-17.45.04:038][  1]LogAssetRegistry: Asset discovery search completed in 10.9889 seconds
-[2018.11.06-17.45.04:040][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2018.11.06-17.45.04:040][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
-[2018.11.06-17.45.08:017][296]LogSlate: Took 0.001098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.06-17.45.28:522][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.06-17.45.37:907][415]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.06-17.45.37:919][415]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Game/Game_Chat_Window.Game_Chat_Window
-[2018.11.06-17.45.39:180][415]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
-[2018.11.06-17.45.40:896][415]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.06-17.45.43:721][487]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.06-17.48.35:152][ 38]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-17.48.37:513][ 38]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-17.48.37:600][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Window" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Window.uasset" SILENT=true
-[2018.11.06-17.48.37:698][ 38]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Window0207E254448DE333A724B0B5F591B4A4.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Window.uasset'
-[2018.11.06-17.49.29:967][592]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.06-17.49.29:967][592]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.06-17.50.22:175][  7]BlueprintLog: New page: Compile Game_Chat_Window
-[2018.11.06-17.50.23:581][ 49]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-17.50.25:225][ 49]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-17.50.25:251][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Window" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Window.uasset" SILENT=true
-[2018.11.06-17.50.25:338][ 49]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Window9005954A42DA6CB7966864A8FD747BA7.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Window.uasset'
-[2018.11.06-17.51.49:115][654]BlueprintLog: New page: Compile Game_Chat_Window
-[2018.11.06-17.51.49:916][684]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-17.51.51:210][684]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-17.51.51:233][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Window" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Window.uasset" SILENT=true
-[2018.11.06-17.51.51:321][684]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Window72153D294A4CDA0BC1707BA8BE6BBC7B.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Window.uasset'
-[2018.11.06-17.52.49:558][ 74]LogSlate: Window 'Color Picker' being destroyed
-[2018.11.06-17.52.51:234][151]BlueprintLog: New page: Compile Game_Chat_Window
-[2018.11.06-17.52.51:838][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Window" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Window.uasset" SILENT=true
-[2018.11.06-17.52.51:930][169]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Window31FA53714B674739CB16BFB2E7BC88F3.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Window.uasset'
-[2018.11.06-17.52.56:724][381]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby
-[2018.11.06-17.53.54:768][679]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController
-[2018.11.06-17.54.38:146][454]LogSlate: Window 'Color Picker' being destroyed
-[2018.11.06-17.54.46:152][822]BlueprintLog: New page: Compile LobbyPlayerController
-[2018.11.06-17.54.47:118][822]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/LobbyPlayerControllerD5DE8B3D43B4F38E7BE3B089D57889AD.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/LobbyPlayerController.uasset'
-[2018.11.06-17.54.47:805][826]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/LobbyPlayerController4AD464B04E5CEA53736C57A1B3D2B153.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/LobbyPlayerController.uasset'
-[2018.11.06-17.59.50:554][636]BlueprintLog: New page: Compile LobbyPlayerController
-[2018.11.06-17.59.51:626][642]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-17.59.53:231][642]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-17.59.53:453][642]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/LobbyPlayerControllerFDA3AD78488D903C67703188B360B866.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/LobbyPlayerController.uasset'
-[2018.11.06-18.00.37:024][175]BlueprintLog: New page: Compile LobbyPlayerController
-[2018.11.06-18.00.40:924][284]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-18.00.42:160][284]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-18.00.42:368][284]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/LobbyPlayerControllerD7946A0C44DE0F8EBE6426BC5564DE51.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/LobbyPlayerController.uasset'
-[2018.11.06-18.01.27:236][942]BlueprintLog: New page: Compile LobbyPlayerController
-[2018.11.06-18.01.28:673][962]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-18.01.30:123][962]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-18.01.30:335][962]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/LobbyPlayerController293F16D7407211312479C49DFCDE646D.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/LobbyPlayerController.uasset'
-[2018.11.06-18.02.44:689][249]BlueprintLog: New page: Compile LobbyPlayerController
-[2018.11.06-18.02.45:975][260]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-18.02.47:377][260]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-18.02.47:584][260]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/LobbyPlayerControllerF36498D34C1B4954FE32758B0B773D6C.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/LobbyPlayerController.uasset'
-[2018.11.06-18.04.02:050][408]LogSlate: Window 'Color Picker' being destroyed
-[2018.11.06-18.04.03:379][463]BlueprintLog: New page: Compile LobbyPlayerController
-[2018.11.06-18.04.04:763][483]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-18.04.06:359][483]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-18.04.06:590][483]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/LobbyPlayerControllerD545F0D342F34C6F711AE8844C97BBF8.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/LobbyPlayerController.uasset'
-[2018.11.06-18.04.53:985][249]LogSlate: Window 'Color Picker' being destroyed
-[2018.11.06-18.04.56:131][339]BlueprintLog: New page: Compile LobbyPlayerController
-[2018.11.06-18.05.09:660][752]LogSlate: Window 'Color Picker' being destroyed
-[2018.11.06-18.05.12:377][868]BlueprintLog: New page: Compile LobbyPlayerController
-[2018.11.06-18.05.14:094][902]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-18.05.15:625][902]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-18.05.15:950][902]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/LobbyPlayerController8F90E57C40D2EF29A008BBA3207AA900.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/LobbyPlayerController.uasset'
-[2018.11.06-18.05.48:443][ 62]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-18.06.47:719][ 41]LogSlate: Window 'Color Picker' being destroyed
-[2018.11.06-18.06.59:772][537]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Game/Game_Chat_Mesage_Child.Game_Chat_Mesage_Child
-[2018.11.06-18.07.13:391][ 39]LogSlate: Window 'Color Picker' being destroyed
-[2018.11.06-18.07.15:742][151]BlueprintLog: New page: Compile Game_Chat_Mesage_Child
-[2018.11.06-18.07.16:492][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Mesage_Child" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset" SILENT=true
-[2018.11.06-18.07.16:581][168]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Mesage_ChildF20BBF29427423E0B7031BAB0A45C154.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.16:581][168]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset', retrying in .5s...
-[2018.11.06-18.07.17:082][168]LogFileManager: Error: Error deleting file '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'.
-[2018.11.06-18.07.17:082][168]LogSavePackage: Error: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.20:288][168]LogSlate: Window 'Message' being destroyed
-[2018.11.06-18.07.20:295][168]EditorErrors: New page: Save Output
-[2018.11.06-18.07.20:295][168]EditorErrors: Warning: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.23:450][253]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.07.23:460][253]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.07.24:753][312]LogTemp: Repeating last play command: Standalone Game
-[2018.11.06-18.07.26:576][312]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-18.07.26:796][312]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/LobbyPlayerControllerD5E4C76E4127C59410A08ABA6C5E2BAA.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/LobbyPlayerController.uasset'
-[2018.11.06-18.07.26:805][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Mesage_Child" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset" SILENT=true
-[2018.11.06-18.07.26:875][312]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Mesage_Child86E009984EE969D6DBB0BCB29544BC16.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.26:875][312]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset', retrying in .5s...
-[2018.11.06-18.07.27:376][312]LogFileManager: Error: Error deleting file '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'.
-[2018.11.06-18.07.27:376][312]LogSavePackage: Error: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.28:836][312]LogSlate: Window 'Message' being destroyed
-[2018.11.06-18.07.28:842][312]EditorErrors: New page: Save Output
-[2018.11.06-18.07.28:843][312]EditorErrors: Warning: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.29:883][312]LogSlate: Window 'Packages Failed To Save' being destroyed
-[2018.11.06-18.07.31:571][365]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.07.31:588][365]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.07.35:265][463]BlueprintLog: New page: Compile GameModeLobby
-[2018.11.06-18.07.36:295][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game_modes/GameModeLobby" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset" SILENT=true
-[2018.11.06-18.07.36:585][464]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/GameModeLobbyD4F73E6E42DE1F67103B71AE2763832C.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset'
-[2018.11.06-18.07.36:586][464]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset', retrying in .5s...
-[2018.11.06-18.07.37:088][464]LogFileManager: Error: Error deleting file '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset'.
-[2018.11.06-18.07.37:088][464]LogSavePackage: Error: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset'
-[2018.11.06-18.07.39:097][464]LogSlate: Window 'Message' being destroyed
-[2018.11.06-18.07.39:103][464]EditorErrors: New page: Save Output
-[2018.11.06-18.07.39:104][464]EditorErrors: Warning: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset'
-[2018.11.06-18.07.40:208][464]LogSlate: Window 'Packages Failed To Save' being destroyed
-[2018.11.06-18.07.41:832][503]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.07.41:842][503]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.07.48:618][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Mesage_Child" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset" SILENT=true
-[2018.11.06-18.07.48:714][686]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Mesage_ChildFD7D99054320603B9EF0B1B5A56028E7.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.48:714][686]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset', retrying in .5s...
-[2018.11.06-18.07.49:216][686]LogFileManager: Error: Error deleting file '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'.
-[2018.11.06-18.07.49:216][686]LogSavePackage: Error: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.50:995][686]LogSlate: Window 'Message' being destroyed
-[2018.11.06-18.07.50:999][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Mesage_Child" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset" SILENT=true
-[2018.11.06-18.07.51:094][686]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Mesage_ChildDB2392804CD04D1B4A3D428E210D954B.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.51:094][686]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset', retrying in .5s...
-[2018.11.06-18.07.51:596][686]LogFileManager: Error: Error deleting file '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'.
-[2018.11.06-18.07.51:596][686]LogSavePackage: Error: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.52:597][686]LogSlate: Window 'Message' being destroyed
-[2018.11.06-18.07.52:601][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Mesage_Child" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset" SILENT=true
-[2018.11.06-18.07.52:706][686]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Mesage_Child1AC2A3BE46F97257CF7FB993F89DE390.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.52:706][686]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset', retrying in .5s...
-[2018.11.06-18.07.53:207][686]LogFileManager: Error: Error deleting file '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'.
-[2018.11.06-18.07.53:207][686]LogSavePackage: Error: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.53:907][686]LogSlate: Window 'Message' being destroyed
-[2018.11.06-18.07.53:915][686]EditorErrors: New page: Save Output
-[2018.11.06-18.07.53:915][686]EditorErrors: Warning: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.53:915][686]EditorErrors: Warning: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.53:915][686]EditorErrors: Warning: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.07.54:860][686]LogSlate: Window 'Packages Failed To Save' being destroyed
-[2018.11.06-18.08.01:417][904]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.08.01:425][904]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.08.08:079][150]BlueprintLog: New page: Compile Game_Chat_Mesage_Child
-[2018.11.06-18.08.08:824][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Mesage_Child" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset" SILENT=true
-[2018.11.06-18.08.08:920][168]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Mesage_Child8763508A4CB0E3F1526EF685342543F4.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.08.08:920][168]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset', retrying in .5s...
-[2018.11.06-18.08.09:421][168]LogFileManager: Error: Error deleting file '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'.
-[2018.11.06-18.08.09:421][168]LogSavePackage: Error: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.08.10:777][168]LogSlate: Window 'Message' being destroyed
-[2018.11.06-18.08.10:785][168]EditorErrors: New page: Save Output
-[2018.11.06-18.08.10:785][168]EditorErrors: Warning: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.08.13:355][168]LogSlate: Window 'Packages Failed To Save' being destroyed
-[2018.11.06-18.08.14:543][208]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.08.14:556][208]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.08.16:649][285]LogSlate: Window 'Game_Chat_Mesage_Child*' being destroyed
-[2018.11.06-18.08.16:662][285]LogSlate: Window 'Game_Chat_Mesage_Child*' being destroyed
-[2018.11.06-18.08.16:919][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.11.06-18.08.19:949][372]LogSlate: Window 'Save Content' being destroyed
-[2018.11.06-18.08.19:981][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Mesage_Child" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset" SILENT=true
-[2018.11.06-18.08.20:068][372]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Mesage_ChildB87BFC7E49872DA2FFA1F09473C5187E.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.08.20:068][372]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset', retrying in .5s...
-[2018.11.06-18.08.20:569][372]LogFileManager: Error: Error deleting file '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'.
-[2018.11.06-18.08.20:569][372]LogSavePackage: Error: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.08.21:557][372]LogSlate: Window 'Message' being destroyed
-[2018.11.06-18.08.21:560][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Game/Game_Chat_Mesage_Child" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset" SILENT=true
-[2018.11.06-18.08.21:654][372]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Game_Chat_Mesage_ChildA43F4100484A4AA997D4E691D0FAAD3E.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.08.21:655][372]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset', retrying in .5s...
-[2018.11.06-18.08.22:156][372]LogFileManager: Error: Error deleting file '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'.
-[2018.11.06-18.08.22:156][372]LogSavePackage: Error: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.08.23:033][372]LogSlate: Window 'Message' being destroyed
-[2018.11.06-18.08.23:039][372]EditorErrors: New page: Save Output
-[2018.11.06-18.08.23:039][372]EditorErrors: Warning: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.08.23:040][372]EditorErrors: Warning: Error saving '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/UI/Game/Game_Chat_Mesage_Child.uasset'
-[2018.11.06-18.08.24:126][372]LogSlate: Window 'Packages Failed To Save' being destroyed
-[2018.11.06-18.08.24:317][372]LogSlate: Window 'Message Log' being destroyed
-[2018.11.06-18.08.24:319][372]LogSlate: Window 'WarhammerOnline - Unreal Editor' being destroyed
-[2018.11.06-18.08.24:320][372]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.06-18.08.24:569][373]Cmd: QUIT_EDITOR
-[2018.11.06-18.08.24:604][373]LogExit: Preparing to exit.
-[2018.11.06-18.08.24:977][373]LogExit: Editor shut down
-[2018.11.06-18.08.24:977][373]LogExit: Transaction tracking system shut down
-[2018.11.06-18.08.25:591][373]LogExit: Object subsystem successfully closed.
-[2018.11.06-18.08.25:605][373]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.11.06-18.08.25:610][373]LogD3D11RHI: Shutdown
-[2018.11.06-18.08.25:610][373]LogD3D11RHI: CleanupD3DDevice
-[2018.11.06-18.08.25:612][373]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.11.06-18.08.25:625][373]LogModuleManager: Shutting down and abandoning module SequencerWidgets (606)
-[2018.11.06-18.08.25:625][373]LogModuleManager: Shutting down and abandoning module BlueprintGraph (604)
-[2018.11.06-18.08.25:625][373]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (602)
-[2018.11.06-18.08.25:625][373]LogModuleManager: Shutting down and abandoning module SceneOutliner (600)
-[2018.11.06-18.08.25:625][373]LogModuleManager: Shutting down and abandoning module AddContentDialog (598)
-[2018.11.06-18.08.25:626][373]LogModuleManager: Shutting down and abandoning module WidgetCarousel (597)
-[2018.11.06-18.08.25:626][373]LogModuleManager: Shutting down and abandoning module EditorWidgets (594)
-[2018.11.06-18.08.25:626][373]LogModuleManager: Shutting down and abandoning module CollectionManager (592)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module StatsViewer (590)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module FoliageEdit (588)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module LandscapeEditor (586)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module MeshPaintMode (584)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (582)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module ActorPickerMode (580)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module GeometryMode (578)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module TextureAlignMode (576)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module BspMode (574)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (572)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (570)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module AutomationWorker (568)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (566)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (562)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (560)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module PlacementMode (559)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module MaterialEditor (558)
-[2018.11.06-18.08.25:627][373]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (554)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (552)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (550)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (548)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (546)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (544)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (542)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (540)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (538)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (536)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (534)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (532)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (530)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module CharacterAI (528)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module SmartSnapping (526)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module SessionServices (524)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module ViewportSnapping (522)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module ViewportInteraction (520)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module ClothPainter (518)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (517)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module LogVisualizer (514)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module IntroTutorials (512)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (511)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (508)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (506)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (504)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (502)
-[2018.11.06-18.08.25:628][373]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (501)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (498)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (496)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (494)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (492)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module InputBindingEditor (490)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module MergeActors (488)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (486)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module LocalizationService (485)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module HardwareTargeting (482)
-[2018.11.06-18.08.26:613][373]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (480)
-[2018.11.06-18.08.26:614][373]LogModuleManager: Shutting down and abandoning module UndoHistory (478)
-[2018.11.06-18.08.26:614][373]LogModuleManager: Shutting down and abandoning module XmlParser (476)
-[2018.11.06-18.08.26:614][373]LogModuleManager: Shutting down and abandoning module Blutility (474)
-[2018.11.06-18.08.26:614][373]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (472)
-[2018.11.06-18.08.26:614][373]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (471)
-[2018.11.06-18.08.26:614][373]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (468)
-[2018.11.06-18.08.26:614][373]LogModuleManager: Shutting down and abandoning module SettingsEditor (466)
-[2018.11.06-18.08.26:614][373]LogModuleManager: Shutting down and abandoning module ProjectLauncher (464)
-[2018.11.06-18.08.26:624][373]LogModuleManager: Shutting down and abandoning module SessionFrontend (462)
-[2018.11.06-18.08.26:625][373]LogModuleManager: Shutting down and abandoning module ProfilerClient (460)
-[2018.11.06-18.08.26:625][373]LogModuleManager: Shutting down and abandoning module DeviceManager (458)
-[2018.11.06-18.08.26:625][373]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (457)
-[2018.11.06-18.08.26:680][373]LogModuleManager: Shutting down and abandoning module AutomationController (454)
-[2018.11.06-18.08.26:680][373]LogModuleManager: Shutting down and abandoning module AutomationWindow (452)
-[2018.11.06-18.08.26:680][373]LogModuleManager: Shutting down and abandoning module Layers (450)
-[2018.11.06-18.08.26:680][373]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (448)
-[2018.11.06-18.08.26:680][373]LogModuleManager: Shutting down and abandoning module DetailCustomizations (446)
-[2018.11.06-18.08.26:680][373]LogModuleManager: Shutting down and abandoning module PackagesDialog (444)
-[2018.11.06-18.08.26:680][373]LogModuleManager: Shutting down and abandoning module Persona (442)
-[2018.11.06-18.08.26:680][373]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (441)
-[2018.11.06-18.08.26:681][373]LogModuleManager: Shutting down and abandoning module AnimGraph (439)
-[2018.11.06-18.08.26:681][373]LogModuleManager: Shutting down and abandoning module Kismet (436)
-[2018.11.06-18.08.26:690][373]LogModuleManager: Shutting down and abandoning module GraphEditor (434)
-[2018.11.06-18.08.26:690][373]LogModuleManager: Shutting down and abandoning module ClassViewer (432)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module Toolbox (430)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module DesktopPlatform (429)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module ModuleUI (426)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module MovieSceneTools (424)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module OutputLog (422)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module GammaUI (420)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module Documentation (418)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (416)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module MovieScene (414)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (412)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module LauncherPlatform (410)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module AnalyticsET (408)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module PortalServices (406)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module PortalRpc (404)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module MessagingRpc (402)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module AIModule (400)
-[2018.11.06-18.08.26:691][373]LogModuleManager: Shutting down and abandoning module GameplayDebugger (399)
-[2018.11.06-18.08.26:692][373]LogModuleManager: Shutting down and abandoning module AITestSuite (397)
-[2018.11.06-18.08.26:692][373]LogModuleManager: Shutting down and abandoning module NavigationSystem (395)
-[2018.11.06-18.08.26:692][373]LogModuleManager: Shutting down and abandoning module ProfilerService (392)
-[2018.11.06-18.08.26:767][373]LogModuleManager: Shutting down and abandoning module TaskGraph (390)
-[2018.11.06-18.08.26:767][373]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (388)
-[2018.11.06-18.08.26:767][373]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (386)
-[2018.11.06-18.08.26:767][373]LogModuleManager: Shutting down and abandoning module OculusInput (384)
-[2018.11.06-18.08.26:767][373]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (382)
-[2018.11.06-18.08.26:767][373]LogModuleManager: Shutting down and abandoning module EditableMesh (380)
-[2018.11.06-18.08.26:767][373]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (378)
-[2018.11.06-18.08.26:767][373]LogModuleManager: Shutting down and abandoning module CableComponent (376)
-[2018.11.06-18.08.26:768][373]LogModuleManager: Shutting down and abandoning module AudioCapture (374)
-[2018.11.06-18.08.26:768][373]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (372)
-[2018.11.06-18.08.26:768][373]LogModuleManager: Shutting down and abandoning module AndroidPermission (370)
-[2018.11.06-18.08.26:768][373]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (368)
-[2018.11.06-18.08.26:768][373]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (366)
-[2018.11.06-18.08.26:768][373]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (364)
-[2018.11.06-18.08.26:768][373]LogModuleManager: Shutting down and abandoning module MediaCompositing (362)
-[2018.11.06-18.08.26:768][373]LogModuleManager: Shutting down and abandoning module LinearTimecode (360)
-[2018.11.06-18.08.26:768][373]LogModuleManager: Shutting down and abandoning module ImgMedia (358)
-[2018.11.06-18.08.26:771][373]LogModuleManager: Shutting down and abandoning module HTML5Networking (356)
-[2018.11.06-18.08.26:771][373]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (354)
-[2018.11.06-18.08.26:771][373]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (352)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module BackChannel (350)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module AppleVision (348)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module AppleImageUtils (346)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module AlembicImporter (344)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module AlembicLibrary (343)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module GeometryCache (342)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (341)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (336)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module DatasmithContent (334)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (332)
-[2018.11.06-18.08.26:772][373]LogModuleManager: Shutting down and abandoning module PluginBrowser (330)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (328)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module PolygonModeling (326)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module MeshEditor (324)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (322)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module CryptoKeys (320)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (316)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module UObjectPlugin (314)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (312)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (310)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module GitSourceControl (308)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module SourceControl (307)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (304)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
-[2018.11.06-18.08.26:773][373]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module MeshPaint (295)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module WarhammerOnline (292)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
-[2018.11.06-18.08.26:774][373]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
-[2018.11.06-18.08.26:875][373]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
-[2018.11.06-18.08.26:977][373]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (270)
-[2018.11.06-18.08.26:977][373]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.11.06-18.08.26:977][373]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.11.06-18.08.26:977][373]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.11.06-18.08.26:977][373]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.11.06-18.08.26:977][373]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.11.06-18.08.26:977][373]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.11.06-18.08.26:979][373]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.11.06-18.08.26:980][373]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.11.06-18.08.26:980][373]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.11.06-18.08.26:980][373]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.11.06-18.08.26:981][373]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.11.06-18.08.26:984][373]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.11.06-18.08.26:984][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.11.06-18.08.26:984][373]LogModuleManager: Shutting down and abandoning module AISupportModule (242)
-[2018.11.06-18.08.26:984][373]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (240)
-[2018.11.06-18.08.26:984][373]LogModuleManager: Shutting down and abandoning module AdvancedSessions (238)
-[2018.11.06-18.08.26:984][373]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.11.06-18.08.26:984][373]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.11.06-18.08.26:984][373]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.11.06-18.08.26:987][373]LogModuleManager: Shutting down and abandoning module Media (231)
-[2018.11.06-18.08.26:993][373]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.11.06-18.08.26:993][373]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module Overlay (220)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module VREditor (216)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module UMG (202)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
-[2018.11.06-18.08.26:994][373]LogModuleManager: Shutting down and abandoning module Sequencer (200)
-[2018.11.06-18.08.26:995][373]LogModuleManager: Shutting down and abandoning module MessageLog (197)
-[2018.11.06-18.08.26:995][373]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
-[2018.11.06-18.08.26:995][373]LogModuleManager: Shutting down and abandoning module Slate (190)
-[2018.11.06-18.08.26:995][373]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
-[2018.11.06-18.08.26:998][373]LogModuleManager: Shutting down and abandoning module MRMesh (186)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module Networking (178)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module Core (176)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module LevelSequence (174)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (167)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.11.06-18.08.26:999][373]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.11.06-18.08.27:029][373]LogDerivedDataCache: Shutdown
-[2018.11.06-18.08.27:029][373]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.11.06-18.08.27:030][373]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
-[2018.11.06-18.08.27:031][373]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.11.06-18.08.27:034][373]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.11.06-18.08.27:034][373]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.11.06-18.08.27:037][373]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.11.06-18.08.27:037][373]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.11.06-18.08.27:061][373]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.11.06-18.08.27:061][373]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.11.06-18.08.27:061][373]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.11.06-18.08.27:061][373]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.11.06-18.08.27:061][373]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.11.06-18.08.27:061][373]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.11.06-18.08.27:061][373]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.11.06-18.08.27:061][373]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.11.06-18.08.27:062][373]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.11.06-18.08.27:062][373]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.11.06-18.08.27:062][373]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.11.06-18.08.27:062][373]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.11.06-18.08.27:062][373]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
-[2018.11.06-18.08.27:062][373]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
-[2018.11.06-18.08.27:062][373]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
-[2018.11.06-18.08.27:062][373]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
-[2018.11.06-18.08.27:062][373]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
-[2018.11.06-18.08.27:063][373]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.11.06-18.08.27:064][373]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.11.06-18.08.27:097][373]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.11.06-18.08.27:097][373]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.11.06-18.08.27:097][373]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95BA073C-47F4-B122-EE27-148D1D95B493%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.20.3-0%2B%2B%2BUE4%2BRelease-4.20&UserID=797f30044c940ea113d7608d38615c3e%7Ccec6d2080c8b49f3b7d752523df8e451%7Cf5dbca86-ab5f-4812-838b-93cceb8f3f91&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
-[2018.11.06-18.08.27:126][373]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.11.06-18.08.27:130][373]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.11.06-18.08.27:130][373]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.11.06-18.08.27:131][373]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.11.06-18.08.27:131][373]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.11.06-18.08.27:131][373]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.11.06-18.08.27:132][373]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.11.06-18.08.27:136][373]LogExit: Exiting.
-[2018.11.06-18.08.27:141][373]Log file closed, 11/06/18 23:08:27
+[2018.11.23-21.46.46:625][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.23-21.46.46:626][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.23-21.46.46:634][  0]LogHAL: Display: Platform has ~ 8 GB [8473120768 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.23-21.46.46:634][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.23-21.46.46:635][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.23-21.46.46:635][  0]LogInit: Computer: DESKTOP-O8P7830
+[2018.11.23-21.46.46:635][  0]LogInit: User: Andre
+[2018.11.23-21.46.46:635][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.23-21.46.46:635][  0]LogInit: High frequency timer resolution =2.533319 MHz
+[2018.11.23-21.46.46:636][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.23-21.46.46:636][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.23-21.46.46:636][  0]LogMemory: Process Physical Memory: 126.91 MB used, 126.91 MB peak
+[2018.11.23-21.46.46:636][  0]LogMemory: Process Virtual Memory: 97.93 MB used, 97.93 MB peak
+[2018.11.23-21.46.46:636][  0]LogMemory: Physical Memory: 6132.68 MB used,  1947.92 MB free, 8080.60 MB total
+[2018.11.23-21.46.46:636][  0]LogMemory: Virtual Memory: 4734.55 MB used,  1947.92 MB free, 134217728.00 MB total
+[2018.11.23-21.46.46:721][  0]LogInit: Using OS detected language (ru-RU).
+[2018.11.23-21.46.46:721][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.11.23-21.46.46:722][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2018.11.23-21.46.46:725][  0]LogStreaming: Display: Took  0.005s to InitEngineTextLocalization.
+[2018.11.23-21.46.46:775][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.23-21.46.46:775][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.23-21.46.46:810][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.23-21.46.46:915][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
+[2018.11.23-21.46.46:915][  0]LogD3D11RHI:       2007/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.23-21.46.46:925][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.11.23-21.46.46:925][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.23-21.46.46:930][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.23-21.46.46:930][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.23-21.46.46:930][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.23-21.46.46:962][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.23-21.46.46:963][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.23-21.46.46:963][  0]LogWindows: EnumDisplayDevices:
+[2018.11.23-21.46.46:963][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.11.23-21.46.46:964][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.11.23-21.46.46:964][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.11.23-21.46.46:964][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.23-21.46.46:964][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
+[2018.11.23-21.46.46:964][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.23-21.46.46:964][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.23-21.46.46:964][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2018.11.23-21.46.47:037][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.23-21.46.47:057][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.23-21.46.47:058][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../Unreal/UnrealProject/WarhammerOnline/Intermediate/Shaders/WorkingDirectory/6576/).
+[2018.11.23-21.46.47:058][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/2B6C08D94873A79467DEB69E46967A81/'.
+[2018.11.23-21.46.47:538][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.23-21.46.47:553][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.23-21.46.47:568][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.23-21.46.47:584][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.23-21.46.47:584][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.23-21.46.47:658][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.23-21.46.47:658][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.23-21.46.47:658][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.23-21.46.48:641][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.23-21.46.48:718][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
+[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc
+[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.11.23-21.46.48:732][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.11.23-21.46.48:732][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.23-21.46.48:732][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.23-21.46.48:762][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.23-21.46.48:765][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.23-21.46.48:767][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.23-21.46.48:823][  0]LogInit: Using OS detected language (ru-RU).
+[2018.11.23-21.46.48:823][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.11.23-21.46.48:823][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2018.11.23-21.46.48:823][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2018.11.23-21.46.49:309][  0]LogStreaming: Display: Took  0.486s to InitGameTextLocalization.
+[2018.11.23-21.46.49:316][  0]LogAssetRegistry: FAssetRegistry took 0.0038 seconds to start up
+[2018.11.23-21.46.49:635][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.018975 seconds
+[2018.11.23-21.46.49:742][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.23-21.46.49:932][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.23-21.46.49:932][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.23-21.46.49:932][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.23-21.46.49:932][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.11.23-21.46.49:932][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.11.23-21.46.49:949][  0]LogNetVersion: WarhammerOnline 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4240001505)
+[2018.11.23-21.46.50:606][  0]LogMoviePlayer: Initializing movie player
+[2018.11.23-21.46.50:951][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.23-21.46.50:965][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.23-21.46.51:077][  0]SourceControl: Source control is disabled
+[2018.11.23-21.46.51:077][  0]SourceControl: Source control is disabled
+[2018.11.23-21.46.51:079][  0]SourceControl: Source control is disabled
+[2018.11.23-21.46.51:254][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.23-21.46.51:392][  0]LogOcInput: OculusInput pre-init called
+[2018.11.23-21.46.51:408][  0]LogUObjectArray: 42755 objects as part of root set at end of initial load.
+[2018.11.23-21.46.51:408][  0]LogUObjectAllocator: 7543088 out of 0 bytes used by permanent object pool.
+[2018.11.23-21.46.51:408][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.23-21.46.51:503][  0]LogEngine: Initializing Engine...
+[2018.11.23-21.46.51:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.23-21.46.51:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.23-21.46.51:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.23-21.46.51:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.23-21.46.51:846][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.23-21.46.51:872][  0]LogInit: XAudio2 using 'Наушники (2- Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.23-21.46.51:890][  0]LogInit: FAudioDevice initialized.
+[2018.11.23-21.46.51:902][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.23-21.46.51:902][  0]LogInit: Texture streaming: Enabled
+[2018.11.23-21.46.52:158][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-21.46.52:159][  0]LogInit: Display: Game Engine Initialized.
+[2018.11.23-21.46.52:159][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.23-21.46.52:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.23-21.46.52:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.23-21.46.52:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.23-21.46.52:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.23-21.46.52:182][  0]LogInit: Display: Starting Game.
+[2018.11.23-21.46.52:182][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
+[2018.11.23-21.46.52:182][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
+[2018.11.23-21.46.52:508][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.11.23-21.46.52:508][  0]LogLoad: Game class is 'GameModeBase'
+[2018.11.23-21.46.52:509][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2018.11.24-02.46.52
+[2018.11.23-21.46.52:510][  0]LogWorld: Bringing up level for play took: 0.000725
+[2018.11.23-21.46.52:511][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.23-21.46.52:518][  0]LogLoad: Took 0.335778 seconds to LoadMap(/Game/Maps/MainMenu)
+[2018.11.23-21.46.52:594][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.11.23-21.46.52:594][  0]LogLoad: (Engine Initialization) Total time: 8.60 seconds
+[2018.11.23-21.46.52:594][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.23-21.46.52:612][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.23-21.46.52:615][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.23-21.46.54:920][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-21.46.55:035][133]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.23-21.46.57:729][301]LogOnline: Warning: STEAM: Empty session setting PASSWORD  : OnlineService of type String
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: dumping NamedSession: 
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	SessionName: GameSession
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	HostingPlayerNum: 0
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	SessionState: Pending
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	RegisteredPlayers: 
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	    0 registered players
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: dumping Session: 
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	OwningPlayerName: ???????????????????? ??????????
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	OwningPlayerId: Безмозглый Билли [0x11000010713DAC9]
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	NumOpenPrivateConnections: 0
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	NumOpenPublicConnections: 1
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	SessionInfo: HostIP: INVALID SteamP2P: 76561198079007433:7777 Type: Lobby session SessionId: Lobby [0x186000001D2A031]
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: dumping SessionSettings: 
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	NumPublicConnections: 2
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	NumPrivateConnections: 0
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bIsLanMatch: false
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bIsDedicated: false
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bUsesStats: false
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bShouldAdvertise: true
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bAllowJoinInProgress: true
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bAllowInvites: true
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bUsesPresence: true
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresence: true
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresenceFriendsOnly: false
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	BuildUniqueId: 0x00000000
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	Settings:
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		NAME=asdad : OnlineService
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		MAP=Map1 : OnlineService
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		MODE=DeathMatch : OnlineService
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		LAN=false : OnlineService
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		ISPASSWORD=false : OnlineService
+[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		PASSWORD= : OnlineService
+[2018.11.23-21.46.57:836][301]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Lobby.umap.
+[2018.11.23-21.46.57:915][301]LogPackageName: SearchForPackageOnDisk took   0.078s to resolve Lobby.umap.
+[2018.11.23-21.46.57:915][301]LogNet: Browse: /Game/Maps/Lobby?listen
+[2018.11.23-21.46.57:915][301]LogLoad: LoadMap: /Game/Maps/Lobby?listen
+[2018.11.23-21.46.58:471][301]LogAIModule: Creating AISystem for world Lobby
+[2018.11.23-21.46.58:472][301]LogLoad: Game class is 'GameModeLobby_C'
+[2018.11.23-21.46.58:472][301]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.23-21.46.58:472][301]LogTemp: Display: ParseSettings for SteamNetDriver_0
+[2018.11.23-21.46.58:472][301]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.11.23-21.46.58:473][301]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.11.23-21.46.58:473][301]LogNet: Display: SteamNetDriver_0 bound to port 7777
+[2018.11.23-21.46.58:473][301]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.11.23-21.46.58:473][301]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2018.11.23-21.46.58:477][301]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2018.11.24-02.46.58
+[2018.11.23-21.46.58:477][301]LogWorld: Bringing up level for play took: 0.003157
+[2018.11.23-21.46.58:479][301]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:112B
+[2018.11.23-21.46.58:479][301]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Player_List
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:10E2
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Player
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1298
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Attempted to assign to None
+	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:12AD
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Accessed None trying to read property Lobby
+	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1757
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Set_Up_Fnished
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Continue
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Send_Server_Mesage
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Mesage_From_Server_To_Eache_Player
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Mesage_To_Chat
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Accessed None
+	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:176C
+[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Set_Up_Fnished
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Continue
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Send_Server_Mesage
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Mesage_From_Server_To_Eache_Player
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Mesage_To_Chat
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2018.11.23-21.46.58:486][301]LogLoad: Took 0.570893 seconds to LoadMap(/Game/Maps/Lobby)
+[2018.11.23-21.46.59:966][374]LogGameMode: ProcessServerTravel: /Game/Maps/Map1
+[2018.11.23-21.46.59:966][374]LogWorld: SeamlessTravel to: /Game/Maps/Map1
+[2018.11.23-21.47.00:018][375]LogAIModule: Creating AISystem for world TransitionMap
+[2018.11.23-21.47.00:019][375]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
+[2018.11.23-21.47.00:020][375]LogWorld: Bringing World /Game/Maps/TransitionMap.TransitionMap up for play (max tick rate 0) at 2018.11.24-02.47.00
+[2018.11.23-21.47.00:020][375]LogWorld: Bringing up level for play took: 0.000600
+[2018.11.23-21.47.00:020][375]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
+[2018.11.23-21.47.00:020][375]LogNet: Verbose: NotifyLoadedWorld Begin
+[2018.11.23-21.47.00:020][375]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
+[2018.11.23-21.47.00:020][375]LogNet: Verbose: NotifyLoadedWorld End
+[2018.11.23-21.47.00:020][375]LogWorld: StartLoadingDestination to: /Game/Maps/Map1
+[2018.11.23-21.47.00:368][384]LogAIModule: Creating AISystem for world map1
+[2018.11.23-21.47.00:368][384]LogLoad: Game class is 'GameModeLobby_C'
+[2018.11.23-21.47.00:369][384]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
+[2018.11.23-21.47.00:371][384]LogWorld: Bringing World /Game/Maps/Map1.map1 up for play (max tick rate 0) at 2018.11.24-02.47.00
+[2018.11.23-21.47.00:473][384]LogWorld: Bringing up level for play took: 0.104053
+[2018.11.23-21.47.00:473][384]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
+[2018.11.23-21.47.00:473][384]LogNet: Verbose: NotifyLoadedWorld Begin
+[2018.11.23-21.47.00:473][384]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
+[2018.11.23-21.47.00:473][384]LogNet: Verbose: NotifyLoadedWorld End
+[2018.11.23-21.47.00:473][384]LogWorld: ----SeamlessTravel finished in 0.51 seconds ------
+[2018.11.23-21.47.00:475][384]LogBlueprintUserMessages: [LobbyPlayerController_C_1] game mode1
+[2018.11.23-21.47.00:478][384]LogBlueprintUserMessages: [map1_C_2] 0 spawn
+[2018.11.23-21.47.00:478][384]LogBlueprintUserMessages: [map1_C_2] 1 spawn
+[2018.11.23-21.47.00:479][384]LogBlueprintUserMessages: [map1_C_2] 2 spawn
+[2018.11.23-21.47.00:479][384]LogBlueprintUserMessages: [map1_C_2] 3 spawn
+[2018.11.23-21.47.00:479][384]LogBlueprintUserMessages: [map1_C_2] 4 spawn
+[2018.11.23-21.47.00:480][384]LogBlueprintUserMessages: [map1_C_2] 5 spawn
+[2018.11.23-21.47.00:480][384]LogBlueprintUserMessages: [map1_C_2] 6 spawn
+[2018.11.23-21.47.00:480][384]LogBlueprintUserMessages: [map1_C_2] 7 spawn
+[2018.11.23-21.47.00:480][384]LogBlueprintUserMessages: [map1_C_2] 8 spawn
+[2018.11.23-21.47.00:481][384]LogBlueprintUserMessages: [map1_C_2] 9 spawn
+[2018.11.23-21.47.00:481][384]LogBlueprintUserMessages: [map1_C_2] 10 spawn
+[2018.11.23-21.47.00:481][384]LogBlueprintUserMessages: [map1_C_2] 11 spawn
+[2018.11.23-21.47.00:482][384]LogBlueprintUserMessages: [map1_C_2] 12 spawn
+[2018.11.23-21.47.00:482][384]LogBlueprintUserMessages: [map1_C_2] 13 spawn
+[2018.11.23-21.47.00:482][384]LogBlueprintUserMessages: [map1_C_2] 14 spawn
+[2018.11.23-21.47.00:482][384]LogBlueprintUserMessages: [map1_C_2] 15 spawn
+[2018.11.23-21.47.00:483][384]LogBlueprintUserMessages: [map1_C_2] 16 spawn
+[2018.11.23-21.47.00:483][384]LogBlueprintUserMessages: [map1_C_2] 17 spawn
+[2018.11.23-21.47.00:483][384]LogBlueprintUserMessages: [map1_C_2] 18 spawn
+[2018.11.23-21.47.00:484][384]LogBlueprintUserMessages: [map1_C_2] 19 spawn
+[2018.11.23-21.47.00:484][384]LogBlueprintUserMessages: [map1_C_2] 20 spawn
+[2018.11.23-21.47.00:484][384]LogBlueprintUserMessages: [map1_C_2] 21 spawn
+[2018.11.23-21.47.00:485][384]LogBlueprintUserMessages: [map1_C_2] 22 spawn
+[2018.11.23-21.47.00:485][384]LogBlueprintUserMessages: [map1_C_2] 23 spawn
+[2018.11.23-21.47.00:485][384]LogBlueprintUserMessages: [map1_C_2] 24 spawn
+[2018.11.23-21.47.00:486][384]LogBlueprintUserMessages: [map1_C_2] 25 spawn
+[2018.11.23-21.47.00:486][384]LogBlueprintUserMessages: [map1_C_2] 26 spawn
+[2018.11.23-21.47.00:487][384]LogBlueprintUserMessages: [map1_C_2] 27 spawn
+[2018.11.23-21.47.00:487][384]LogBlueprintUserMessages: [map1_C_2] 28 spawn
+[2018.11.23-21.47.00:487][384]LogBlueprintUserMessages: [map1_C_2] 29 spawn
+[2018.11.23-21.47.00:488][384]LogBlueprintUserMessages: [map1_C_2] 30 spawn
+[2018.11.23-21.47.00:488][384]LogBlueprintUserMessages: [map1_C_2] 31 spawn
+[2018.11.23-21.47.00:488][384]LogBlueprintUserMessages: [map1_C_2] 32 spawn
+[2018.11.23-21.47.00:489][384]LogBlueprintUserMessages: [map1_C_2] 33 spawn
+[2018.11.23-21.47.00:489][384]LogBlueprintUserMessages: [map1_C_2] 34 spawn
+[2018.11.23-21.47.00:489][384]LogBlueprintUserMessages: [map1_C_2] 35 spawn
+[2018.11.23-21.47.00:489][384]LogBlueprintUserMessages: [map1_C_2] 36 spawn
+[2018.11.23-21.47.00:490][384]LogBlueprintUserMessages: [map1_C_2] 37 spawn
+[2018.11.23-21.47.00:490][384]LogBlueprintUserMessages: [map1_C_2] 38 spawn
+[2018.11.23-21.47.00:490][384]LogBlueprintUserMessages: [map1_C_2] 39 spawn
+[2018.11.23-21.47.00:491][384]LogBlueprintUserMessages: [map1_C_2] 40 spawn
+[2018.11.23-21.47.00:491][384]LogBlueprintUserMessages: [map1_C_2] 41 spawn
+[2018.11.23-21.47.00:492][384]LogBlueprintUserMessages: [map1_C_2] 42 spawn
+[2018.11.23-21.47.00:492][384]LogBlueprintUserMessages: [map1_C_2] 43 spawn
+[2018.11.23-21.47.00:493][384]LogBlueprintUserMessages: [map1_C_2] 44 spawn
+[2018.11.23-21.47.00:493][384]LogBlueprintUserMessages: [map1_C_2] 45 spawn
+[2018.11.23-21.47.00:493][384]LogBlueprintUserMessages: [map1_C_2] 46 spawn
+[2018.11.23-21.47.00:494][384]LogBlueprintUserMessages: [map1_C_2] 47 spawn
+[2018.11.23-21.47.00:494][384]LogBlueprintUserMessages: [map1_C_2] 48 spawn
+[2018.11.23-21.47.00:494][384]LogBlueprintUserMessages: [map1_C_2] 49 spawn
+[2018.11.23-21.47.00:495][384]LogBlueprintUserMessages: [map1_C_2] 50 spawn
+[2018.11.23-21.47.00:495][384]LogBlueprintUserMessages: [map1_C_2] 51 spawn
+[2018.11.23-21.47.00:495][384]LogBlueprintUserMessages: [map1_C_2] 52 spawn
+[2018.11.23-21.47.00:496][384]LogBlueprintUserMessages: [map1_C_2] 53 spawn
+[2018.11.23-21.47.00:496][384]LogBlueprintUserMessages: [map1_C_2] 54 spawn
+[2018.11.23-21.47.00:496][384]LogBlueprintUserMessages: [map1_C_2] 55 spawn
+[2018.11.23-21.47.00:497][384]LogBlueprintUserMessages: [map1_C_2] 56 spawn
+[2018.11.23-21.47.00:497][384]LogBlueprintUserMessages: [map1_C_2] 57 spawn
+[2018.11.23-21.47.00:497][384]LogBlueprintUserMessages: [map1_C_2] 58 spawn
+[2018.11.23-21.47.00:498][384]LogBlueprintUserMessages: [map1_C_2] 59 spawn
+[2018.11.23-21.47.00:498][384]LogBlueprintUserMessages: [map1_C_2] 60 spawn
+[2018.11.23-21.47.00:499][384]LogBlueprintUserMessages: [map1_C_2] 61 spawn
+[2018.11.23-21.47.00:499][384]LogBlueprintUserMessages: [map1_C_2] 62 spawn
+[2018.11.23-21.47.00:499][384]LogBlueprintUserMessages: [map1_C_2] 63 spawn
+[2018.11.23-21.47.00:500][384]LogBlueprintUserMessages: [map1_C_2] 64 spawn
+[2018.11.23-21.47.00:500][384]LogBlueprintUserMessages: [map1_C_2] 65 spawn
+[2018.11.23-21.47.00:501][384]LogBlueprintUserMessages: [map1_C_2] 66 spawn
+[2018.11.23-21.47.00:501][384]LogBlueprintUserMessages: [map1_C_2] 67 spawn
+[2018.11.23-21.47.00:501][384]LogBlueprintUserMessages: [map1_C_2] 68 spawn
+[2018.11.23-21.47.00:502][384]LogBlueprintUserMessages: [map1_C_2] 69 spawn
+[2018.11.23-21.47.00:502][384]LogBlueprintUserMessages: [map1_C_2] 70 spawn
+[2018.11.23-21.47.00:503][384]LogBlueprintUserMessages: [map1_C_2] 71 spawn
+[2018.11.23-21.47.00:503][384]LogBlueprintUserMessages: [map1_C_2] 72 spawn
+[2018.11.23-21.47.00:503][384]LogBlueprintUserMessages: [map1_C_2] 73 spawn
+[2018.11.23-21.47.00:504][384]LogBlueprintUserMessages: [map1_C_2] 74 spawn
+[2018.11.23-21.47.00:504][384]LogBlueprintUserMessages: [map1_C_2] 75 spawn
+[2018.11.23-21.47.00:505][384]LogBlueprintUserMessages: [map1_C_2] 76 spawn
+[2018.11.23-21.47.00:505][384]LogBlueprintUserMessages: [map1_C_2] 77 spawn
+[2018.11.23-21.47.00:505][384]LogBlueprintUserMessages: [map1_C_2] 78 spawn
+[2018.11.23-21.47.00:506][384]LogBlueprintUserMessages: [map1_C_2] 79 spawn
+[2018.11.23-21.47.00:506][384]LogBlueprintUserMessages: [map1_C_2] 80 spawn
+[2018.11.23-21.47.00:507][384]LogBlueprintUserMessages: [map1_C_2] 81 spawn
+[2018.11.23-21.47.00:507][384]LogBlueprintUserMessages: [map1_C_2] 82 spawn
+[2018.11.23-21.47.00:508][384]LogBlueprintUserMessages: [map1_C_2] 83 spawn
+[2018.11.23-21.47.00:508][384]LogBlueprintUserMessages: [map1_C_2] 84 spawn
+[2018.11.23-21.47.00:509][384]LogBlueprintUserMessages: [map1_C_2] 85 spawn
+[2018.11.23-21.47.00:509][384]LogBlueprintUserMessages: [map1_C_2] 86 spawn
+[2018.11.23-21.47.00:510][384]LogBlueprintUserMessages: [map1_C_2] 87 spawn
+[2018.11.23-21.47.00:510][384]LogBlueprintUserMessages: [map1_C_2] 88 spawn
+[2018.11.23-21.47.00:511][384]LogBlueprintUserMessages: [map1_C_2] 89 spawn
+[2018.11.23-21.47.00:511][384]LogBlueprintUserMessages: [map1_C_2] 90 spawn
+[2018.11.23-21.47.00:512][384]LogBlueprintUserMessages: [map1_C_2] 91 spawn
+[2018.11.23-21.47.00:512][384]LogBlueprintUserMessages: [map1_C_2] 92 spawn
+[2018.11.23-21.47.00:512][384]LogBlueprintUserMessages: [map1_C_2] 93 spawn
+[2018.11.23-21.47.00:513][384]LogBlueprintUserMessages: [map1_C_2] 94 spawn
+[2018.11.23-21.47.00:513][384]LogBlueprintUserMessages: [map1_C_2] 95 spawn
+[2018.11.23-21.47.00:513][384]LogBlueprintUserMessages: [map1_C_2] 96 spawn
+[2018.11.23-21.47.00:514][384]LogBlueprintUserMessages: [map1_C_2] 97 spawn
+[2018.11.23-21.47.00:514][384]LogBlueprintUserMessages: [map1_C_2] 98 spawn
+[2018.11.23-21.47.00:514][384]LogBlueprintUserMessages: [map1_C_2] 99 spawn
+[2018.11.23-21.47.00:515][384]LogBlueprintUserMessages: [map1_C_2] 100 spawn
+[2018.11.23-21.47.00:515][384]LogBlueprintUserMessages: [map1_C_2] 101 spawn
+[2018.11.23-21.47.00:517][384]LogBlueprintUserMessages: [map1_C_2] 102 spawn
+[2018.11.23-21.47.00:518][384]LogBlueprintUserMessages: [map1_C_2] 103 spawn
+[2018.11.23-21.47.00:519][384]LogBlueprintUserMessages: [map1_C_2] 104 spawn
+[2018.11.23-21.47.00:519][384]LogBlueprintUserMessages: [map1_C_2] 105 spawn
+[2018.11.23-21.47.00:519][384]LogBlueprintUserMessages: [map1_C_2] 106 spawn
+[2018.11.23-21.47.00:520][384]LogBlueprintUserMessages: [map1_C_2] 107 spawn
+[2018.11.23-21.47.00:520][384]LogBlueprintUserMessages: [map1_C_2] 108 spawn
+[2018.11.23-21.47.00:520][384]LogBlueprintUserMessages: [map1_C_2] 109 spawn
+[2018.11.23-21.47.00:521][384]LogBlueprintUserMessages: [map1_C_2] 110 spawn
+[2018.11.23-21.47.00:521][384]LogBlueprintUserMessages: [map1_C_2] 111 spawn
+[2018.11.23-21.47.00:521][384]LogBlueprintUserMessages: [map1_C_2] 112 spawn
+[2018.11.23-21.47.00:522][384]LogBlueprintUserMessages: [map1_C_2] 113 spawn
+[2018.11.23-21.47.00:522][384]LogBlueprintUserMessages: [map1_C_2] 114 spawn
+[2018.11.23-21.47.00:523][384]LogBlueprintUserMessages: [map1_C_2] 115 spawn
+[2018.11.23-21.47.00:523][384]LogBlueprintUserMessages: [map1_C_2] 116 spawn
+[2018.11.23-21.47.00:523][384]LogBlueprintUserMessages: [map1_C_2] 117 spawn
+[2018.11.23-21.47.00:524][384]LogBlueprintUserMessages: [map1_C_2] 118 spawn
+[2018.11.23-21.47.00:524][384]LogBlueprintUserMessages: [map1_C_2] 119 spawn
+[2018.11.23-21.47.00:525][384]LogBlueprintUserMessages: [map1_C_2] 120 spawn
+[2018.11.23-21.47.00:525][384]LogBlueprintUserMessages: [map1_C_2] 121 spawn
+[2018.11.23-21.47.00:525][384]LogBlueprintUserMessages: [map1_C_2] 122 spawn
+[2018.11.23-21.47.00:526][384]LogBlueprintUserMessages: [map1_C_2] 123 spawn
+[2018.11.23-21.47.00:526][384]LogBlueprintUserMessages: [map1_C_2] 124 spawn
+[2018.11.23-21.47.00:526][384]LogBlueprintUserMessages: [map1_C_2] 125 spawn
+[2018.11.23-21.47.00:526][384]LogBlueprintUserMessages: [map1_C_2] 126 spawn
+[2018.11.23-21.47.00:527][384]LogBlueprintUserMessages: [map1_C_2] 127 spawn
+[2018.11.23-21.47.00:527][384]LogBlueprintUserMessages: [map1_C_2] 128 spawn
+[2018.11.23-21.47.00:528][384]LogBlueprintUserMessages: [map1_C_2] 129 spawn
+[2018.11.23-21.47.00:529][384]LogBlueprintUserMessages: [map1_C_2] 130 spawn
+[2018.11.23-21.47.00:530][384]LogBlueprintUserMessages: [map1_C_2] 131 spawn
+[2018.11.23-21.47.00:530][384]LogBlueprintUserMessages: [map1_C_2] 132 spawn
+[2018.11.23-21.47.00:530][384]LogBlueprintUserMessages: [map1_C_2] 133 spawn
+[2018.11.23-21.47.00:531][384]LogBlueprintUserMessages: [map1_C_2] 134 spawn
+[2018.11.23-21.47.00:531][384]LogBlueprintUserMessages: [map1_C_2] 135 spawn
+[2018.11.23-21.47.00:531][384]LogBlueprintUserMessages: [map1_C_2] 136 spawn
+[2018.11.23-21.47.00:531][384]LogBlueprintUserMessages: [map1_C_2] 137 spawn
+[2018.11.23-21.47.00:532][384]LogBlueprintUserMessages: [map1_C_2] 138 spawn
+[2018.11.23-21.47.00:532][384]LogBlueprintUserMessages: [map1_C_2] 139 spawn
+[2018.11.23-21.47.00:532][384]LogBlueprintUserMessages: [map1_C_2] 140 spawn
+[2018.11.23-21.47.00:533][384]LogBlueprintUserMessages: [map1_C_2] 141 spawn
+[2018.11.23-21.47.00:533][384]LogBlueprintUserMessages: [map1_C_2] 142 spawn
+[2018.11.23-21.47.00:533][384]LogBlueprintUserMessages: [map1_C_2] 143 spawn
+[2018.11.23-21.47.00:533][384]LogBlueprintUserMessages: [map1_C_2] 144 spawn
+[2018.11.23-21.47.00:534][384]LogBlueprintUserMessages: [map1_C_2] 145 spawn
+[2018.11.23-21.47.00:534][384]LogBlueprintUserMessages: [map1_C_2] 146 spawn
+[2018.11.23-21.47.00:534][384]LogBlueprintUserMessages: [map1_C_2] 147 spawn
+[2018.11.23-21.47.00:535][384]LogBlueprintUserMessages: [map1_C_2] 148 spawn
+[2018.11.23-21.47.00:535][384]LogBlueprintUserMessages: [map1_C_2] 149 spawn
+[2018.11.23-21.47.00:535][384]LogBlueprintUserMessages: [map1_C_2] 150 spawn
+[2018.11.23-21.47.00:535][384]LogBlueprintUserMessages: [map1_C_2] 151 spawn
+[2018.11.23-21.47.00:536][384]LogBlueprintUserMessages: [map1_C_2] 152 spawn
+[2018.11.23-21.47.00:536][384]LogBlueprintUserMessages: [map1_C_2] 153 spawn
+[2018.11.23-21.47.00:536][384]LogBlueprintUserMessages: [map1_C_2] 154 spawn
+[2018.11.23-21.47.00:537][384]LogBlueprintUserMessages: [map1_C_2] 155 spawn
+[2018.11.23-21.47.00:537][384]LogBlueprintUserMessages: [map1_C_2] 156 spawn
+[2018.11.23-21.47.00:537][384]LogBlueprintUserMessages: [map1_C_2] 157 spawn
+[2018.11.23-21.47.00:538][384]LogBlueprintUserMessages: [map1_C_2] 158 spawn
+[2018.11.23-21.47.00:538][384]LogBlueprintUserMessages: [map1_C_2] 159 spawn
+[2018.11.23-21.47.00:539][384]LogBlueprintUserMessages: [map1_C_2] 160 spawn
+[2018.11.23-21.47.00:539][384]LogBlueprintUserMessages: [map1_C_2] 161 spawn
+[2018.11.23-21.47.00:539][384]LogBlueprintUserMessages: [map1_C_2] 162 spawn
+[2018.11.23-21.47.00:540][384]LogBlueprintUserMessages: [map1_C_2] 163 spawn
+[2018.11.23-21.47.00:540][384]LogBlueprintUserMessages: [map1_C_2] 164 spawn
+[2018.11.23-21.47.00:541][384]LogBlueprintUserMessages: [map1_C_2] 165 spawn
+[2018.11.23-21.47.00:541][384]LogBlueprintUserMessages: [map1_C_2] 166 spawn
+[2018.11.23-21.47.00:541][384]LogBlueprintUserMessages: [map1_C_2] 167 spawn
+[2018.11.23-21.47.00:542][384]LogBlueprintUserMessages: [map1_C_2] 168 spawn
+[2018.11.23-21.47.00:542][384]LogBlueprintUserMessages: [map1_C_2] 169 spawn
+[2018.11.23-21.47.00:543][384]LogBlueprintUserMessages: [map1_C_2] 170 spawn
+[2018.11.23-21.47.00:543][384]LogBlueprintUserMessages: [map1_C_2] 171 spawn
+[2018.11.23-21.47.00:543][384]LogBlueprintUserMessages: [map1_C_2] 172 spawn
+[2018.11.23-21.47.00:544][384]LogBlueprintUserMessages: [map1_C_2] 173 spawn
+[2018.11.23-21.47.00:544][384]LogBlueprintUserMessages: [map1_C_2] 174 spawn
+[2018.11.23-21.47.00:545][384]LogBlueprintUserMessages: [map1_C_2] 175 spawn
+[2018.11.23-21.47.00:545][384]LogBlueprintUserMessages: [map1_C_2] 176 spawn
+[2018.11.23-21.47.00:545][384]LogBlueprintUserMessages: [map1_C_2] 177 spawn
+[2018.11.23-21.47.00:546][384]LogBlueprintUserMessages: [map1_C_2] 178 spawn
+[2018.11.23-21.47.00:546][384]LogBlueprintUserMessages: [map1_C_2] 179 spawn
+[2018.11.23-21.47.00:546][384]LogBlueprintUserMessages: [map1_C_2] 180 spawn
+[2018.11.23-21.47.00:547][384]LogBlueprintUserMessages: [map1_C_2] 181 spawn
+[2018.11.23-21.47.00:547][384]LogBlueprintUserMessages: [map1_C_2] 182 spawn
+[2018.11.23-21.47.00:547][384]LogBlueprintUserMessages: [map1_C_2] 183 spawn
+[2018.11.23-21.47.00:548][384]LogBlueprintUserMessages: [map1_C_2] 184 spawn
+[2018.11.23-21.47.00:548][384]LogBlueprintUserMessages: [map1_C_2] 185 spawn
+[2018.11.23-21.47.00:549][384]LogBlueprintUserMessages: [map1_C_2] 186 spawn
+[2018.11.23-21.47.00:549][384]LogBlueprintUserMessages: [map1_C_2] 187 spawn
+[2018.11.23-21.47.00:549][384]LogBlueprintUserMessages: [map1_C_2] 188 spawn
+[2018.11.23-21.47.00:550][384]LogBlueprintUserMessages: [map1_C_2] 189 spawn
+[2018.11.23-21.47.00:550][384]LogBlueprintUserMessages: [map1_C_2] 190 spawn
+[2018.11.23-21.47.00:551][384]LogBlueprintUserMessages: [map1_C_2] 191 spawn
+[2018.11.23-21.47.00:551][384]LogBlueprintUserMessages: [map1_C_2] 192 spawn
+[2018.11.23-21.47.00:551][384]LogBlueprintUserMessages: [map1_C_2] 193 spawn
+[2018.11.23-21.47.00:551][384]LogBlueprintUserMessages: [map1_C_2] 194 spawn
+[2018.11.23-21.47.00:552][384]LogBlueprintUserMessages: [map1_C_2] 195 spawn
+[2018.11.23-21.47.00:552][384]LogBlueprintUserMessages: [map1_C_2] 196 spawn
+[2018.11.23-21.47.00:552][384]LogBlueprintUserMessages: [map1_C_2] 197 spawn
+[2018.11.23-21.47.00:552][384]LogBlueprintUserMessages: [map1_C_2] 198 spawn
+[2018.11.23-21.47.00:553][384]LogBlueprintUserMessages: [map1_C_2] 199 spawn
+[2018.11.23-21.47.00:553][384]LogBlueprintUserMessages: [map1_C_2] 200 spawn
+[2018.11.23-21.47.00:554][384]LogBlueprintUserMessages: [map1_C_2] 201 spawn
+[2018.11.23-21.47.00:554][384]LogBlueprintUserMessages: [map1_C_2] 202 spawn
+[2018.11.23-21.47.00:554][384]LogBlueprintUserMessages: [map1_C_2] 203 spawn
+[2018.11.23-21.47.00:554][384]LogBlueprintUserMessages: [map1_C_2] 204 spawn
+[2018.11.23-21.47.00:555][384]LogBlueprintUserMessages: [map1_C_2] 205 spawn
+[2018.11.23-21.47.00:555][384]LogBlueprintUserMessages: [map1_C_2] 206 spawn
+[2018.11.23-21.47.00:555][384]LogBlueprintUserMessages: [map1_C_2] 207 spawn
+[2018.11.23-21.47.00:556][384]LogBlueprintUserMessages: [map1_C_2] 208 spawn
+[2018.11.23-21.47.00:556][384]LogBlueprintUserMessages: [map1_C_2] 209 spawn
+[2018.11.23-21.47.00:556][384]LogBlueprintUserMessages: [map1_C_2] 210 spawn
+[2018.11.23-21.47.00:557][384]LogBlueprintUserMessages: [map1_C_2] 211 spawn
+[2018.11.23-21.47.00:557][384]LogBlueprintUserMessages: [map1_C_2] 212 spawn
+[2018.11.23-21.47.00:558][384]LogBlueprintUserMessages: [map1_C_2] 213 spawn
+[2018.11.23-21.47.00:558][384]LogBlueprintUserMessages: [map1_C_2] 214 spawn
+[2018.11.23-21.47.00:559][384]LogBlueprintUserMessages: [map1_C_2] 215 spawn
+[2018.11.23-21.47.00:559][384]LogBlueprintUserMessages: [map1_C_2] 216 spawn
+[2018.11.23-21.47.00:559][384]LogBlueprintUserMessages: [map1_C_2] 217 spawn
+[2018.11.23-21.47.00:560][384]LogBlueprintUserMessages: [map1_C_2] 218 spawn
+[2018.11.23-21.47.00:560][384]LogBlueprintUserMessages: [map1_C_2] 219 spawn
+[2018.11.23-21.47.00:560][384]LogBlueprintUserMessages: [map1_C_2] 220 spawn
+[2018.11.23-21.47.00:561][384]LogBlueprintUserMessages: [map1_C_2] 221 spawn
+[2018.11.23-21.47.00:561][384]LogBlueprintUserMessages: [map1_C_2] 222 spawn
+[2018.11.23-21.47.00:561][384]LogBlueprintUserMessages: [map1_C_2] 223 spawn
+[2018.11.23-21.47.00:562][384]LogBlueprintUserMessages: [map1_C_2] 224 spawn
+[2018.11.23-21.47.00:562][384]LogBlueprintUserMessages: [map1_C_2] 225 spawn
+[2018.11.23-21.47.00:562][384]LogBlueprintUserMessages: [map1_C_2] 226 spawn
+[2018.11.23-21.47.00:562][384]LogBlueprintUserMessages: [map1_C_2] 227 spawn
+[2018.11.23-21.47.00:563][384]LogBlueprintUserMessages: [map1_C_2] 228 spawn
+[2018.11.23-21.47.00:563][384]LogBlueprintUserMessages: [map1_C_2] 229 spawn
+[2018.11.23-21.47.00:563][384]LogBlueprintUserMessages: [map1_C_2] 230 spawn
+[2018.11.23-21.47.00:564][384]LogBlueprintUserMessages: [map1_C_2] 231 spawn
+[2018.11.23-21.47.00:564][384]LogBlueprintUserMessages: [map1_C_2] 232 spawn
+[2018.11.23-21.47.00:564][384]LogBlueprintUserMessages: [map1_C_2] 233 spawn
+[2018.11.23-21.47.00:565][384]LogBlueprintUserMessages: [map1_C_2] 234 spawn
+[2018.11.23-21.47.00:565][384]LogBlueprintUserMessages: [map1_C_2] 235 spawn
+[2018.11.23-21.47.00:565][384]LogBlueprintUserMessages: [map1_C_2] 236 spawn
+[2018.11.23-21.47.00:566][384]LogBlueprintUserMessages: [map1_C_2] 237 spawn
+[2018.11.23-21.47.00:566][384]LogBlueprintUserMessages: [map1_C_2] 238 spawn
+[2018.11.23-21.47.00:566][384]LogBlueprintUserMessages: [map1_C_2] 239 spawn
+[2018.11.23-21.47.00:566][384]LogBlueprintUserMessages: [map1_C_2] 240 spawn
+[2018.11.23-21.47.00:567][384]LogBlueprintUserMessages: [map1_C_2] 241 spawn
+[2018.11.23-21.47.00:567][384]LogBlueprintUserMessages: [map1_C_2] 242 spawn
+[2018.11.23-21.47.00:567][384]LogBlueprintUserMessages: [map1_C_2] 243 spawn
+[2018.11.23-21.47.00:568][384]LogBlueprintUserMessages: [map1_C_2] 244 spawn
+[2018.11.23-21.47.00:568][384]LogBlueprintUserMessages: [map1_C_2] 245 spawn
+[2018.11.23-21.47.00:568][384]LogBlueprintUserMessages: [map1_C_2] 246 spawn
+[2018.11.23-21.47.00:568][384]LogBlueprintUserMessages: [map1_C_2] 247 spawn
+[2018.11.23-21.47.00:569][384]LogBlueprintUserMessages: [map1_C_2] 248 spawn
+[2018.11.23-21.47.00:569][384]LogBlueprintUserMessages: [map1_C_2] 249 spawn
+[2018.11.23-21.47.00:569][384]LogBlueprintUserMessages: [map1_C_2] 250 spawn
+[2018.11.23-21.47.00:570][384]LogBlueprintUserMessages: [map1_C_2] 251 spawn
+[2018.11.23-21.47.00:570][384]LogBlueprintUserMessages: [map1_C_2] 252 spawn
+[2018.11.23-21.47.00:570][384]LogBlueprintUserMessages: [map1_C_2] 253 spawn
+[2018.11.23-21.47.00:570][384]LogBlueprintUserMessages: [map1_C_2] 254 spawn
+[2018.11.23-21.47.00:571][384]LogBlueprintUserMessages: [map1_C_2] 255 spawn
+[2018.11.23-21.47.00:571][384]LogBlueprintUserMessages: [map1_C_2] 256 spawn
+[2018.11.23-21.47.00:571][384]LogBlueprintUserMessages: [map1_C_2] 257 spawn
+[2018.11.23-21.47.00:572][384]LogBlueprintUserMessages: [map1_C_2] 258 spawn
+[2018.11.23-21.47.00:572][384]LogBlueprintUserMessages: [map1_C_2] 259 spawn
+[2018.11.23-21.47.00:572][384]LogBlueprintUserMessages: [map1_C_2] 260 spawn
+[2018.11.23-21.47.00:573][384]LogBlueprintUserMessages: [map1_C_2] 261 spawn
+[2018.11.23-21.47.00:573][384]LogBlueprintUserMessages: [map1_C_2] 262 spawn
+[2018.11.23-21.47.00:573][384]LogBlueprintUserMessages: [map1_C_2] 263 spawn
+[2018.11.23-21.47.00:574][384]LogBlueprintUserMessages: [map1_C_2] 264 spawn
+[2018.11.23-21.47.00:574][384]LogBlueprintUserMessages: [map1_C_2] 265 spawn
+[2018.11.23-21.47.00:575][384]LogBlueprintUserMessages: [map1_C_2] 266 spawn
+[2018.11.23-21.47.00:575][384]LogBlueprintUserMessages: [map1_C_2] 267 spawn
+[2018.11.23-21.47.00:576][384]LogBlueprintUserMessages: [map1_C_2] 268 spawn
+[2018.11.23-21.47.00:576][384]LogBlueprintUserMessages: [map1_C_2] 269 spawn
+[2018.11.23-21.47.00:576][384]LogBlueprintUserMessages: [map1_C_2] 270 spawn
+[2018.11.23-21.47.00:577][384]LogBlueprintUserMessages: [map1_C_2] 271 spawn
+[2018.11.23-21.47.00:577][384]LogBlueprintUserMessages: [map1_C_2] 272 spawn
+[2018.11.23-21.47.00:577][384]LogBlueprintUserMessages: [map1_C_2] 273 spawn
+[2018.11.23-21.47.00:578][384]LogBlueprintUserMessages: [map1_C_2] 274 spawn
+[2018.11.23-21.47.00:578][384]LogBlueprintUserMessages: [map1_C_2] 275 spawn
+[2018.11.23-21.47.00:578][384]LogBlueprintUserMessages: [map1_C_2] 276 spawn
+[2018.11.23-21.47.00:578][384]LogBlueprintUserMessages: [map1_C_2] 277 spawn
+[2018.11.23-21.47.00:579][384]LogBlueprintUserMessages: [map1_C_2] 278 spawn
+[2018.11.23-21.47.00:579][384]LogBlueprintUserMessages: [map1_C_2] 279 spawn
+[2018.11.23-21.47.00:579][384]LogBlueprintUserMessages: [map1_C_2] 280 spawn
+[2018.11.23-21.47.00:579][384]LogBlueprintUserMessages: [map1_C_2] 281 spawn
+[2018.11.23-21.47.00:580][384]LogBlueprintUserMessages: [map1_C_2] 282 spawn
+[2018.11.23-21.47.00:580][384]LogBlueprintUserMessages: [map1_C_2] 283 spawn
+[2018.11.23-21.47.00:580][384]LogBlueprintUserMessages: [map1_C_2] 284 spawn
+[2018.11.23-21.47.00:580][384]LogBlueprintUserMessages: [map1_C_2] 285 spawn
+[2018.11.23-21.47.00:581][384]LogBlueprintUserMessages: [map1_C_2] 286 spawn
+[2018.11.23-21.47.00:581][384]LogBlueprintUserMessages: [map1_C_2] 287 spawn
+[2018.11.23-21.47.00:581][384]LogBlueprintUserMessages: [map1_C_2] 288 spawn
+[2018.11.23-21.47.00:582][384]LogBlueprintUserMessages: [map1_C_2] 289 spawn
+[2018.11.23-21.47.00:582][384]LogBlueprintUserMessages: [map1_C_2] 290 spawn
+[2018.11.23-21.47.00:582][384]LogBlueprintUserMessages: [map1_C_2] 291 spawn
+[2018.11.23-21.47.00:582][384]LogBlueprintUserMessages: [map1_C_2] 292 spawn
+[2018.11.23-21.47.00:583][384]LogBlueprintUserMessages: [map1_C_2] 293 spawn
+[2018.11.23-21.47.00:583][384]LogBlueprintUserMessages: [map1_C_2] 294 spawn
+[2018.11.23-21.47.00:583][384]LogBlueprintUserMessages: [map1_C_2] 295 spawn
+[2018.11.23-21.47.00:583][384]LogBlueprintUserMessages: [map1_C_2] 296 spawn
+[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] 297 spawn
+[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] 298 spawn
+[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] 299 spawn
+[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] 300 spawn
+[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] complite
+[2018.11.23-21.48.14:533][385]LogSlate: Window 'WarhammerOnline (64-bit Development PCD3D_SM5) ' being destroyed
+[2018.11.23-21.48.16:928][385]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.23-21.48.39:751][385]LogOnline: Warning: STEAM: No game present to leave for session (GameSession)
+[2018.11.23-21.48.42:274][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-21.48.42:274][385]LogEngine: All Windows Closed
+[2018.11.23-21.48.42:309][385]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.11.23-21.48.47:068][386]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2018.11.23-21.48.47:068][386]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2018.11.23-21.48.47:942][386]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2018.11.23-21.50.14:329][386]LogExit: Preparing to exit.
+[2018.11.23-21.50.14:344][386]LogMoviePlayer: Shutting down movie player
+[2018.11.23-21.50.45:839][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-21.50.54:811][386]LogExit: Game engine shut down
+[2018.11.23-21.51.22:297][386]LogExit: Object subsystem successfully closed.
+[2018.11.23-21.51.27:266][386]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.23-21.51.27:674][386]LogD3D11RHI: Shutdown
+[2018.11.23-21.51.27:718][386]LogD3D11RHI: CleanupD3DDevice
+[2018.11.23-21.51.31:306][386]LogD3D11RHI: ~FD3D11DynamicRHI
