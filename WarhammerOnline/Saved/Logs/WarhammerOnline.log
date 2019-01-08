@@ -1,4 +1,4 @@
-﻿Log file open, 01/06/19 15:50:06
+﻿Log file open, 01/08/19 13:11:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WarhammerOnline
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.244536
+LogStats: Stats thread started at 0.451003
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.357s to configure plugins.
+LogStreaming: Display: Took  0.954s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -148,479 +148,269 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.032s to delete old logs.
+LogStreaming: Display: Took  0.231s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.06-10.50.08:006][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.06-10.50.08:006][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.06-10.50.08:238][  0]LogHAL: Display: Platform has ~ 8 GB [8473120768 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.06-10.50.08:238][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.06-10.50.08:238][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.06-10.50.08:259][  0]LogInit: Computer: DESKTOP-O8P7830
-[2019.01.06-10.50.08:259][  0]LogInit: User: Andre
-[2019.01.06-10.50.08:259][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.01.06-10.50.08:259][  0]LogInit: High frequency timer resolution =2.533314 MHz
-[2019.01.06-10.50.08:259][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.01.06-10.50.08:259][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.06-10.50.08:259][  0]LogMemory: Process Physical Memory: 98.36 MB used, 98.36 MB peak
-[2019.01.06-10.50.08:259][  0]LogMemory: Process Virtual Memory: 89.95 MB used, 89.95 MB peak
-[2019.01.06-10.50.08:260][  0]LogMemory: Physical Memory: 4125.70 MB used,  3954.90 MB free, 8080.60 MB total
-[2019.01.06-10.50.08:260][  0]LogMemory: Virtual Memory: 4619.48 MB used,  3954.90 MB free, 134217728.00 MB total
-[2019.01.06-10.50.08:295][  0]LogInit: Using OS detected language (ru-RU).
-[2019.01.06-10.50.08:295][  0]LogInit: Using OS detected locale (ru-RU).
-[2019.01.06-10.50.08:296][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
-[2019.01.06-10.50.08:468][  0]LogStreaming: Display: Took  0.172s to InitEngineTextLocalization.
-[2019.01.06-10.50.08:468][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.06-10.50.08:616][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.06-10.50.08:616][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.06-10.50.12:505][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.06-10.50.12:613][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
-[2019.01.06-10.50.12:613][  0]LogD3D11RHI:       2007/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.01.06-10.50.12:621][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
-[2019.01.06-10.50.12:621][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.01.06-10.50.12:624][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.06-10.50.12:624][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.06-10.50.12:624][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.06-10.50.12:664][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.06-10.50.12:664][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.06-10.50.12:664][  0]LogWindows: EnumDisplayDevices:
-[2019.01.06-10.50.12:664][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2019.01.06-10.50.12:665][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2019.01.06-10.50.12:665][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2019.01.06-10.50.12:666][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.01.06-10.50.12:666][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
-[2019.01.06-10.50.12:666][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.01.06-10.50.12:666][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.01.06-10.50.12:666][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
-[2019.01.06-10.50.12:744][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.06-10.50.12:767][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.06-10.50.12:769][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../Unreal/UnrealProject/WarhammerOnline/Intermediate/Shaders/WorkingDirectory/9296/).
-[2019.01.06-10.50.12:769][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/F7F14CEC4111E17EE5294D8AFCC10C27/'.
-[2019.01.06-10.50.13:204][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.06-10.50.13:221][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.06-10.50.13:242][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.06-10.50.13:260][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.06-10.50.13:289][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.06-10.50.13:305][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.06-10.50.13:325][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.06-10.50.13:343][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.06-10.50.13:352][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.06-10.50.13:456][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.06-10.50.13:543][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.06-10.50.13:543][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.06-10.50.13:575][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.06-10.50.13:575][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.06-10.50.13:584][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.06-10.50.13:585][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.06-10.50.13:703][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.06-10.50.13:703][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.06-10.50.13:703][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.06-10.50.19:408][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.06-10.50.21:183][  0]LogDerivedDataCache: Loaded boot cache 1.78s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
-[2019.01.06-10.50.21:185][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc
-[2019.01.06-10.50.21:185][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.06-10.50.21:185][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.06-10.50.21:185][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.06-10.50.21:185][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2019.01.06-10.50.21:198][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2019.01.06-10.50.21:198][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.06-10.50.21:198][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.06-10.50.21:230][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.06-10.50.21:232][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.06-10.50.21:261][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.06-10.50.23:583][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
-[2019.01.06-10.50.24:001][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.06-10.50.24:274][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.06-10.50.24:274][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.06-10.50.24:274][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.06-10.50.24:274][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.01.06-10.50.24:274][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.01.06-10.50.24:300][  0]LogNetVersion: WarhammerOnline 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4240001505)
-[2019.01.06-10.50.25:391][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.467709 seconds
-[2019.01.06-10.50.25:400][  0]LogUObjectArray: 38165 objects as part of root set at end of initial load.
-[2019.01.06-10.50.25:400][  0]LogUObjectAllocator: 6656720 out of 0 bytes used by permanent object pool.
-[2019.01.06-10.50.25:400][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2019.01.06-10.50.37:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2019.01.06-10.50.37:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2019.01.06-10.50.37:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2019.01.06-10.50.37:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2019.01.06-10.50.37:242][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2019.01.06-10.50.37:243][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2019.01.06-10.50.37:243][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2019.01.06-10.50.37:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2019.01.06-10.50.37:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
-[2019.01.06-10.50.37:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
-[2019.01.06-10.50.37:247][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:247][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.37:247][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2019.01.06-10.50.37:247][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2019.01.06-10.50.39:835][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.06-10.50.39:849][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.06-10.50.40:210][  0]SourceControl: Source control is disabled
-[2019.01.06-10.50.40:210][  0]SourceControl: Source control is disabled
-[2019.01.06-10.50.40:212][  0]SourceControl: Source control is disabled
-[2019.01.06-10.50.40:214][  0]SourceControl: Source control is disabled
-[2019.01.06-10.50.40:478][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.06-10.50.40:588][  0]LogOcInput: OculusInput pre-init called
-[2019.01.06-10.50.40:689][  0]LogEngine: Initializing Engine...
-[2019.01.06-10.50.40:692][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.06-10.50.40:692][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.06-10.50.40:692][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.06-10.50.40:692][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.06-10.50.41:020][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.06-10.50.41:052][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.06-10.50.41:073][  0]LogInit: XAudio2 using 'Динамики (2- Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.06-10.50.41:106][  0]LogInit: FAudioDevice initialized.
-[2019.01.06-10.50.41:106][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.06-10.50.41:561][  0]LogDerivedDataCache: Saved boot cache 0.45s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
-[2019.01.06-10.50.41:575][  0]LogInit: Texture streaming: Enabled
-[2019.01.06-10.50.41:598][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.06-10.50.41:619][  0]LogInit: Transaction tracking system initialized
-[2019.01.06-10.50.41:653][  0]BlueprintLog: New page: Editor Load
-[2019.01.06-10.50.41:781][  0]LocalizationService: Localization service is disabled
-[2019.01.06-10.50.42:320][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.06-10.50.42:320][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.06-10.50.42:321][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.06-10.50.42:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.06-10.50.42:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.06-10.50.42:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.06-10.50.42:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.06-10.50.42:674][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Content/' took 0.02s
-[2019.01.06-10.50.42:674][  0]SourceControl: Source control is disabled
-[2019.01.06-10.50.42:674][  0]Cmd: MAP LOAD FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.06-10.50.42:781][  0]LightingResults: New page: Lighting Build
-[2019.01.06-10.50.42:784][  0]MapCheck: New page: Map Check
-[2019.01.06-10.50.42:785][  0]LightingResults: New page: Lighting Build
-[2019.01.06-10.50.43:920][  0]LogAIModule: Creating AISystem for world MainMenu
-[2019.01.06-10.50.43:922][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.06-10.50.43:958][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.06-10.50.44:037][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79,234ms to complete.
-[2019.01.06-10.50.44:037][  0]LogFileHelpers: Loading map 'MainMenu' took 1.363
-[2019.01.06-10.50.44:495][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.06-10.50.44:506][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.06-10.50.44:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.06-10.50.44:531][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.06-10.50.44:559][  0]LogCollectionManager: Loaded 0 collections in 0.001995 seconds
-[2019.01.06-10.50.44:604][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Saved/Collections/' took 0.01s
-[2019.01.06-10.50.44:604][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Content/Developers/Andre/Collections/' took 0.01s
-[2019.01.06-10.50.44:604][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Content/Collections/' took 0.01s
-[2019.01.06-10.50.44:604][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.06-10.50.44:618][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2595 classes and 608 folders.
-[2019.01.06-10.50.44:626][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.01.06-10.50.50:439][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.01.06-10.50.50:522][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.01.06-10.50.50:820][  0]LogSlate: Took 0.054814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.06-10.50.50:823][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.06-10.50.50:888][  0]LogSlate: Took 0.055123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.06-10.50.51:571][  0]LogRenderer: Reallocating scene render targets to support 1156x428 Format 10 NumSamples 1 (Frame:1).
-[2019.01.06-10.50.52:011][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.01.06-10.50.52:011][  0]LogLoad: (Engine Initialization) Total time: 49.62 seconds
-[2019.01.06-10.50.52:011][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.06-10.50.52:057][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.06-10.50.52:226][  1]LogRenderer: Reallocating scene render targets to support 1156x448 Format 10 NumSamples 1 (Frame:3).
-[2019.01.06-10.50.52:380][  2]LogAssetRegistry: Asset discovery search completed in 28.8200 seconds
-[2019.01.06-10.50.52:383][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
-[2019.01.06-10.50.52:383][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000092 seconds (updated 0 objects)
-[2019.01.06-10.50.56:455][ 14]LogSlate: Took 0.022679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.06-10.53.21:360][448]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.06-10.53.21:360][448]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.06-10.53.21:784][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.06-10.53.55:922][446]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.06-10.53.56:011][446]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Andre/Desktop/Astartes.fbx)
-[2019.01.06-10.53.56:070][446]LogFbx: Loading FBX Scene from C:/Users/Andre/Desktop/Astartes.fbx
-[2019.01.06-10.53.56:406][446]LogFbx: FBX Scene Loaded Succesfully
-[2019.01.06-10.54.03:872][446]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.01.06-10.54.03:935][446]LogFbx: =================================================
-[2019.01.06-10.54.03:935][446]LogFbx: Dumping Node START [main_low] 
-[2019.01.06-10.54.03:935][446]LogFbx: 	Total Deformer Count -1788952264.
-[2019.01.06-10.54.03:935][446]LogFbx: 		[Node 1] Armature (Type Skin).
-[2019.01.06-10.54.03:935][446]LogFbx: =================================================
-[2019.01.06-10.54.03:935][446]LogFbx: 	Attribute (Plane) Type (4).
-[2019.01.06-10.54.03:935][446]LogFbx: 		[Node Attribute Child 1] main_low (Type Mesh).
-[2019.01.06-10.54.03:935][446]LogFbx: Dumping Node END [main_low]
-[2019.01.06-10.54.03:935][446]LogFbx: =================================================
-[2019.01.06-10.54.03:935][446]LogFbx: Dumping Node START [main_hi] 
-[2019.01.06-10.54.03:935][446]LogFbx: 	Total Deformer Count -1788952264.
-[2019.01.06-10.54.03:935][446]LogFbx: 	Attribute (Plane.003) Type (4).
-[2019.01.06-10.54.03:935][446]LogFbx: 		[Node Attribute Child 1] main_hi (Type Mesh).
-[2019.01.06-10.54.03:935][446]LogFbx: Dumping Node END [main_hi]
-[2019.01.06-10.54.03:935][446]LogFbx: =================================================
-[2019.01.06-10.54.03:935][446]LogFbx: Dumping Node START [main.001] 
-[2019.01.06-10.54.03:935][446]LogFbx: 	Total Deformer Count -1788952264.
-[2019.01.06-10.54.03:935][446]LogFbx: 	Attribute (Plane.004) Type (4).
-[2019.01.06-10.54.03:935][446]LogFbx: 		[Node Attribute Child 1] main.001 (Type Mesh).
-[2019.01.06-10.54.03:935][446]LogFbx: Dumping Node END [main.001]
-[2019.01.06-10.54.03:936][446]LogFbx: =================================================
-[2019.01.06-10.54.03:936][446]LogFbx: Dumping Node START [bolter] 
-[2019.01.06-10.54.03:936][446]LogFbx: 	Total Deformer Count -1788952264.
-[2019.01.06-10.54.03:936][446]LogFbx: 	Attribute (Cube.000) Type (4).
-[2019.01.06-10.54.03:936][446]LogFbx: 		[Node Attribute Child 1] bolter (Type Mesh).
-[2019.01.06-10.54.03:936][446]LogFbx: Dumping Node END [bolter]
-[2019.01.06-10.54.03:939][446]LogFbx: =================================================
-[2019.01.06-10.54.03:939][446]LogFbx: Dumping Node START [main_low] 
-[2019.01.06-10.54.03:939][446]LogFbx: 	Total Deformer Count -1788952432.
-[2019.01.06-10.54.03:939][446]LogFbx: 		[Node 1] Armature (Type Skin).
-[2019.01.06-10.54.03:939][446]LogFbx: =================================================
-[2019.01.06-10.54.03:939][446]LogFbx: 	Attribute (Plane) Type (4).
-[2019.01.06-10.54.03:939][446]LogFbx: 		[Node Attribute Child 1] main_low (Type Mesh).
-[2019.01.06-10.54.03:939][446]LogFbx: Dumping Node END [main_low]
-[2019.01.06-10.54.03:939][446]LogFbx: =================================================
-[2019.01.06-10.54.03:939][446]LogFbx: Dumping Node START [main_hi] 
-[2019.01.06-10.54.03:939][446]LogFbx: 	Total Deformer Count -1788952432.
-[2019.01.06-10.54.03:939][446]LogFbx: 	Attribute (Plane.003) Type (4).
-[2019.01.06-10.54.03:939][446]LogFbx: 		[Node Attribute Child 1] main_hi (Type Mesh).
-[2019.01.06-10.54.03:939][446]LogFbx: Dumping Node END [main_hi]
-[2019.01.06-10.54.03:939][446]LogFbx: =================================================
-[2019.01.06-10.54.03:940][446]LogFbx: Dumping Node START [main.001] 
-[2019.01.06-10.54.03:940][446]LogFbx: 	Total Deformer Count -1788952432.
-[2019.01.06-10.54.03:940][446]LogFbx: 	Attribute (Plane.004) Type (4).
-[2019.01.06-10.54.03:940][446]LogFbx: 		[Node Attribute Child 1] main.001 (Type Mesh).
-[2019.01.06-10.54.03:940][446]LogFbx: Dumping Node END [main.001]
-[2019.01.06-10.54.03:940][446]LogFbx: =================================================
-[2019.01.06-10.54.03:940][446]LogFbx: Dumping Node START [bolter] 
-[2019.01.06-10.54.03:940][446]LogFbx: 	Total Deformer Count -1788952432.
-[2019.01.06-10.54.03:940][446]LogFbx: 	Attribute (Cube.000) Type (4).
-[2019.01.06-10.54.03:940][446]LogFbx: 		[Node Attribute Child 1] bolter (Type Mesh).
-[2019.01.06-10.54.03:940][446]LogFbx: Dumping Node END [bolter]
-[2019.01.06-10.54.03:941][446]LogFbx: Valid bind pose for Pose (Plane) - main_low
-[2019.01.06-10.54.04:013][446]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.01.06-10.54.04:013][446]FBXImport: Error: Multiple roots are found in the bone hierarchy. We only support single root bone. 
-[2019.01.06-10.54.04:013][446]FBXImport: Error: Multiple roots found 
-[2019.01.06-10.54.04:013][446]FBXImport: Warning: Get Import Data has failed. 
-[2019.01.06-10.54.04:013][446]FBXImport: Error: Import failed. 
-[2019.01.06-10.54.12:062][446]LogSlate: Window 'Message' being destroyed
-[2019.01.06-10.54.12:065][446]LogAssetTools: Warning: Failed to import 'C:/Users/Andre/Desktop/Astartes.fbx'. Failed to create asset '/Game/3D/character/Astartes/Astartes'.
-Please see Output Log for details.
-[2019.01.06-10.54.19:186][868]LogSlate: Window 'Message Log' being destroyed
-[2019.01.06-10.54.19:190][868]LogSlate: Window 'Message Log' being destroyed
-[2019.01.06-10.56.18:146][435]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Unreal\UnrealProject\3DModel_Warhammer\Building\astartesNewMain\Astartes.fbx)
-[2019.01.06-10.56.18:191][435]LogFbx: Loading FBX Scene from D:\Unreal\UnrealProject\3DModel_Warhammer\Building\astartesNewMain\Astartes.fbx
-[2019.01.06-10.56.18:481][435]LogFbx: FBX Scene Loaded Succesfully
-[2019.01.06-10.56.22:855][435]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.01.06-10.57.11:772][710]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Unreal\UnrealProject\3DModel_Warhammer\Building\astartesNewMain\Astartes.fbx)
-[2019.01.06-10.57.11:815][710]LogFbx: Loading FBX Scene from D:\Unreal\UnrealProject\3DModel_Warhammer\Building\astartesNewMain\Astartes.fbx
-[2019.01.06-10.57.12:104][710]LogFbx: FBX Scene Loaded Succesfully
-[2019.01.06-10.57.21:821][710]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.01.06-10.57.21:878][710]LogFbx: =================================================
-[2019.01.06-10.57.21:878][710]LogFbx: Dumping Node START [main_low] 
-[2019.01.06-10.57.21:878][710]LogFbx: 	Total Deformer Count -1788942352.
-[2019.01.06-10.57.21:878][710]LogFbx: 		[Node 1] Armature (Type Skin).
-[2019.01.06-10.57.21:878][710]LogFbx: =================================================
-[2019.01.06-10.57.21:878][710]LogFbx: 	Attribute (Plane) Type (4).
-[2019.01.06-10.57.21:878][710]LogFbx: 		[Node Attribute Child 1] main_low (Type Mesh).
-[2019.01.06-10.57.21:878][710]LogFbx: Dumping Node END [main_low]
-[2019.01.06-10.57.21:878][710]LogFbx: =================================================
-[2019.01.06-10.57.21:878][710]LogFbx: Dumping Node START [main_hi] 
-[2019.01.06-10.57.21:878][710]LogFbx: 	Total Deformer Count -1788942352.
-[2019.01.06-10.57.21:878][710]LogFbx: 	Attribute (Plane.003) Type (4).
-[2019.01.06-10.57.21:878][710]LogFbx: 		[Node Attribute Child 1] main_hi (Type Mesh).
-[2019.01.06-10.57.21:878][710]LogFbx: Dumping Node END [main_hi]
-[2019.01.06-10.57.21:878][710]LogFbx: =================================================
-[2019.01.06-10.57.21:878][710]LogFbx: Dumping Node START [main.001] 
-[2019.01.06-10.57.21:878][710]LogFbx: 	Total Deformer Count -1788942352.
-[2019.01.06-10.57.21:878][710]LogFbx: 	Attribute (Plane.004) Type (4).
-[2019.01.06-10.57.21:878][710]LogFbx: 		[Node Attribute Child 1] main.001 (Type Mesh).
-[2019.01.06-10.57.21:878][710]LogFbx: Dumping Node END [main.001]
-[2019.01.06-10.57.21:878][710]LogFbx: =================================================
-[2019.01.06-10.57.21:878][710]LogFbx: Dumping Node START [bolter] 
-[2019.01.06-10.57.21:878][710]LogFbx: 	Total Deformer Count -1788942352.
-[2019.01.06-10.57.21:878][710]LogFbx: 	Attribute (Cube.000) Type (4).
-[2019.01.06-10.57.21:878][710]LogFbx: 		[Node Attribute Child 1] bolter (Type Mesh).
-[2019.01.06-10.57.21:878][710]LogFbx: Dumping Node END [bolter]
-[2019.01.06-10.57.21:880][710]LogFbx: =================================================
-[2019.01.06-10.57.21:880][710]LogFbx: Dumping Node START [main_low] 
-[2019.01.06-10.57.21:880][710]LogFbx: 	Total Deformer Count -1788938096.
-[2019.01.06-10.57.21:880][710]LogFbx: 		[Node 1] Armature (Type Skin).
-[2019.01.06-10.57.21:880][710]LogFbx: =================================================
-[2019.01.06-10.57.21:880][710]LogFbx: 	Attribute (Plane) Type (4).
-[2019.01.06-10.57.21:880][710]LogFbx: 		[Node Attribute Child 1] main_low (Type Mesh).
-[2019.01.06-10.57.21:880][710]LogFbx: Dumping Node END [main_low]
-[2019.01.06-10.57.21:880][710]LogFbx: =================================================
-[2019.01.06-10.57.21:880][710]LogFbx: Dumping Node START [main_hi] 
-[2019.01.06-10.57.21:880][710]LogFbx: 	Total Deformer Count -1788938096.
-[2019.01.06-10.57.21:880][710]LogFbx: 	Attribute (Plane.003) Type (4).
-[2019.01.06-10.57.21:880][710]LogFbx: 		[Node Attribute Child 1] main_hi (Type Mesh).
-[2019.01.06-10.57.21:880][710]LogFbx: Dumping Node END [main_hi]
-[2019.01.06-10.57.21:880][710]LogFbx: =================================================
-[2019.01.06-10.57.21:880][710]LogFbx: Dumping Node START [main.001] 
-[2019.01.06-10.57.21:880][710]LogFbx: 	Total Deformer Count -1788938096.
-[2019.01.06-10.57.21:880][710]LogFbx: 	Attribute (Plane.004) Type (4).
-[2019.01.06-10.57.21:880][710]LogFbx: 		[Node Attribute Child 1] main.001 (Type Mesh).
-[2019.01.06-10.57.21:880][710]LogFbx: Dumping Node END [main.001]
-[2019.01.06-10.57.21:880][710]LogFbx: =================================================
-[2019.01.06-10.57.21:880][710]LogFbx: Dumping Node START [bolter] 
-[2019.01.06-10.57.21:880][710]LogFbx: 	Total Deformer Count -1788938096.
-[2019.01.06-10.57.21:880][710]LogFbx: 	Attribute (Cube.000) Type (4).
-[2019.01.06-10.57.21:880][710]LogFbx: 		[Node Attribute Child 1] bolter (Type Mesh).
-[2019.01.06-10.57.21:880][710]LogFbx: Dumping Node END [bolter]
-[2019.01.06-10.57.21:881][710]LogFbx: Valid bind pose for Pose (Plane) - main_low
-[2019.01.06-10.57.21:934][710]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.01.06-10.57.21:934][710]FBXImport: Error: Multiple roots are found in the bone hierarchy. We only support single root bone. 
-[2019.01.06-10.57.21:934][710]FBXImport: Error: Multiple roots found 
-[2019.01.06-10.57.21:934][710]FBXImport: Warning: Get Import Data has failed. 
-[2019.01.06-10.57.21:935][710]FBXImport: Error: Import failed. 
-[2019.01.06-10.58.01:754][710]LogSlate: Window 'Message' being destroyed
-[2019.01.06-10.58.01:757][710]LogAssetTools: Warning: Failed to import 'D:\Unreal\UnrealProject\3DModel_Warhammer\Building\astartesNewMain\Astartes.fbx'. Failed to create asset '/Game/3D/character/Astartes/Astartes'.
-Please see Output Log for details.
-[2019.01.06-10.58.05:370][924]LogSlate: Window 'Message Log' being destroyed
-[2019.01.06-10.58.05:374][924]LogSlate: Window 'Message Log' being destroyed
+[2019.01.08-08.11.21:134][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.08-08.11.21:134][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.08-08.11.21:217][  0]LogHAL: Display: Platform has ~ 8 GB [8473120768 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.08-08.11.21:217][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.08-08.11.21:217][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.08-08.11.21:226][  0]LogInit: Computer: DESKTOP-O8P7830
+[2019.01.08-08.11.21:227][  0]LogInit: User: Andre
+[2019.01.08-08.11.21:227][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.08-08.11.21:227][  0]LogInit: High frequency timer resolution =2.533318 MHz
+[2019.01.08-08.11.21:228][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.01.08-08.11.21:228][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.08-08.11.21:228][  0]LogMemory: Process Physical Memory: 99.10 MB used, 99.10 MB peak
+[2019.01.08-08.11.21:228][  0]LogMemory: Process Virtual Memory: 92.38 MB used, 92.38 MB peak
+[2019.01.08-08.11.21:228][  0]LogMemory: Physical Memory: 6317.68 MB used,  1762.92 MB free, 8080.60 MB total
+[2019.01.08-08.11.21:228][  0]LogMemory: Virtual Memory: 4621.92 MB used,  1762.92 MB free, 134217728.00 MB total
+[2019.01.08-08.11.21:268][  0]LogInit: Using OS detected language (ru-RU).
+[2019.01.08-08.11.21:268][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.01.08-08.11.21:270][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.01.08-08.11.21:385][  0]LogStreaming: Display: Took  0.117s to InitEngineTextLocalization.
+[2019.01.08-08.11.21:385][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.08-08.11.21:445][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.08-08.11.21:445][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.08-08.11.22:249][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.08-08.11.22:416][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
+[2019.01.08-08.11.22:416][  0]LogD3D11RHI:       2007/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.08-08.11.22:428][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2019.01.08-08.11.22:428][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.08-08.11.22:434][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.08-08.11.22:434][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.08-08.11.22:434][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.08-08.11.22:518][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.08-08.11.22:518][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.08-08.11.22:518][  0]LogWindows: EnumDisplayDevices:
+[2019.01.08-08.11.22:518][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2019.01.08-08.11.22:519][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.01.08-08.11.22:520][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.01.08-08.11.22:521][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.01.08-08.11.22:521][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
+[2019.01.08-08.11.22:521][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.01.08-08.11.22:521][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.08-08.11.22:521][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2019.01.08-08.11.22:677][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.08-08.11.22:722][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.08-08.11.22:726][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../Unreal/UnrealProject/WarhammerOnline/Intermediate/Shaders/WorkingDirectory/12180/).
+[2019.01.08-08.11.22:726][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/41883EEE47F1998A645F579175D8B8A8/'.
+[2019.01.08-08.11.25:267][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.08-08.11.25:303][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.08-08.11.25:343][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.08-08.11.25:384][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.08-08.11.25:422][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.08-08.11.25:463][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.08-08.11.25:505][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.08-08.11.25:539][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.08-08.11.25:557][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:742][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:743][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.08-08.11.25:750][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.08-08.11.25:861][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.08-08.11.25:861][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.08-08.11.25:924][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.08-08.11.25:924][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.08-08.11.25:941][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.08-08.11.25:941][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.08-08.11.26:082][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.08-08.11.26:082][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.08-08.11.26:082][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.08-08.11.28:522][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.08-08.11.31:975][  0]LogDerivedDataCache: Loaded boot cache 3.33s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
+[2019.01.08-08.11.31:976][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc
+[2019.01.08-08.11.31:976][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.08-08.11.31:976][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.08-08.11.31:976][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.08-08.11.31:976][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.01.08-08.11.31:988][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.01.08-08.11.31:988][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.08-08.11.31:988][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.08-08.11.32:024][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.08-08.11.32:042][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.08-08.11.32:125][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.08-08.11.38:600][  0]LogAssetRegistry: FAssetRegistry took 0.0417 seconds to start up
+[2019.01.08-08.11.39:621][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.08-08.11.39:825][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.08-08.11.39:825][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.08-08.11.39:825][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.08-08.11.39:825][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.01.08-08.11.39:825][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.01.08-08.11.40:089][  0]LogNetVersion: WarhammerOnline 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4240001505)
+[2019.01.08-08.11.42:551][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 1.001608 seconds
+[2019.01.08-08.11.42:571][  0]LogUObjectArray: 38165 objects as part of root set at end of initial load.
+[2019.01.08-08.11.42:571][  0]LogUObjectAllocator: 6656720 out of 0 bytes used by permanent object pool.
+[2019.01.08-08.11.42:571][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.08-08.13.02:270][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.01.08-08.13.02:270][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.01.08-08.13.02:270][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.01.08-08.13.02:271][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.01.08-08.13.02:271][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.01.08-08.13.02:272][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.01.08-08.13.02:272][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.01.08-08.13.02:272][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.01.08-08.13.02:273][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.01.08-08.13.02:273][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.01.08-08.13.02:273][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.01.08-08.13.02:273][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.01.08-08.13.02:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.01.08-08.13.02:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.01.08-08.13.02:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.01.08-08.13.02:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.01.08-08.13.02:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.01.08-08.13.02:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.01.08-08.13.02:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.01.08-08.13.02:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.01.08-08.13.02:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.01.08-08.13.02:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.01.08-08.13.02:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.01.08-08.13.02:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.01.08-08.13.02:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2019.01.08-08.13.02:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2019.01.08-08.13.02:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2019.01.08-08.13.02:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2019.01.08-08.13.02:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2019.01.08-08.13.02:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2019.01.08-08.13.02:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2019.01.08-08.13.02:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2019.01.08-08.13.02:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2019.01.08-08.13.02:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2019.01.08-08.13.02:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2019.01.08-08.13.02:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2019.01.08-08.13.02:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2019.01.08-08.13.02:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2019.01.08-08.13.02:275][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2019.01.08-08.13.02:280][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.01.08-08.13.02:280][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.01.08-08.13.02:280][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:280][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:280][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:280][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:280][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.01.08-08.13.02:280][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.01.08-08.13.02:280][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:280][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:280][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:280][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:280][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2019.01.08-08.13.02:280][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2019.01.08-08.13.02:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.01.08-08.13.02:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.01.08-08.13.02:283][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:283][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:283][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:283][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:283][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2019.01.08-08.13.02:283][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2019.01.08-08.13.02:283][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:284][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:285][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:285][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:285][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2019.01.08-08.13.02:285][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2019.01.08-08.13.02:285][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:285][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:285][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:285][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:285][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2019.01.08-08.13.02:285][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2019.01.08-08.13.02:285][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:285][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:286][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:286][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:286][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2019.01.08-08.13.02:286][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2019.01.08-08.13.02:286][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:286][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:286][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:286][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:286][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2019.01.08-08.13.02:286][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2019.01.08-08.13.02:286][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:286][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:286][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:286][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:287][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2019.01.08-08.13.02:287][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2019.01.08-08.13.02:287][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:287][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:287][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:287][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:288][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2019.01.08-08.13.02:288][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2019.01.08-08.13.02:288][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:288][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.02:288][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.01.08-08.13.02:288][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png

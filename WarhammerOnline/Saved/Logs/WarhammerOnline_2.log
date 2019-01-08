@@ -1,4 +1,4 @@
-﻿Log file open, 11/24/18 02:46:45
+﻿Log file open, 01/06/19 22:22:15
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WarhammerOnline
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.400700
+LogStats: Stats thread started at 0.363299
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.122s to configure plugins.
+LogStreaming: Display: Took  0.128s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,250 +149,248 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.23-21.46.46:625][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.23-21.46.46:626][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.23-21.46.46:634][  0]LogHAL: Display: Platform has ~ 8 GB [8473120768 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.23-21.46.46:634][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.23-21.46.46:635][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.23-21.46.46:635][  0]LogInit: Computer: DESKTOP-O8P7830
-[2018.11.23-21.46.46:635][  0]LogInit: User: Andre
-[2018.11.23-21.46.46:635][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.11.23-21.46.46:635][  0]LogInit: High frequency timer resolution =2.533319 MHz
-[2018.11.23-21.46.46:636][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.11.23-21.46.46:636][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.23-21.46.46:636][  0]LogMemory: Process Physical Memory: 126.91 MB used, 126.91 MB peak
-[2018.11.23-21.46.46:636][  0]LogMemory: Process Virtual Memory: 97.93 MB used, 97.93 MB peak
-[2018.11.23-21.46.46:636][  0]LogMemory: Physical Memory: 6132.68 MB used,  1947.92 MB free, 8080.60 MB total
-[2018.11.23-21.46.46:636][  0]LogMemory: Virtual Memory: 4734.55 MB used,  1947.92 MB free, 134217728.00 MB total
-[2018.11.23-21.46.46:721][  0]LogInit: Using OS detected language (ru-RU).
-[2018.11.23-21.46.46:721][  0]LogInit: Using OS detected locale (ru-RU).
-[2018.11.23-21.46.46:722][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
-[2018.11.23-21.46.46:725][  0]LogStreaming: Display: Took  0.005s to InitEngineTextLocalization.
-[2018.11.23-21.46.46:775][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.23-21.46.46:775][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.23-21.46.46:810][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.23-21.46.46:915][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
-[2018.11.23-21.46.46:915][  0]LogD3D11RHI:       2007/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.11.23-21.46.46:925][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
-[2018.11.23-21.46.46:925][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.11.23-21.46.46:930][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.23-21.46.46:930][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.23-21.46.46:930][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.23-21.46.46:962][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.23-21.46.46:963][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.23-21.46.46:963][  0]LogWindows: EnumDisplayDevices:
-[2018.11.23-21.46.46:963][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2018.11.23-21.46.46:964][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2018.11.23-21.46.46:964][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2018.11.23-21.46.46:964][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.11.23-21.46.46:964][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
-[2018.11.23-21.46.46:964][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.11.23-21.46.46:964][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.11.23-21.46.46:964][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
-[2018.11.23-21.46.47:037][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.23-21.46.47:057][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.23-21.46.47:058][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../Unreal/UnrealProject/WarhammerOnline/Intermediate/Shaders/WorkingDirectory/6576/).
-[2018.11.23-21.46.47:058][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/2B6C08D94873A79467DEB69E46967A81/'.
-[2018.11.23-21.46.47:538][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.23-21.46.47:553][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.23-21.46.47:568][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.23-21.46.47:584][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.23-21.46.47:584][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.23-21.46.47:658][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.23-21.46.47:658][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.23-21.46.47:658][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.23-21.46.48:641][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.23-21.46.48:718][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
-[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc
-[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.23-21.46.48:719][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2018.11.23-21.46.48:732][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2018.11.23-21.46.48:732][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.23-21.46.48:732][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.23-21.46.48:762][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.23-21.46.48:765][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.23-21.46.48:767][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.23-21.46.48:823][  0]LogInit: Using OS detected language (ru-RU).
-[2018.11.23-21.46.48:823][  0]LogInit: Using OS detected locale (ru-RU).
-[2018.11.23-21.46.48:823][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
-[2018.11.23-21.46.48:823][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
-[2018.11.23-21.46.49:309][  0]LogStreaming: Display: Took  0.486s to InitGameTextLocalization.
-[2018.11.23-21.46.49:316][  0]LogAssetRegistry: FAssetRegistry took 0.0038 seconds to start up
-[2018.11.23-21.46.49:635][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.018975 seconds
-[2018.11.23-21.46.49:742][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.23-21.46.49:932][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.23-21.46.49:932][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.23-21.46.49:932][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.23-21.46.49:932][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2018.11.23-21.46.49:932][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2018.11.23-21.46.49:949][  0]LogNetVersion: WarhammerOnline 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4240001505)
-[2018.11.23-21.46.50:606][  0]LogMoviePlayer: Initializing movie player
-[2018.11.23-21.46.50:951][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.23-21.46.50:965][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.23-21.46.51:077][  0]SourceControl: Source control is disabled
-[2018.11.23-21.46.51:077][  0]SourceControl: Source control is disabled
-[2018.11.23-21.46.51:079][  0]SourceControl: Source control is disabled
-[2018.11.23-21.46.51:254][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.23-21.46.51:392][  0]LogOcInput: OculusInput pre-init called
-[2018.11.23-21.46.51:408][  0]LogUObjectArray: 42755 objects as part of root set at end of initial load.
-[2018.11.23-21.46.51:408][  0]LogUObjectAllocator: 7543088 out of 0 bytes used by permanent object pool.
-[2018.11.23-21.46.51:408][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.23-21.46.51:503][  0]LogEngine: Initializing Engine...
-[2018.11.23-21.46.51:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.23-21.46.51:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.23-21.46.51:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.23-21.46.51:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.23-21.46.51:846][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.23-21.46.51:872][  0]LogInit: XAudio2 using 'Наушники (2- Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.23-21.46.51:890][  0]LogInit: FAudioDevice initialized.
-[2018.11.23-21.46.51:902][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.23-21.46.51:902][  0]LogInit: Texture streaming: Enabled
-[2018.11.23-21.46.52:158][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.23-21.46.52:159][  0]LogInit: Display: Game Engine Initialized.
-[2018.11.23-21.46.52:159][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.23-21.46.52:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.23-21.46.52:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.23-21.46.52:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.23-21.46.52:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.23-21.46.52:182][  0]LogInit: Display: Starting Game.
-[2018.11.23-21.46.52:182][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
-[2018.11.23-21.46.52:182][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
-[2018.11.23-21.46.52:508][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.11.23-21.46.52:508][  0]LogLoad: Game class is 'GameModeBase'
-[2018.11.23-21.46.52:509][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2018.11.24-02.46.52
-[2018.11.23-21.46.52:510][  0]LogWorld: Bringing up level for play took: 0.000725
-[2018.11.23-21.46.52:511][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.11.23-21.46.52:518][  0]LogLoad: Took 0.335778 seconds to LoadMap(/Game/Maps/MainMenu)
-[2018.11.23-21.46.52:594][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2018.11.23-21.46.52:594][  0]LogLoad: (Engine Initialization) Total time: 8.60 seconds
-[2018.11.23-21.46.52:594][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.23-21.46.52:612][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.23-21.46.52:615][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.23-21.46.54:920][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.23-21.46.55:035][133]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.23-21.46.57:729][301]LogOnline: Warning: STEAM: Empty session setting PASSWORD  : OnlineService of type String
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: dumping NamedSession: 
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	SessionName: GameSession
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	HostingPlayerNum: 0
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	SessionState: Pending
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	RegisteredPlayers: 
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	    0 registered players
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: dumping Session: 
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	OwningPlayerName: ???????????????????? ??????????
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	OwningPlayerId: Безмозглый Билли [0x11000010713DAC9]
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	NumOpenPrivateConnections: 0
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	NumOpenPublicConnections: 1
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	SessionInfo: HostIP: INVALID SteamP2P: 76561198079007433:7777 Type: Lobby session SessionId: Lobby [0x186000001D2A031]
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: dumping SessionSettings: 
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	NumPublicConnections: 2
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	NumPrivateConnections: 0
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bIsLanMatch: false
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bIsDedicated: false
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bUsesStats: false
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bShouldAdvertise: true
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bAllowJoinInProgress: true
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bAllowInvites: true
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bUsesPresence: true
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresence: true
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresenceFriendsOnly: false
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	BuildUniqueId: 0x00000000
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 	Settings:
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		NAME=asdad : OnlineService
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		MAP=Map1 : OnlineService
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		MODE=DeathMatch : OnlineService
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		LAN=false : OnlineService
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		ISPASSWORD=false : OnlineService
-[2018.11.23-21.46.57:750][301]LogOnlineSession: Verbose: OSS: 		PASSWORD= : OnlineService
-[2018.11.23-21.46.57:836][301]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Lobby.umap.
-[2018.11.23-21.46.57:915][301]LogPackageName: SearchForPackageOnDisk took   0.078s to resolve Lobby.umap.
-[2018.11.23-21.46.57:915][301]LogNet: Browse: /Game/Maps/Lobby?listen
-[2018.11.23-21.46.57:915][301]LogLoad: LoadMap: /Game/Maps/Lobby?listen
-[2018.11.23-21.46.58:471][301]LogAIModule: Creating AISystem for world Lobby
-[2018.11.23-21.46.58:472][301]LogLoad: Game class is 'GameModeLobby_C'
-[2018.11.23-21.46.58:472][301]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.11.23-21.46.58:472][301]LogTemp: Display: ParseSettings for SteamNetDriver_0
-[2018.11.23-21.46.58:472][301]LogTemp: Display: ParseSettings for GameNetDriver
-[2018.11.23-21.46.58:473][301]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2018.11.23-21.46.58:473][301]LogNet: Display: SteamNetDriver_0 bound to port 7777
-[2018.11.23-21.46.58:473][301]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.11.23-21.46.58:473][301]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
-[2018.11.23-21.46.58:477][301]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2018.11.24-02.46.58
-[2018.11.23-21.46.58:477][301]LogWorld: Bringing up level for play took: 0.003157
-[2018.11.23-21.46.58:479][301]LogScript: Warning: Accessed None trying to read property Lobby
+[2019.01.06-17.22.17:061][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.06-17.22.17:061][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.06-17.22.17:091][  0]LogHAL: Display: Platform has ~ 8 GB [8473120768 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.06-17.22.17:091][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.06-17.22.17:091][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.06-17.22.17:091][  0]LogInit: Computer: DESKTOP-O8P7830
+[2019.01.06-17.22.17:092][  0]LogInit: User: Andre
+[2019.01.06-17.22.17:092][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.06-17.22.17:092][  0]LogInit: High frequency timer resolution =2.533314 MHz
+[2019.01.06-17.22.17:092][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.01.06-17.22.17:092][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.06-17.22.17:092][  0]LogMemory: Process Physical Memory: 126.12 MB used, 126.12 MB peak
+[2019.01.06-17.22.17:092][  0]LogMemory: Process Virtual Memory: 97.36 MB used, 97.36 MB peak
+[2019.01.06-17.22.17:092][  0]LogMemory: Physical Memory: 6493.48 MB used,  1587.11 MB free, 8080.60 MB total
+[2019.01.06-17.22.17:092][  0]LogMemory: Virtual Memory: 4728.50 MB used,  1587.11 MB free, 134217728.00 MB total
+[2019.01.06-17.22.17:196][  0]LogInit: Using OS detected language (ru-RU).
+[2019.01.06-17.22.17:196][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.01.06-17.22.17:197][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.01.06-17.22.17:212][  0]LogStreaming: Display: Took  0.016s to InitEngineTextLocalization.
+[2019.01.06-17.22.17:272][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.06-17.22.17:272][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.06-17.22.17:336][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.06-17.22.17:502][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
+[2019.01.06-17.22.17:502][  0]LogD3D11RHI:       2007/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.06-17.22.17:513][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2019.01.06-17.22.17:513][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.06-17.22.17:519][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.06-17.22.17:519][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.06-17.22.17:519][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.06-17.22.17:578][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.06-17.22.17:579][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.06-17.22.17:579][  0]LogWindows: EnumDisplayDevices:
+[2019.01.06-17.22.17:579][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2019.01.06-17.22.17:580][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.01.06-17.22.17:580][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.01.06-17.22.17:581][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.01.06-17.22.17:581][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
+[2019.01.06-17.22.17:581][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.01.06-17.22.17:581][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.06-17.22.17:581][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2019.01.06-17.22.17:692][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.06-17.22.17:715][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.06-17.22.17:717][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../Unreal/UnrealProject/WarhammerOnline/Intermediate/Shaders/WorkingDirectory/4648/).
+[2019.01.06-17.22.17:717][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/AA0A20944CE1ABFD9CE3718C335E2C61/'.
+[2019.01.06-17.22.18:406][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.06-17.22.18:425][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.06-17.22.18:441][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.06-17.22.18:462][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.06-17.22.18:462][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.06-17.22.18:559][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.06-17.22.18:560][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.06-17.22.18:560][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.06-17.22.19:717][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.06-17.22.19:841][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
+[2019.01.06-17.22.19:842][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc
+[2019.01.06-17.22.19:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.06-17.22.19:843][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.06-17.22.19:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.06-17.22.19:843][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.01.06-17.22.19:855][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.01.06-17.22.19:855][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.06-17.22.19:855][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.06-17.22.19:885][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.06-17.22.19:887][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.06-17.22.19:911][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.06-17.22.22:628][  0]LogInit: Using OS detected language (ru-RU).
+[2019.01.06-17.22.22:628][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.01.06-17.22.22:628][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2019.01.06-17.22.22:629][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2019.01.06-17.22.23:195][  0]LogStreaming: Display: Took  0.567s to InitGameTextLocalization.
+[2019.01.06-17.22.23:205][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2019.01.06-17.22.23:559][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.017156 seconds
+[2019.01.06-17.22.23:691][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.06-17.22.23:911][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.06-17.22.23:911][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.06-17.22.23:911][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.06-17.22.23:911][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.01.06-17.22.23:911][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.01.06-17.22.23:934][  0]LogNetVersion: WarhammerOnline 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4240001505)
+[2019.01.06-17.22.24:915][  0]LogMoviePlayer: Initializing movie player
+[2019.01.06-17.22.25:337][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.06-17.22.25:352][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.06-17.22.25:479][  0]SourceControl: Source control is disabled
+[2019.01.06-17.22.25:479][  0]SourceControl: Source control is disabled
+[2019.01.06-17.22.25:482][  0]SourceControl: Source control is disabled
+[2019.01.06-17.22.25:686][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.06-17.22.25:880][  0]LogOcInput: OculusInput pre-init called
+[2019.01.06-17.22.25:901][  0]LogUObjectArray: 42755 objects as part of root set at end of initial load.
+[2019.01.06-17.22.25:901][  0]LogUObjectAllocator: 7543088 out of 0 bytes used by permanent object pool.
+[2019.01.06-17.22.25:901][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.06-17.22.26:062][  0]LogEngine: Initializing Engine...
+[2019.01.06-17.22.26:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.06-17.22.26:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.06-17.22.26:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.06-17.22.26:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.06-17.22.26:410][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.06-17.22.26:446][  0]LogInit: XAudio2 using 'Динамики (2- Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.06-17.22.26:478][  0]LogInit: FAudioDevice initialized.
+[2019.01.06-17.22.26:490][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.06-17.22.26:491][  0]LogInit: Texture streaming: Enabled
+[2019.01.06-17.22.27:620][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-17.22.27:621][  0]LogInit: Display: Game Engine Initialized.
+[2019.01.06-17.22.27:621][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.06-17.22.27:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.06-17.22.27:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.06-17.22.27:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.06-17.22.27:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.06-17.22.27:707][  0]LogInit: Display: Starting Game.
+[2019.01.06-17.22.27:707][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
+[2019.01.06-17.22.27:707][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
+[2019.01.06-17.22.28:186][  0]LogAIModule: Creating AISystem for world MainMenu
+[2019.01.06-17.22.28:186][  0]LogLoad: Game class is 'GameModeBase'
+[2019.01.06-17.22.28:188][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2019.01.06-22.22.28
+[2019.01.06-17.22.28:188][  0]LogWorld: Bringing up level for play took: 0.000795
+[2019.01.06-17.22.28:189][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.06-17.22.28:200][  0]LogLoad: Took 0.492464 seconds to LoadMap(/Game/Maps/MainMenu)
+[2019.01.06-17.22.28:326][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.01.06-17.22.28:326][  0]LogLoad: (Engine Initialization) Total time: 14.38 seconds
+[2019.01.06-17.22.28:326][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.06-17.22.28:344][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.06-17.22.28:348][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.06-17.22.31:816][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.06-17.22.32:594][243]LogSlate: Took 0.000729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.06-17.22.35:142][402]LogOnline: Warning: STEAM: Empty session setting PASSWORD  : OnlineService of type String
+[2019.01.06-17.22.35:165][402]LogOnlineSession: Verbose: OSS: dumping NamedSession: 
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	SessionName: GameSession
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	HostingPlayerNum: 0
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	SessionState: Pending
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	RegisteredPlayers: 
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	    0 registered players
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: dumping Session: 
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	OwningPlayerName: ???????????????????? ??????????
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	OwningPlayerId: Безмозглый Билли [0x11000010713DAC9]
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	NumOpenPrivateConnections: 0
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	NumOpenPublicConnections: 1
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	SessionInfo: HostIP: INVALID SteamP2P: 76561198079007433:7777 Type: Lobby session SessionId: Lobby [0x1860000018E8BC8]
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: dumping SessionSettings: 
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	NumPublicConnections: 2
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	NumPrivateConnections: 0
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	bIsLanMatch: false
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	bIsDedicated: false
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	bUsesStats: false
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	bShouldAdvertise: true
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	bAllowJoinInProgress: true
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	bAllowInvites: true
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	bUsesPresence: true
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresence: true
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresenceFriendsOnly: false
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	BuildUniqueId: 0x00000000
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 	Settings:
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 		NAME=фывыф : OnlineService
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 		MAP=Map1 : OnlineService
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 		MODE=DeathMatch : OnlineService
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 		LAN=false : OnlineService
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 		ISPASSWORD=false : OnlineService
+[2019.01.06-17.22.35:166][402]LogOnlineSession: Verbose: OSS: 		PASSWORD= : OnlineService
+[2019.01.06-17.22.35:307][402]LogPackageName: SearchForPackageOnDisk took   0.140s to resolve Lobby.umap.
+[2019.01.06-17.22.35:435][402]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Lobby.umap.
+[2019.01.06-17.22.35:435][402]LogNet: Browse: /Game/Maps/Lobby?listen
+[2019.01.06-17.22.35:435][402]LogLoad: LoadMap: /Game/Maps/Lobby?listen
+[2019.01.06-17.22.36:292][402]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Arrow' for 'Astartes' in BlueprintGeneratedClass 'Character_Astartes_C' (it may have been removed)
+[2019.01.06-17.22.36:344][402]LogAIModule: Creating AISystem for world Lobby
+[2019.01.06-17.22.36:345][402]LogLoad: Game class is 'GameModeLobby_C'
+[2019.01.06-17.22.36:345][402]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.01.06-17.22.36:345][402]LogTemp: Display: ParseSettings for SteamNetDriver_0
+[2019.01.06-17.22.36:345][402]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.01.06-17.22.36:346][402]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.01.06-17.22.36:346][402]LogNet: Display: SteamNetDriver_0 bound to port 7777
+[2019.01.06-17.22.36:346][402]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.01.06-17.22.36:346][402]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2019.01.06-17.22.36:350][402]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2019.01.06-22.22.36
+[2019.01.06-17.22.36:350][402]LogWorld: Bringing up level for play took: 0.002903
+[2019.01.06-17.22.36:356][402]LogBlueprintUserMessages: [Character_Astartes_C_0] i am born
+[2019.01.06-17.22.36:358][402]LogLoad: Took 0.922541 seconds to LoadMap(/Game/Maps/Lobby)
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Accessed None trying to read property Game_UI_WB
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:112B
-[2018.11.23-21.46.58:479][301]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1C9E
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Player_List
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Set_Server_Data
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Accessed None trying to read property Lobby
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Accessed None
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:10E2
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1CB3
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Player
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Set_Server_Data
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Accessed None trying to read property Lobby
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Accessed None trying to read property Game_UI_WB
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1298
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1AEF
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Score_Board
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Attempted to assign to None
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Accessed None
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:12AD
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1B04
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Script call stack:
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Server
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Update_Numbers_Of_Players
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Clear_Score_Board
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Accessed None trying to read property Lobby
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Accessed None trying to read property Game_UI_WB
+	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1B2A
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Player_To_Score_Board
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Accessed None
+	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1B3F
+[2019.01.06-17.22.36:807][417]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Update_Score_Board
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Player_To_Score_Board
+	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+
+[2019.01.06-17.23.33:243][910]LogSlate: Window 'WarhammerOnline (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.01.06-17.23.33:244][910]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.06-17.23.33:246][910]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.06-17.23.33:248][910]LogScript: Warning: Accessed None trying to read property Lobby
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:1757
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Set_Up_Fnished
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Continue
+[2019.01.06-17.23.33:248][910]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_OnLogout
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Send_Server_Mesage
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
@@ -401,19 +399,11 @@ LogInit: Object subsystem initialized
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Mesage_To_Chat
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Accessed None
+[2019.01.06-17.23.33:248][910]LogScript: Warning: Accessed None
 	LobbyPlayerController_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyPlayerController_C_0
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController:176C
-[2018.11.23-21.46.58:480][301]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_PostLogin
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Player_Data_Setup_On_Server
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Set_Up_Fnished
-	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
-	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Continue
+[2019.01.06-17.23.33:248][910]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:K2_OnLogout
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:Send_Server_Mesage
 	Function /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby_C:ExecuteUbergraph_GameModeLobby
@@ -422,346 +412,205 @@ LogInit: Object subsystem initialized
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:Add_Mesage_To_Chat
 	Function /Game/Blueprints/game_modes/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
 
-[2018.11.23-21.46.58:486][301]LogLoad: Took 0.570893 seconds to LoadMap(/Game/Maps/Lobby)
-[2018.11.23-21.46.59:966][374]LogGameMode: ProcessServerTravel: /Game/Maps/Map1
-[2018.11.23-21.46.59:966][374]LogWorld: SeamlessTravel to: /Game/Maps/Map1
-[2018.11.23-21.47.00:018][375]LogAIModule: Creating AISystem for world TransitionMap
-[2018.11.23-21.47.00:019][375]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
-[2018.11.23-21.47.00:020][375]LogWorld: Bringing World /Game/Maps/TransitionMap.TransitionMap up for play (max tick rate 0) at 2018.11.24-02.47.00
-[2018.11.23-21.47.00:020][375]LogWorld: Bringing up level for play took: 0.000600
-[2018.11.23-21.47.00:020][375]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
-[2018.11.23-21.47.00:020][375]LogNet: Verbose: NotifyLoadedWorld Begin
-[2018.11.23-21.47.00:020][375]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2018.11.23-21.47.00:020][375]LogNet: Verbose: NotifyLoadedWorld End
-[2018.11.23-21.47.00:020][375]LogWorld: StartLoadingDestination to: /Game/Maps/Map1
-[2018.11.23-21.47.00:368][384]LogAIModule: Creating AISystem for world map1
-[2018.11.23-21.47.00:368][384]LogLoad: Game class is 'GameModeLobby_C'
-[2018.11.23-21.47.00:369][384]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
-[2018.11.23-21.47.00:371][384]LogWorld: Bringing World /Game/Maps/Map1.map1 up for play (max tick rate 0) at 2018.11.24-02.47.00
-[2018.11.23-21.47.00:473][384]LogWorld: Bringing up level for play took: 0.104053
-[2018.11.23-21.47.00:473][384]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
-[2018.11.23-21.47.00:473][384]LogNet: Verbose: NotifyLoadedWorld Begin
-[2018.11.23-21.47.00:473][384]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2018.11.23-21.47.00:473][384]LogNet: Verbose: NotifyLoadedWorld End
-[2018.11.23-21.47.00:473][384]LogWorld: ----SeamlessTravel finished in 0.51 seconds ------
-[2018.11.23-21.47.00:475][384]LogBlueprintUserMessages: [LobbyPlayerController_C_1] game mode1
-[2018.11.23-21.47.00:478][384]LogBlueprintUserMessages: [map1_C_2] 0 spawn
-[2018.11.23-21.47.00:478][384]LogBlueprintUserMessages: [map1_C_2] 1 spawn
-[2018.11.23-21.47.00:479][384]LogBlueprintUserMessages: [map1_C_2] 2 spawn
-[2018.11.23-21.47.00:479][384]LogBlueprintUserMessages: [map1_C_2] 3 spawn
-[2018.11.23-21.47.00:479][384]LogBlueprintUserMessages: [map1_C_2] 4 spawn
-[2018.11.23-21.47.00:480][384]LogBlueprintUserMessages: [map1_C_2] 5 spawn
-[2018.11.23-21.47.00:480][384]LogBlueprintUserMessages: [map1_C_2] 6 spawn
-[2018.11.23-21.47.00:480][384]LogBlueprintUserMessages: [map1_C_2] 7 spawn
-[2018.11.23-21.47.00:480][384]LogBlueprintUserMessages: [map1_C_2] 8 spawn
-[2018.11.23-21.47.00:481][384]LogBlueprintUserMessages: [map1_C_2] 9 spawn
-[2018.11.23-21.47.00:481][384]LogBlueprintUserMessages: [map1_C_2] 10 spawn
-[2018.11.23-21.47.00:481][384]LogBlueprintUserMessages: [map1_C_2] 11 spawn
-[2018.11.23-21.47.00:482][384]LogBlueprintUserMessages: [map1_C_2] 12 spawn
-[2018.11.23-21.47.00:482][384]LogBlueprintUserMessages: [map1_C_2] 13 spawn
-[2018.11.23-21.47.00:482][384]LogBlueprintUserMessages: [map1_C_2] 14 spawn
-[2018.11.23-21.47.00:482][384]LogBlueprintUserMessages: [map1_C_2] 15 spawn
-[2018.11.23-21.47.00:483][384]LogBlueprintUserMessages: [map1_C_2] 16 spawn
-[2018.11.23-21.47.00:483][384]LogBlueprintUserMessages: [map1_C_2] 17 spawn
-[2018.11.23-21.47.00:483][384]LogBlueprintUserMessages: [map1_C_2] 18 spawn
-[2018.11.23-21.47.00:484][384]LogBlueprintUserMessages: [map1_C_2] 19 spawn
-[2018.11.23-21.47.00:484][384]LogBlueprintUserMessages: [map1_C_2] 20 spawn
-[2018.11.23-21.47.00:484][384]LogBlueprintUserMessages: [map1_C_2] 21 spawn
-[2018.11.23-21.47.00:485][384]LogBlueprintUserMessages: [map1_C_2] 22 spawn
-[2018.11.23-21.47.00:485][384]LogBlueprintUserMessages: [map1_C_2] 23 spawn
-[2018.11.23-21.47.00:485][384]LogBlueprintUserMessages: [map1_C_2] 24 spawn
-[2018.11.23-21.47.00:486][384]LogBlueprintUserMessages: [map1_C_2] 25 spawn
-[2018.11.23-21.47.00:486][384]LogBlueprintUserMessages: [map1_C_2] 26 spawn
-[2018.11.23-21.47.00:487][384]LogBlueprintUserMessages: [map1_C_2] 27 spawn
-[2018.11.23-21.47.00:487][384]LogBlueprintUserMessages: [map1_C_2] 28 spawn
-[2018.11.23-21.47.00:487][384]LogBlueprintUserMessages: [map1_C_2] 29 spawn
-[2018.11.23-21.47.00:488][384]LogBlueprintUserMessages: [map1_C_2] 30 spawn
-[2018.11.23-21.47.00:488][384]LogBlueprintUserMessages: [map1_C_2] 31 spawn
-[2018.11.23-21.47.00:488][384]LogBlueprintUserMessages: [map1_C_2] 32 spawn
-[2018.11.23-21.47.00:489][384]LogBlueprintUserMessages: [map1_C_2] 33 spawn
-[2018.11.23-21.47.00:489][384]LogBlueprintUserMessages: [map1_C_2] 34 spawn
-[2018.11.23-21.47.00:489][384]LogBlueprintUserMessages: [map1_C_2] 35 spawn
-[2018.11.23-21.47.00:489][384]LogBlueprintUserMessages: [map1_C_2] 36 spawn
-[2018.11.23-21.47.00:490][384]LogBlueprintUserMessages: [map1_C_2] 37 spawn
-[2018.11.23-21.47.00:490][384]LogBlueprintUserMessages: [map1_C_2] 38 spawn
-[2018.11.23-21.47.00:490][384]LogBlueprintUserMessages: [map1_C_2] 39 spawn
-[2018.11.23-21.47.00:491][384]LogBlueprintUserMessages: [map1_C_2] 40 spawn
-[2018.11.23-21.47.00:491][384]LogBlueprintUserMessages: [map1_C_2] 41 spawn
-[2018.11.23-21.47.00:492][384]LogBlueprintUserMessages: [map1_C_2] 42 spawn
-[2018.11.23-21.47.00:492][384]LogBlueprintUserMessages: [map1_C_2] 43 spawn
-[2018.11.23-21.47.00:493][384]LogBlueprintUserMessages: [map1_C_2] 44 spawn
-[2018.11.23-21.47.00:493][384]LogBlueprintUserMessages: [map1_C_2] 45 spawn
-[2018.11.23-21.47.00:493][384]LogBlueprintUserMessages: [map1_C_2] 46 spawn
-[2018.11.23-21.47.00:494][384]LogBlueprintUserMessages: [map1_C_2] 47 spawn
-[2018.11.23-21.47.00:494][384]LogBlueprintUserMessages: [map1_C_2] 48 spawn
-[2018.11.23-21.47.00:494][384]LogBlueprintUserMessages: [map1_C_2] 49 spawn
-[2018.11.23-21.47.00:495][384]LogBlueprintUserMessages: [map1_C_2] 50 spawn
-[2018.11.23-21.47.00:495][384]LogBlueprintUserMessages: [map1_C_2] 51 spawn
-[2018.11.23-21.47.00:495][384]LogBlueprintUserMessages: [map1_C_2] 52 spawn
-[2018.11.23-21.47.00:496][384]LogBlueprintUserMessages: [map1_C_2] 53 spawn
-[2018.11.23-21.47.00:496][384]LogBlueprintUserMessages: [map1_C_2] 54 spawn
-[2018.11.23-21.47.00:496][384]LogBlueprintUserMessages: [map1_C_2] 55 spawn
-[2018.11.23-21.47.00:497][384]LogBlueprintUserMessages: [map1_C_2] 56 spawn
-[2018.11.23-21.47.00:497][384]LogBlueprintUserMessages: [map1_C_2] 57 spawn
-[2018.11.23-21.47.00:497][384]LogBlueprintUserMessages: [map1_C_2] 58 spawn
-[2018.11.23-21.47.00:498][384]LogBlueprintUserMessages: [map1_C_2] 59 spawn
-[2018.11.23-21.47.00:498][384]LogBlueprintUserMessages: [map1_C_2] 60 spawn
-[2018.11.23-21.47.00:499][384]LogBlueprintUserMessages: [map1_C_2] 61 spawn
-[2018.11.23-21.47.00:499][384]LogBlueprintUserMessages: [map1_C_2] 62 spawn
-[2018.11.23-21.47.00:499][384]LogBlueprintUserMessages: [map1_C_2] 63 spawn
-[2018.11.23-21.47.00:500][384]LogBlueprintUserMessages: [map1_C_2] 64 spawn
-[2018.11.23-21.47.00:500][384]LogBlueprintUserMessages: [map1_C_2] 65 spawn
-[2018.11.23-21.47.00:501][384]LogBlueprintUserMessages: [map1_C_2] 66 spawn
-[2018.11.23-21.47.00:501][384]LogBlueprintUserMessages: [map1_C_2] 67 spawn
-[2018.11.23-21.47.00:501][384]LogBlueprintUserMessages: [map1_C_2] 68 spawn
-[2018.11.23-21.47.00:502][384]LogBlueprintUserMessages: [map1_C_2] 69 spawn
-[2018.11.23-21.47.00:502][384]LogBlueprintUserMessages: [map1_C_2] 70 spawn
-[2018.11.23-21.47.00:503][384]LogBlueprintUserMessages: [map1_C_2] 71 spawn
-[2018.11.23-21.47.00:503][384]LogBlueprintUserMessages: [map1_C_2] 72 spawn
-[2018.11.23-21.47.00:503][384]LogBlueprintUserMessages: [map1_C_2] 73 spawn
-[2018.11.23-21.47.00:504][384]LogBlueprintUserMessages: [map1_C_2] 74 spawn
-[2018.11.23-21.47.00:504][384]LogBlueprintUserMessages: [map1_C_2] 75 spawn
-[2018.11.23-21.47.00:505][384]LogBlueprintUserMessages: [map1_C_2] 76 spawn
-[2018.11.23-21.47.00:505][384]LogBlueprintUserMessages: [map1_C_2] 77 spawn
-[2018.11.23-21.47.00:505][384]LogBlueprintUserMessages: [map1_C_2] 78 spawn
-[2018.11.23-21.47.00:506][384]LogBlueprintUserMessages: [map1_C_2] 79 spawn
-[2018.11.23-21.47.00:506][384]LogBlueprintUserMessages: [map1_C_2] 80 spawn
-[2018.11.23-21.47.00:507][384]LogBlueprintUserMessages: [map1_C_2] 81 spawn
-[2018.11.23-21.47.00:507][384]LogBlueprintUserMessages: [map1_C_2] 82 spawn
-[2018.11.23-21.47.00:508][384]LogBlueprintUserMessages: [map1_C_2] 83 spawn
-[2018.11.23-21.47.00:508][384]LogBlueprintUserMessages: [map1_C_2] 84 spawn
-[2018.11.23-21.47.00:509][384]LogBlueprintUserMessages: [map1_C_2] 85 spawn
-[2018.11.23-21.47.00:509][384]LogBlueprintUserMessages: [map1_C_2] 86 spawn
-[2018.11.23-21.47.00:510][384]LogBlueprintUserMessages: [map1_C_2] 87 spawn
-[2018.11.23-21.47.00:510][384]LogBlueprintUserMessages: [map1_C_2] 88 spawn
-[2018.11.23-21.47.00:511][384]LogBlueprintUserMessages: [map1_C_2] 89 spawn
-[2018.11.23-21.47.00:511][384]LogBlueprintUserMessages: [map1_C_2] 90 spawn
-[2018.11.23-21.47.00:512][384]LogBlueprintUserMessages: [map1_C_2] 91 spawn
-[2018.11.23-21.47.00:512][384]LogBlueprintUserMessages: [map1_C_2] 92 spawn
-[2018.11.23-21.47.00:512][384]LogBlueprintUserMessages: [map1_C_2] 93 spawn
-[2018.11.23-21.47.00:513][384]LogBlueprintUserMessages: [map1_C_2] 94 spawn
-[2018.11.23-21.47.00:513][384]LogBlueprintUserMessages: [map1_C_2] 95 spawn
-[2018.11.23-21.47.00:513][384]LogBlueprintUserMessages: [map1_C_2] 96 spawn
-[2018.11.23-21.47.00:514][384]LogBlueprintUserMessages: [map1_C_2] 97 spawn
-[2018.11.23-21.47.00:514][384]LogBlueprintUserMessages: [map1_C_2] 98 spawn
-[2018.11.23-21.47.00:514][384]LogBlueprintUserMessages: [map1_C_2] 99 spawn
-[2018.11.23-21.47.00:515][384]LogBlueprintUserMessages: [map1_C_2] 100 spawn
-[2018.11.23-21.47.00:515][384]LogBlueprintUserMessages: [map1_C_2] 101 spawn
-[2018.11.23-21.47.00:517][384]LogBlueprintUserMessages: [map1_C_2] 102 spawn
-[2018.11.23-21.47.00:518][384]LogBlueprintUserMessages: [map1_C_2] 103 spawn
-[2018.11.23-21.47.00:519][384]LogBlueprintUserMessages: [map1_C_2] 104 spawn
-[2018.11.23-21.47.00:519][384]LogBlueprintUserMessages: [map1_C_2] 105 spawn
-[2018.11.23-21.47.00:519][384]LogBlueprintUserMessages: [map1_C_2] 106 spawn
-[2018.11.23-21.47.00:520][384]LogBlueprintUserMessages: [map1_C_2] 107 spawn
-[2018.11.23-21.47.00:520][384]LogBlueprintUserMessages: [map1_C_2] 108 spawn
-[2018.11.23-21.47.00:520][384]LogBlueprintUserMessages: [map1_C_2] 109 spawn
-[2018.11.23-21.47.00:521][384]LogBlueprintUserMessages: [map1_C_2] 110 spawn
-[2018.11.23-21.47.00:521][384]LogBlueprintUserMessages: [map1_C_2] 111 spawn
-[2018.11.23-21.47.00:521][384]LogBlueprintUserMessages: [map1_C_2] 112 spawn
-[2018.11.23-21.47.00:522][384]LogBlueprintUserMessages: [map1_C_2] 113 spawn
-[2018.11.23-21.47.00:522][384]LogBlueprintUserMessages: [map1_C_2] 114 spawn
-[2018.11.23-21.47.00:523][384]LogBlueprintUserMessages: [map1_C_2] 115 spawn
-[2018.11.23-21.47.00:523][384]LogBlueprintUserMessages: [map1_C_2] 116 spawn
-[2018.11.23-21.47.00:523][384]LogBlueprintUserMessages: [map1_C_2] 117 spawn
-[2018.11.23-21.47.00:524][384]LogBlueprintUserMessages: [map1_C_2] 118 spawn
-[2018.11.23-21.47.00:524][384]LogBlueprintUserMessages: [map1_C_2] 119 spawn
-[2018.11.23-21.47.00:525][384]LogBlueprintUserMessages: [map1_C_2] 120 spawn
-[2018.11.23-21.47.00:525][384]LogBlueprintUserMessages: [map1_C_2] 121 spawn
-[2018.11.23-21.47.00:525][384]LogBlueprintUserMessages: [map1_C_2] 122 spawn
-[2018.11.23-21.47.00:526][384]LogBlueprintUserMessages: [map1_C_2] 123 spawn
-[2018.11.23-21.47.00:526][384]LogBlueprintUserMessages: [map1_C_2] 124 spawn
-[2018.11.23-21.47.00:526][384]LogBlueprintUserMessages: [map1_C_2] 125 spawn
-[2018.11.23-21.47.00:526][384]LogBlueprintUserMessages: [map1_C_2] 126 spawn
-[2018.11.23-21.47.00:527][384]LogBlueprintUserMessages: [map1_C_2] 127 spawn
-[2018.11.23-21.47.00:527][384]LogBlueprintUserMessages: [map1_C_2] 128 spawn
-[2018.11.23-21.47.00:528][384]LogBlueprintUserMessages: [map1_C_2] 129 spawn
-[2018.11.23-21.47.00:529][384]LogBlueprintUserMessages: [map1_C_2] 130 spawn
-[2018.11.23-21.47.00:530][384]LogBlueprintUserMessages: [map1_C_2] 131 spawn
-[2018.11.23-21.47.00:530][384]LogBlueprintUserMessages: [map1_C_2] 132 spawn
-[2018.11.23-21.47.00:530][384]LogBlueprintUserMessages: [map1_C_2] 133 spawn
-[2018.11.23-21.47.00:531][384]LogBlueprintUserMessages: [map1_C_2] 134 spawn
-[2018.11.23-21.47.00:531][384]LogBlueprintUserMessages: [map1_C_2] 135 spawn
-[2018.11.23-21.47.00:531][384]LogBlueprintUserMessages: [map1_C_2] 136 spawn
-[2018.11.23-21.47.00:531][384]LogBlueprintUserMessages: [map1_C_2] 137 spawn
-[2018.11.23-21.47.00:532][384]LogBlueprintUserMessages: [map1_C_2] 138 spawn
-[2018.11.23-21.47.00:532][384]LogBlueprintUserMessages: [map1_C_2] 139 spawn
-[2018.11.23-21.47.00:532][384]LogBlueprintUserMessages: [map1_C_2] 140 spawn
-[2018.11.23-21.47.00:533][384]LogBlueprintUserMessages: [map1_C_2] 141 spawn
-[2018.11.23-21.47.00:533][384]LogBlueprintUserMessages: [map1_C_2] 142 spawn
-[2018.11.23-21.47.00:533][384]LogBlueprintUserMessages: [map1_C_2] 143 spawn
-[2018.11.23-21.47.00:533][384]LogBlueprintUserMessages: [map1_C_2] 144 spawn
-[2018.11.23-21.47.00:534][384]LogBlueprintUserMessages: [map1_C_2] 145 spawn
-[2018.11.23-21.47.00:534][384]LogBlueprintUserMessages: [map1_C_2] 146 spawn
-[2018.11.23-21.47.00:534][384]LogBlueprintUserMessages: [map1_C_2] 147 spawn
-[2018.11.23-21.47.00:535][384]LogBlueprintUserMessages: [map1_C_2] 148 spawn
-[2018.11.23-21.47.00:535][384]LogBlueprintUserMessages: [map1_C_2] 149 spawn
-[2018.11.23-21.47.00:535][384]LogBlueprintUserMessages: [map1_C_2] 150 spawn
-[2018.11.23-21.47.00:535][384]LogBlueprintUserMessages: [map1_C_2] 151 spawn
-[2018.11.23-21.47.00:536][384]LogBlueprintUserMessages: [map1_C_2] 152 spawn
-[2018.11.23-21.47.00:536][384]LogBlueprintUserMessages: [map1_C_2] 153 spawn
-[2018.11.23-21.47.00:536][384]LogBlueprintUserMessages: [map1_C_2] 154 spawn
-[2018.11.23-21.47.00:537][384]LogBlueprintUserMessages: [map1_C_2] 155 spawn
-[2018.11.23-21.47.00:537][384]LogBlueprintUserMessages: [map1_C_2] 156 spawn
-[2018.11.23-21.47.00:537][384]LogBlueprintUserMessages: [map1_C_2] 157 spawn
-[2018.11.23-21.47.00:538][384]LogBlueprintUserMessages: [map1_C_2] 158 spawn
-[2018.11.23-21.47.00:538][384]LogBlueprintUserMessages: [map1_C_2] 159 spawn
-[2018.11.23-21.47.00:539][384]LogBlueprintUserMessages: [map1_C_2] 160 spawn
-[2018.11.23-21.47.00:539][384]LogBlueprintUserMessages: [map1_C_2] 161 spawn
-[2018.11.23-21.47.00:539][384]LogBlueprintUserMessages: [map1_C_2] 162 spawn
-[2018.11.23-21.47.00:540][384]LogBlueprintUserMessages: [map1_C_2] 163 spawn
-[2018.11.23-21.47.00:540][384]LogBlueprintUserMessages: [map1_C_2] 164 spawn
-[2018.11.23-21.47.00:541][384]LogBlueprintUserMessages: [map1_C_2] 165 spawn
-[2018.11.23-21.47.00:541][384]LogBlueprintUserMessages: [map1_C_2] 166 spawn
-[2018.11.23-21.47.00:541][384]LogBlueprintUserMessages: [map1_C_2] 167 spawn
-[2018.11.23-21.47.00:542][384]LogBlueprintUserMessages: [map1_C_2] 168 spawn
-[2018.11.23-21.47.00:542][384]LogBlueprintUserMessages: [map1_C_2] 169 spawn
-[2018.11.23-21.47.00:543][384]LogBlueprintUserMessages: [map1_C_2] 170 spawn
-[2018.11.23-21.47.00:543][384]LogBlueprintUserMessages: [map1_C_2] 171 spawn
-[2018.11.23-21.47.00:543][384]LogBlueprintUserMessages: [map1_C_2] 172 spawn
-[2018.11.23-21.47.00:544][384]LogBlueprintUserMessages: [map1_C_2] 173 spawn
-[2018.11.23-21.47.00:544][384]LogBlueprintUserMessages: [map1_C_2] 174 spawn
-[2018.11.23-21.47.00:545][384]LogBlueprintUserMessages: [map1_C_2] 175 spawn
-[2018.11.23-21.47.00:545][384]LogBlueprintUserMessages: [map1_C_2] 176 spawn
-[2018.11.23-21.47.00:545][384]LogBlueprintUserMessages: [map1_C_2] 177 spawn
-[2018.11.23-21.47.00:546][384]LogBlueprintUserMessages: [map1_C_2] 178 spawn
-[2018.11.23-21.47.00:546][384]LogBlueprintUserMessages: [map1_C_2] 179 spawn
-[2018.11.23-21.47.00:546][384]LogBlueprintUserMessages: [map1_C_2] 180 spawn
-[2018.11.23-21.47.00:547][384]LogBlueprintUserMessages: [map1_C_2] 181 spawn
-[2018.11.23-21.47.00:547][384]LogBlueprintUserMessages: [map1_C_2] 182 spawn
-[2018.11.23-21.47.00:547][384]LogBlueprintUserMessages: [map1_C_2] 183 spawn
-[2018.11.23-21.47.00:548][384]LogBlueprintUserMessages: [map1_C_2] 184 spawn
-[2018.11.23-21.47.00:548][384]LogBlueprintUserMessages: [map1_C_2] 185 spawn
-[2018.11.23-21.47.00:549][384]LogBlueprintUserMessages: [map1_C_2] 186 spawn
-[2018.11.23-21.47.00:549][384]LogBlueprintUserMessages: [map1_C_2] 187 spawn
-[2018.11.23-21.47.00:549][384]LogBlueprintUserMessages: [map1_C_2] 188 spawn
-[2018.11.23-21.47.00:550][384]LogBlueprintUserMessages: [map1_C_2] 189 spawn
-[2018.11.23-21.47.00:550][384]LogBlueprintUserMessages: [map1_C_2] 190 spawn
-[2018.11.23-21.47.00:551][384]LogBlueprintUserMessages: [map1_C_2] 191 spawn
-[2018.11.23-21.47.00:551][384]LogBlueprintUserMessages: [map1_C_2] 192 spawn
-[2018.11.23-21.47.00:551][384]LogBlueprintUserMessages: [map1_C_2] 193 spawn
-[2018.11.23-21.47.00:551][384]LogBlueprintUserMessages: [map1_C_2] 194 spawn
-[2018.11.23-21.47.00:552][384]LogBlueprintUserMessages: [map1_C_2] 195 spawn
-[2018.11.23-21.47.00:552][384]LogBlueprintUserMessages: [map1_C_2] 196 spawn
-[2018.11.23-21.47.00:552][384]LogBlueprintUserMessages: [map1_C_2] 197 spawn
-[2018.11.23-21.47.00:552][384]LogBlueprintUserMessages: [map1_C_2] 198 spawn
-[2018.11.23-21.47.00:553][384]LogBlueprintUserMessages: [map1_C_2] 199 spawn
-[2018.11.23-21.47.00:553][384]LogBlueprintUserMessages: [map1_C_2] 200 spawn
-[2018.11.23-21.47.00:554][384]LogBlueprintUserMessages: [map1_C_2] 201 spawn
-[2018.11.23-21.47.00:554][384]LogBlueprintUserMessages: [map1_C_2] 202 spawn
-[2018.11.23-21.47.00:554][384]LogBlueprintUserMessages: [map1_C_2] 203 spawn
-[2018.11.23-21.47.00:554][384]LogBlueprintUserMessages: [map1_C_2] 204 spawn
-[2018.11.23-21.47.00:555][384]LogBlueprintUserMessages: [map1_C_2] 205 spawn
-[2018.11.23-21.47.00:555][384]LogBlueprintUserMessages: [map1_C_2] 206 spawn
-[2018.11.23-21.47.00:555][384]LogBlueprintUserMessages: [map1_C_2] 207 spawn
-[2018.11.23-21.47.00:556][384]LogBlueprintUserMessages: [map1_C_2] 208 spawn
-[2018.11.23-21.47.00:556][384]LogBlueprintUserMessages: [map1_C_2] 209 spawn
-[2018.11.23-21.47.00:556][384]LogBlueprintUserMessages: [map1_C_2] 210 spawn
-[2018.11.23-21.47.00:557][384]LogBlueprintUserMessages: [map1_C_2] 211 spawn
-[2018.11.23-21.47.00:557][384]LogBlueprintUserMessages: [map1_C_2] 212 spawn
-[2018.11.23-21.47.00:558][384]LogBlueprintUserMessages: [map1_C_2] 213 spawn
-[2018.11.23-21.47.00:558][384]LogBlueprintUserMessages: [map1_C_2] 214 spawn
-[2018.11.23-21.47.00:559][384]LogBlueprintUserMessages: [map1_C_2] 215 spawn
-[2018.11.23-21.47.00:559][384]LogBlueprintUserMessages: [map1_C_2] 216 spawn
-[2018.11.23-21.47.00:559][384]LogBlueprintUserMessages: [map1_C_2] 217 spawn
-[2018.11.23-21.47.00:560][384]LogBlueprintUserMessages: [map1_C_2] 218 spawn
-[2018.11.23-21.47.00:560][384]LogBlueprintUserMessages: [map1_C_2] 219 spawn
-[2018.11.23-21.47.00:560][384]LogBlueprintUserMessages: [map1_C_2] 220 spawn
-[2018.11.23-21.47.00:561][384]LogBlueprintUserMessages: [map1_C_2] 221 spawn
-[2018.11.23-21.47.00:561][384]LogBlueprintUserMessages: [map1_C_2] 222 spawn
-[2018.11.23-21.47.00:561][384]LogBlueprintUserMessages: [map1_C_2] 223 spawn
-[2018.11.23-21.47.00:562][384]LogBlueprintUserMessages: [map1_C_2] 224 spawn
-[2018.11.23-21.47.00:562][384]LogBlueprintUserMessages: [map1_C_2] 225 spawn
-[2018.11.23-21.47.00:562][384]LogBlueprintUserMessages: [map1_C_2] 226 spawn
-[2018.11.23-21.47.00:562][384]LogBlueprintUserMessages: [map1_C_2] 227 spawn
-[2018.11.23-21.47.00:563][384]LogBlueprintUserMessages: [map1_C_2] 228 spawn
-[2018.11.23-21.47.00:563][384]LogBlueprintUserMessages: [map1_C_2] 229 spawn
-[2018.11.23-21.47.00:563][384]LogBlueprintUserMessages: [map1_C_2] 230 spawn
-[2018.11.23-21.47.00:564][384]LogBlueprintUserMessages: [map1_C_2] 231 spawn
-[2018.11.23-21.47.00:564][384]LogBlueprintUserMessages: [map1_C_2] 232 spawn
-[2018.11.23-21.47.00:564][384]LogBlueprintUserMessages: [map1_C_2] 233 spawn
-[2018.11.23-21.47.00:565][384]LogBlueprintUserMessages: [map1_C_2] 234 spawn
-[2018.11.23-21.47.00:565][384]LogBlueprintUserMessages: [map1_C_2] 235 spawn
-[2018.11.23-21.47.00:565][384]LogBlueprintUserMessages: [map1_C_2] 236 spawn
-[2018.11.23-21.47.00:566][384]LogBlueprintUserMessages: [map1_C_2] 237 spawn
-[2018.11.23-21.47.00:566][384]LogBlueprintUserMessages: [map1_C_2] 238 spawn
-[2018.11.23-21.47.00:566][384]LogBlueprintUserMessages: [map1_C_2] 239 spawn
-[2018.11.23-21.47.00:566][384]LogBlueprintUserMessages: [map1_C_2] 240 spawn
-[2018.11.23-21.47.00:567][384]LogBlueprintUserMessages: [map1_C_2] 241 spawn
-[2018.11.23-21.47.00:567][384]LogBlueprintUserMessages: [map1_C_2] 242 spawn
-[2018.11.23-21.47.00:567][384]LogBlueprintUserMessages: [map1_C_2] 243 spawn
-[2018.11.23-21.47.00:568][384]LogBlueprintUserMessages: [map1_C_2] 244 spawn
-[2018.11.23-21.47.00:568][384]LogBlueprintUserMessages: [map1_C_2] 245 spawn
-[2018.11.23-21.47.00:568][384]LogBlueprintUserMessages: [map1_C_2] 246 spawn
-[2018.11.23-21.47.00:568][384]LogBlueprintUserMessages: [map1_C_2] 247 spawn
-[2018.11.23-21.47.00:569][384]LogBlueprintUserMessages: [map1_C_2] 248 spawn
-[2018.11.23-21.47.00:569][384]LogBlueprintUserMessages: [map1_C_2] 249 spawn
-[2018.11.23-21.47.00:569][384]LogBlueprintUserMessages: [map1_C_2] 250 spawn
-[2018.11.23-21.47.00:570][384]LogBlueprintUserMessages: [map1_C_2] 251 spawn
-[2018.11.23-21.47.00:570][384]LogBlueprintUserMessages: [map1_C_2] 252 spawn
-[2018.11.23-21.47.00:570][384]LogBlueprintUserMessages: [map1_C_2] 253 spawn
-[2018.11.23-21.47.00:570][384]LogBlueprintUserMessages: [map1_C_2] 254 spawn
-[2018.11.23-21.47.00:571][384]LogBlueprintUserMessages: [map1_C_2] 255 spawn
-[2018.11.23-21.47.00:571][384]LogBlueprintUserMessages: [map1_C_2] 256 spawn
-[2018.11.23-21.47.00:571][384]LogBlueprintUserMessages: [map1_C_2] 257 spawn
-[2018.11.23-21.47.00:572][384]LogBlueprintUserMessages: [map1_C_2] 258 spawn
-[2018.11.23-21.47.00:572][384]LogBlueprintUserMessages: [map1_C_2] 259 spawn
-[2018.11.23-21.47.00:572][384]LogBlueprintUserMessages: [map1_C_2] 260 spawn
-[2018.11.23-21.47.00:573][384]LogBlueprintUserMessages: [map1_C_2] 261 spawn
-[2018.11.23-21.47.00:573][384]LogBlueprintUserMessages: [map1_C_2] 262 spawn
-[2018.11.23-21.47.00:573][384]LogBlueprintUserMessages: [map1_C_2] 263 spawn
-[2018.11.23-21.47.00:574][384]LogBlueprintUserMessages: [map1_C_2] 264 spawn
-[2018.11.23-21.47.00:574][384]LogBlueprintUserMessages: [map1_C_2] 265 spawn
-[2018.11.23-21.47.00:575][384]LogBlueprintUserMessages: [map1_C_2] 266 spawn
-[2018.11.23-21.47.00:575][384]LogBlueprintUserMessages: [map1_C_2] 267 spawn
-[2018.11.23-21.47.00:576][384]LogBlueprintUserMessages: [map1_C_2] 268 spawn
-[2018.11.23-21.47.00:576][384]LogBlueprintUserMessages: [map1_C_2] 269 spawn
-[2018.11.23-21.47.00:576][384]LogBlueprintUserMessages: [map1_C_2] 270 spawn
-[2018.11.23-21.47.00:577][384]LogBlueprintUserMessages: [map1_C_2] 271 spawn
-[2018.11.23-21.47.00:577][384]LogBlueprintUserMessages: [map1_C_2] 272 spawn
-[2018.11.23-21.47.00:577][384]LogBlueprintUserMessages: [map1_C_2] 273 spawn
-[2018.11.23-21.47.00:578][384]LogBlueprintUserMessages: [map1_C_2] 274 spawn
-[2018.11.23-21.47.00:578][384]LogBlueprintUserMessages: [map1_C_2] 275 spawn
-[2018.11.23-21.47.00:578][384]LogBlueprintUserMessages: [map1_C_2] 276 spawn
-[2018.11.23-21.47.00:578][384]LogBlueprintUserMessages: [map1_C_2] 277 spawn
-[2018.11.23-21.47.00:579][384]LogBlueprintUserMessages: [map1_C_2] 278 spawn
-[2018.11.23-21.47.00:579][384]LogBlueprintUserMessages: [map1_C_2] 279 spawn
-[2018.11.23-21.47.00:579][384]LogBlueprintUserMessages: [map1_C_2] 280 spawn
-[2018.11.23-21.47.00:579][384]LogBlueprintUserMessages: [map1_C_2] 281 spawn
-[2018.11.23-21.47.00:580][384]LogBlueprintUserMessages: [map1_C_2] 282 spawn
-[2018.11.23-21.47.00:580][384]LogBlueprintUserMessages: [map1_C_2] 283 spawn
-[2018.11.23-21.47.00:580][384]LogBlueprintUserMessages: [map1_C_2] 284 spawn
-[2018.11.23-21.47.00:580][384]LogBlueprintUserMessages: [map1_C_2] 285 spawn
-[2018.11.23-21.47.00:581][384]LogBlueprintUserMessages: [map1_C_2] 286 spawn
-[2018.11.23-21.47.00:581][384]LogBlueprintUserMessages: [map1_C_2] 287 spawn
-[2018.11.23-21.47.00:581][384]LogBlueprintUserMessages: [map1_C_2] 288 spawn
-[2018.11.23-21.47.00:582][384]LogBlueprintUserMessages: [map1_C_2] 289 spawn
-[2018.11.23-21.47.00:582][384]LogBlueprintUserMessages: [map1_C_2] 290 spawn
-[2018.11.23-21.47.00:582][384]LogBlueprintUserMessages: [map1_C_2] 291 spawn
-[2018.11.23-21.47.00:582][384]LogBlueprintUserMessages: [map1_C_2] 292 spawn
-[2018.11.23-21.47.00:583][384]LogBlueprintUserMessages: [map1_C_2] 293 spawn
-[2018.11.23-21.47.00:583][384]LogBlueprintUserMessages: [map1_C_2] 294 spawn
-[2018.11.23-21.47.00:583][384]LogBlueprintUserMessages: [map1_C_2] 295 spawn
-[2018.11.23-21.47.00:583][384]LogBlueprintUserMessages: [map1_C_2] 296 spawn
-[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] 297 spawn
-[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] 298 spawn
-[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] 299 spawn
-[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] 300 spawn
-[2018.11.23-21.47.00:584][384]LogBlueprintUserMessages: [map1_C_2] complite
-[2018.11.23-21.48.14:533][385]LogSlate: Window 'WarhammerOnline (64-bit Development PCD3D_SM5) ' being destroyed
-[2018.11.23-21.48.16:928][385]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.23-21.48.39:751][385]LogOnline: Warning: STEAM: No game present to leave for session (GameSession)
-[2018.11.23-21.48.42:274][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.23-21.48.42:274][385]LogEngine: All Windows Closed
-[2018.11.23-21.48.42:309][385]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.11.23-21.48.47:068][386]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
-[2018.11.23-21.48.47:068][386]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
-[2018.11.23-21.48.47:942][386]LogExit: GameNetDriver SteamNetDriver_0 shut down
-[2018.11.23-21.50.14:329][386]LogExit: Preparing to exit.
-[2018.11.23-21.50.14:344][386]LogMoviePlayer: Shutting down movie player
-[2018.11.23-21.50.45:839][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.23-21.50.54:811][386]LogExit: Game engine shut down
-[2018.11.23-21.51.22:297][386]LogExit: Object subsystem successfully closed.
-[2018.11.23-21.51.27:266][386]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.11.23-21.51.27:674][386]LogD3D11RHI: Shutdown
-[2018.11.23-21.51.27:718][386]LogD3D11RHI: CleanupD3DDevice
-[2018.11.23-21.51.31:306][386]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.06-17.23.33:249][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-17.23.33:249][910]LogEngine: All Windows Closed
+[2019.01.06-17.23.33:249][910]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.01.06-17.23.33:258][911]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2019.01.06-17.23.33:258][911]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2019.01.06-17.23.33:258][911]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2019.01.06-17.23.34:104][911]LogExit: Preparing to exit.
+[2019.01.06-17.23.34:104][911]LogMoviePlayer: Shutting down movie player
+[2019.01.06-17.23.34:415][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.06-17.23.34:430][911]LogExit: Game engine shut down
+[2019.01.06-17.23.34:721][911]LogExit: Object subsystem successfully closed.
+[2019.01.06-17.23.34:743][911]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.06-17.23.34:749][911]LogD3D11RHI: Shutdown
+[2019.01.06-17.23.34:749][911]LogD3D11RHI: CleanupD3DDevice
+[2019.01.06-17.23.34:751][911]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.06-17.23.34:769][911]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (374)
+[2019.01.06-17.23.34:769][911]LogModuleManager: Shutting down and abandoning module SequenceRecorder (372)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module AutomationController (370)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module AutomationWorker (368)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module AIModule (366)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module GameplayDebugger (365)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module AITestSuite (363)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module NavigationSystem (361)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (358)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (356)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (354)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (352)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (350)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (348)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module CharacterAI (346)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module SessionServices (344)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (342)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (340)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module MovieScene (338)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (336)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module PortalServices (334)
+[2019.01.06-17.23.34:770][911]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
+[2019.01.06-17.23.34:771][911]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
+[2019.01.06-17.23.34:771][911]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (324)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module OculusInput (322)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (320)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module EditableMesh (318)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (316)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module CableComponent (314)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module AudioCapture (312)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
+[2019.01.06-17.23.34:938][911]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
+[2019.01.06-17.23.34:941][911]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
+[2019.01.06-17.23.34:941][911]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
+[2019.01.06-17.23.34:941][911]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
+[2019.01.06-17.23.34:941][911]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
+[2019.01.06-17.23.34:942][911]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
+[2019.01.06-17.23.34:942][911]LogModuleManager: Shutting down and abandoning module BackChannel (284)
+[2019.01.06-17.23.34:942][911]LogModuleManager: Shutting down and abandoning module AppleVision (282)
+[2019.01.06-17.23.34:942][911]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2019.01.06-17.23.34:942][911]LogModuleManager: Shutting down and abandoning module DatasmithContent (278)
+[2019.01.06-17.23.34:942][911]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2019.01.06-17.23.34:942][911]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2019.01.06-17.23.34:942][911]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2019.01.06-17.23.34:942][911]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module WarhammerOnline (254)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (252)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (250)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module PhysXVehicles (248)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (246)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (244)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (242)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module ActorSequence (240)
+[2019.01.06-17.23.34:943][911]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2019.01.06-17.23.35:044][911]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (234)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module FacialAnimation (230)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module DataValidation (228)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module TreeMap (225)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module AISupportModule (220)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (218)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module AdvancedSessions (216)
+[2019.01.06-17.23.35:377][911]LogModuleManager: Shutting down and abandoning module Paper2D (214)
+[2019.01.06-17.23.35:378][911]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (212)
+[2019.01.06-17.23.35:378][911]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (210)
+[2019.01.06-17.23.35:378][911]LogModuleManager: Shutting down and abandoning module WmfMedia (208)
+[2019.01.06-17.23.35:378][911]LogModuleManager: Shutting down and abandoning module Media (207)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module PacketHandler (204)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (202)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (200)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module MediaAssets (198)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module Overlay (196)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module OverlayEditor (195)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module StringTableEditor (190)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2019.01.06-17.23.35:385][911]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2019.01.06-17.23.35:386][911]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (181)
+[2019.01.06-17.23.35:386][911]LogModuleManager: Shutting down and abandoning module UMG (178)
+[2019.01.06-17.23.35:386][911]LogModuleManager: Shutting down and abandoning module UMGEditor (177)
+[2019.01.06-17.23.35:386][911]LogModuleManager: Shutting down and abandoning module Sequencer (176)
+[2019.01.06-17.23.35:386][911]LogModuleManager: Shutting down and abandoning module MessageLog (173)
+[2019.01.06-17.23.35:386][911]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2019.01.06-17.23.35:386][911]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2019.01.06-17.23.35:386][911]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module MRMesh (162)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module Messaging (160)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (158)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (156)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module XAudio2 (154)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module Networking (152)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module Core (150)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2019.01.06-17.23.35:387][911]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2019.01.06-17.23.35:388][911]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (143)
+[2019.01.06-17.23.35:388][911]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (142)
+[2019.01.06-17.23.35:388][911]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (141)
+[2019.01.06-17.23.35:388][911]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2019.01.06-17.23.35:388][911]LogModuleManager: Shutting down and abandoning module MaterialBaking (135)
+[2019.01.06-17.23.35:388][911]LogModuleManager: Shutting down and abandoning module DerivedDataCache (130)
+[2019.01.06-17.23.35:446][911]LogDerivedDataCache: Shutdown
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module XGEController (128)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module TargetPlatform (126)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (125)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (123)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (121)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (119)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (117)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (115)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (113)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (111)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (109)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (103)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (101)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (99)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (97)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (95)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (93)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (91)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (89)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.01.06-17.23.35:446][911]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.01.06-17.23.35:446][911]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.01.06-17.23.35:497][911]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.01.06-17.23.35:498][911]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.01.06-17.23.35:498][911]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.01.06-17.23.35:520][911]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.01.06-17.23.35:553][911]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.01.06-17.23.35:555][911]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.06-17.23.35:555][911]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.06-17.23.35:556][911]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.06-17.23.35:558][911]LogExit: Exiting.
+[2019.01.06-17.23.35:566][911]Log file closed, 01/06/19 22:23:35
