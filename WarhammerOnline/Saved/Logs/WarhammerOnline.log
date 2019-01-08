@@ -414,3 +414,553 @@ LogInit: Object subsystem initialized
 [2019.01.08-08.13.02:288][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
 [2019.01.08-08.13.02:288][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
 [2019.01.08-08.13.02:288][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.01.08-08.13.08:123][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.08-08.13.08:147][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.08-08.13.09:535][  0]SourceControl: Source control is disabled
+[2019.01.08-08.13.09:535][  0]SourceControl: Source control is disabled
+[2019.01.08-08.13.09:543][  0]SourceControl: Source control is disabled
+[2019.01.08-08.13.09:546][  0]SourceControl: Source control is disabled
+[2019.01.08-08.13.10:144][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.08-08.13.10:443][  0]LogOcInput: OculusInput pre-init called
+[2019.01.08-08.13.10:661][  0]LogEngine: Initializing Engine...
+[2019.01.08-08.13.10:666][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.08-08.13.10:666][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.08-08.13.10:666][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.08-08.13.10:666][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.08-08.13.11:399][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.08-08.13.11:443][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.08-08.13.11:548][  0]LogInit: XAudio2 using 'Динамики (2- Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.08-08.13.11:635][  0]LogInit: FAudioDevice initialized.
+[2019.01.08-08.13.11:635][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.08-08.13.12:758][  0]LogDerivedDataCache: Saved boot cache 1.12s 71MB ../../../../../Unreal/UnrealProject/WarhammerOnline/DerivedDataCache/Boot.ddc.
+[2019.01.08-08.13.12:795][  0]LogInit: Texture streaming: Enabled
+[2019.01.08-08.13.12:855][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.08-08.13.12:969][  0]LogInit: Transaction tracking system initialized
+[2019.01.08-08.13.13:049][  0]BlueprintLog: New page: Editor Load
+[2019.01.08-08.13.13:297][  0]LocalizationService: Localization service is disabled
+[2019.01.08-08.13.14:377][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.08-08.13.14:378][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.08-08.13.14:431][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Content/' took 0.06s
+[2019.01.08-08.13.14:431][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.08-08.13.14:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.08-08.13.14:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.08-08.13.14:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.08-08.13.14:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.08-08.13.14:785][  0]SourceControl: Source control is disabled
+[2019.01.08-08.13.14:785][  0]Cmd: MAP LOAD FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.08-08.13.14:786][  0]LightingResults: New page: Lighting Build
+[2019.01.08-08.13.14:795][  0]MapCheck: New page: Map Check
+[2019.01.08-08.13.14:795][  0]LightingResults: New page: Lighting Build
+[2019.01.08-08.13.18:668][  0]LogAIModule: Creating AISystem for world MainMenu
+[2019.01.08-08.13.18:670][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.08-08.13.18:786][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.08-08.13.18:956][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 170,437ms to complete.
+[2019.01.08-08.13.18:956][  0]LogFileHelpers: Loading map 'MainMenu' took 4.171
+[2019.01.08-08.13.21:158][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-08.13.21:229][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-08.13.21:255][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-08.13.21:275][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.08-08.13.21:370][  0]LogCollectionManager: Loaded 0 collections in 0.003519 seconds
+[2019.01.08-08.13.21:480][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Saved/Collections/' took 0.02s
+[2019.01.08-08.13.21:480][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Content/Developers/Andre/Collections/' took 0.02s
+[2019.01.08-08.13.21:480][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/UnrealProject/WarhammerOnline/Content/Collections/' took 0.02s
+[2019.01.08-08.13.21:480][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.01.08-08.13.21:527][  0]LogContentBrowser: Native class hierarchy populated in 0.0442 seconds. Added 2595 classes and 608 folders.
+[2019.01.08-08.13.21:602][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.01.08-08.13.26:008][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.08-08.13.26:093][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.08-08.13.29:707][  0]LogSlate: Took 0.000605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.08-08.13.29:749][  0]LogSlate: Took 0.001510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.08-08.13.29:897][  0]LogSlate: Took 0.026318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.08-08.13.31:290][  0]LogRenderer: Reallocating scene render targets to support 1156x428 Format 10 NumSamples 1 (Frame:1).
+[2019.01.08-08.13.33:558][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.01.08-08.13.33:558][  0]LogLoad: (Engine Initialization) Total time: 140.84 seconds
+[2019.01.08-08.13.33:558][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.08-08.13.33:579][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.13.33:579][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.13.33:669][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.08-08.13.33:945][  1]LogRenderer: Reallocating scene render targets to support 1156x448 Format 10 NumSamples 1 (Frame:2).
+[2019.01.08-08.13.35:286][  3]LogAssetRegistry: Asset discovery search completed in 116.7165 seconds
+[2019.01.08-08.13.35:312][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2019.01.08-08.13.35:312][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2019.01.08-08.13.38:218][ 25]LogSlate: Took 0.039140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.08-08.17.02:381][625]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.17.02:381][625]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.17.02:914][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.17.07:794][820]LogSlate: Took 0.001775 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.08-08.17.10:946][820]LogAIModule: Creating AISystem for world map1
+[2019.01.08-08.17.11:144][820]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/map1.map1
+[2019.01.08-08.17.11:263][820]Cmd: MAP LOAD FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.08-08.17.11:263][820]LightingResults: New page: Lighting Build
+[2019.01.08-08.17.11:266][820]LoadErrors: New page: Loading map: map1.umap
+[2019.01.08-08.17.11:267][820]MapCheck: New page: Map Check
+[2019.01.08-08.17.11:267][820]LightingResults: New page: Lighting Build
+[2019.01.08-08.17.11:633][820]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.08-08.17.11:763][820]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.08-08.17.11:891][820]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 127,528ms to complete.
+[2019.01.08-08.17.11:895][820]LogFileHelpers: Loading map 'map1' took 0.642
+[2019.01.08-08.17.20:002][ 93]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2019.01.08-08.17.20:002][ 93]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.01.08-08.17.20:002][ 93]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2019.01.08-08.17.20:002][ 93]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.01.08-08.17.20:009][ 93]LogAIModule: Creating AISystem for world Map2
+[2019.01.08-08.17.20:018][ 93]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map2.Map2
+[2019.01.08-08.17.20:056][ 93]Cmd: MAP LOAD FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.08-08.17.20:056][ 93]LightingResults: New page: Lighting Build
+[2019.01.08-08.17.20:057][ 93]LoadErrors: New page: Loading map: Map2.umap
+[2019.01.08-08.17.20:058][ 93]MapCheck: New page: Map Check
+[2019.01.08-08.17.20:058][ 93]LightingResults: New page: Lighting Build
+[2019.01.08-08.17.20:292][ 93]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.08-08.17.20:385][ 93]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.08-08.17.20:510][ 93]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124,451ms to complete.
+[2019.01.08-08.17.20:511][ 93]LogFileHelpers: Loading map 'Map2' took 0.456
+[2019.01.08-08.17.23:117][176]LogAIModule: Creating AISystem for world map1
+[2019.01.08-08.17.23:125][176]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/map1.map1
+[2019.01.08-08.17.23:164][176]Cmd: MAP LOAD FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.08-08.17.23:164][176]LightingResults: New page: Lighting Build
+[2019.01.08-08.17.23:167][176]LoadErrors: New page: Loading map: map1.umap
+[2019.01.08-08.17.23:169][176]MapCheck: New page: Map Check
+[2019.01.08-08.17.23:169][176]LightingResults: New page: Lighting Build
+[2019.01.08-08.17.23:381][176]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.08-08.17.23:478][176]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.08-08.17.23:605][176]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 126,666ms to complete.
+[2019.01.08-08.17.23:607][176]LogFileHelpers: Loading map 'map1' took 0.444
+[2019.01.08-08.17.30:543][450]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/game_modes/GameModeLobby.GameModeLobby
+[2019.01.08-08.17.32:963][450]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2019.01.08-08.17.36:815][450]LogSlate: Took 0.030627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.08-08.17.38:605][451]LogSlate: Took 0.194049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.08-08.17.55:265][568]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/game_modes/DefaultGameGameMode.DefaultGameGameMode
+[2019.01.08-08.17.59:069][606]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/game_modes/DefaultGameGameMode.DefaultGameGameMode
+[2019.01.08-08.18.34:545][243]LogTemp: Repeating last play command: Standalone Game
+[2019.01.08-08.20.22:014][ 93]LogTemp: Repeating last play command: Standalone Game
+[2019.01.08-08.20.52:095][502]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Astartes/Character_Astartes.Character_Astartes
+[2019.01.08-08.20.55:235][578]LogRenderer: Reallocating scene render targets to support 1156x608 Format 10 NumSamples 1 (Frame:1).
+[2019.01.08-08.21.01:719][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.21.01:810][781]BlueprintLog: New page: Compile Character_Astartes
+[2019.01.08-08.21.03:597][818]LogRenderer: Reallocating scene render targets to support 1228x696 Format 10 NumSamples 1 (Frame:252).
+[2019.01.08-08.21.07:247][972]LogTemp: Repeating last play command: Standalone Game
+[2019.01.08-08.21.09:281][972]LogSlate: Window 'Save Content' being destroyed
+[2019.01.08-08.21.10:407][972]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Character_AstartesF25B5713481F4F4DB5B77787D68F9EFA.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/Characters/Astartes/Character_Astartes.uasset'
+[2019.01.08-08.21.36:209][323]Cmd: TRANSACTION UNDO
+[2019.01.08-08.21.36:209][323]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.08-08.21.38:318][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.21.38:401][408]BlueprintLog: New page: Compile Character_Astartes
+[2019.01.08-08.21.50:972][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.21.54:304][ 12]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.21.54:304][ 12]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.22.39:960][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.22.56:345][603]BlueprintLog: New page: Compile Character_Astartes
+[2019.01.08-08.22.57:148][612]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Character_Astartes9BB1C6F34CB1411B3B299F9172AC2136.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/Characters/Astartes/Character_Astartes.uasset'
+[2019.01.08-08.23.38:723][ 64]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.23.38:723][ 64]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.23.55:092][559]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.23.55:092][559]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.24.35:590][ 89]LogSlate: Window 'Color Picker' being destroyed
+[2019.01.08-08.25.16:797][767]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WarhammerOnline
+[2019.01.08-08.25.16:797][767]LogTemp: CWD: D:\Engine\UnrealEngine-4.20\Engine\Binaries\DotNET\IOS
+[2019.01.08-08.25.16:797][767]LogTemp: Initial Dir: D:\Engine\UnrealEngine-4.20
+[2019.01.08-08.25.16:797][767]LogTemp: Env CWD: D:\Engine\UnrealEngine-4.20\Engine\Binaries\DotNET\IOS
+[2019.01.08-08.25.16:797][767]LogTemp: BranchPath = DESKTOP-O8P7830/D/Engine/UnrealEngine-4.20/Engine/Binaries --- GameBranchPath = DESKTOP-O8P7830/D/Engine/UnrealEngine-4.20/Engine/Binaries
+[2019.01.08-08.25.17:067][772]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Andre\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.08-08.27.18:384][564]BlueprintLog: New page: Compile GameModeLobby
+[2019.01.08-08.27.20:020][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game_modes/GameModeLobby" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset" SILENT=true
+[2019.01.08-08.27.20:421][574]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/GameModeLobbyFAE6274D43804DF9C40DB499351AF552.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset'
+[2019.01.08-08.27.47:223][164]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Caracter/Character.Character
+[2019.01.08-08.28.09:090][ 48]LogSlate: Window 'Color Picker' being destroyed
+[2019.01.08-08.28.56:219][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/map1' took 0.086
+[2019.01.08-08.28.56:254][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/game_modes/GameModeLobby] ([1] browsable assets)...
+[2019.01.08-08.28.56:254][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/game_modes/GameModeLobby]
+[2019.01.08-08.28.56:674][ 51]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/GameModeLobby_Auto18983A810457320E18B0FE282EF063BE5.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Autosaves/Game/Blueprints/game_modes/GameModeLobby_Auto1.uasset'
+[2019.01.08-08.28.56:720][ 51]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Astartes/Character_Astartes] ([1] browsable assets)...
+[2019.01.08-08.28.56:787][ 51]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Astartes/Character_Astartes.Character_Astartes]
+[2019.01.08-08.28.56:788][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Astartes/Character_Astartes]
+[2019.01.08-08.28.56:923][ 51]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Character_Astartes_Auto12C8FB9F146D055BA38FFF5BF12A1E3BB.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Autosaves/Game/Blueprints/Characters/Astartes/Character_Astartes_Auto1.uasset'
+[2019.01.08-08.28.56:924][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Caracter/Character] ([1] browsable assets)...
+[2019.01.08-08.28.56:924][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Caracter/Character]
+[2019.01.08-08.28.57:112][ 51]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Character_Auto1A9101074409CE67D7468A295F5A484E4.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Autosaves/Game/Blueprints/Characters/Caracter/Character_Auto1.uasset'
+[2019.01.08-08.28.57:113][ 51]LogFileHelpers: Auto-saving content packages took 0.891
+[2019.01.08-08.37.21:605][912]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.08-08.37.21:627][912]LogSlate: Window 'Project Settings' being destroyed
+[2019.01.08-08.37.22:620][941]BlueprintLog: New page: Compile Character
+[2019.01.08-08.37.23:549][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Caracter/Character" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/Characters/Caracter/Character.uasset" SILENT=true
+[2019.01.08-08.37.23:641][962]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Character246CB3524126C4951745B999AB01FE57.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/Characters/Caracter/Character.uasset'
+[2019.01.08-08.37.25:609][ 49]LogTemp: Repeating last play command: Standalone Game
+[2019.01.08-08.37.26:846][ 49]LogSlate: Window 'Save Content' being destroyed
+[2019.01.08-08.37.27:000][ 49]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Character_Astartes6645FA6742D5093A38CF33943E2A6074.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/Characters/Astartes/Character_Astartes.uasset'
+[2019.01.08-08.37.27:014][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game_modes/GameModeLobby" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset" SILENT=true
+[2019.01.08-08.37.27:293][ 49]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/GameModeLobbyC0DF2E53477FEB5DD006F3B7D9D11515.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/game_modes/GameModeLobby.uasset'
+[2019.01.08-08.38.10:278][853]BlueprintLog: New page: Compile Character
+[2019.01.08-08.38.11:060][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Caracter/Character" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/Characters/Caracter/Character.uasset" SILENT=true
+[2019.01.08-08.38.11:144][870]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Character55CC8D5840D20B531C07C18BBA2BD48C.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/Characters/Caracter/Character.uasset'
+[2019.01.08-08.38.13:932][  2]LogTemp: Repeating last play command: Standalone Game
+[2019.01.08-08.39.09:497][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.39.15:135][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.08-08.39.23:910][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.39.29:025][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.40.00:752][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.40.00:822][275]BlueprintLog: New page: Compile Character_Astartes
+[2019.01.08-08.40.02:083][290]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Character_AstartesDE62BCB24633FC2C49EF368291907666.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/Characters/Astartes/Character_Astartes.uasset'
+[2019.01.08-08.40.03:339][333]LogSlate: Window 'Character' being destroyed
+[2019.01.08-08.40.03:345][333]LogSlate: Window 'Character' being destroyed
+[2019.01.08-08.40.03:532][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.08-08.40.03:618][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.08-08.40.04:798][393]LogEditorViewport: Clicking on Actor (LMB): Character_Astartes_C (Character_Astartes)
+[2019.01.08-08.40.05:642][440]Cmd: DELETE
+[2019.01.08-08.40.05:642][440]Cmd: ACTOR DELETE
+[2019.01.08-08.40.05:747][440]LogEditorActor: Deleted Actor: Character_Astartes_C
+[2019.01.08-08.40.05:814][440]LogEditorActor: Deleted 1 Actors (0.117 secs)
+[2019.01.08-08.40.06:952][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.40.07:052][505]LogTemp: Repeating last play command: Standalone Game
+[2019.01.08-08.40.08:370][505]LogSlate: Window 'Save Content' being destroyed
+[2019.01.08-08.40.08:579][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/map1" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.08-08.40.09:028][505]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/map11B10DFBC410EEF60EC3B4E8D5EC6BB97.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap'
+[2019.01.08-08.40.09:112][505]LogFileHelpers: Saving map 'map1' took 0.666
+[2019.01.08-08.41.03:217][253]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Astartes/Character_Astartes.Character_Astartes
+[2019.01.08-08.41.20:189][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.41.46:836][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.41.49:443][295]LogActorFactory: Actor Factory created Cube
+[2019.01.08-08.41.50:462][353]LogActorFactory: Actor Factory created Cube
+[2019.01.08-08.41.54:057][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.41.54:140][550]LogTemp: Repeating last play command: Standalone Game
+[2019.01.08-08.41.55:416][550]LogSlate: Window 'Save Content' being destroyed
+[2019.01.08-08.41.55:550][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/map1" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.08-08.41.55:928][550]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/map1A187DEE54135C4FF186302BFC0F4591E.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap'
+[2019.01.08-08.41.55:975][550]LogFileHelpers: Saving map 'map1' took 0.529
+[2019.01.08-08.42.38:263][942]Cmd: DELETE
+[2019.01.08-08.42.38:264][942]Cmd: ACTOR DELETE
+[2019.01.08-08.42.38:268][942]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.08-08.42.38:312][942]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2019.01.08-08.42.44:583][307]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.01.08-08.42.45:549][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.01.08-08.42.48:288][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.42.48:402][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/map1" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.08-08.42.48:769][509]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/map15973DE1047CF9D66F59B44814655DE32.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap'
+[2019.01.08-08.42.48:817][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/map1_BuiltData" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1_BuiltData.uasset" SILENT=true
+[2019.01.08-08.42.48:951][509]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/map1_BuiltDataAD4D18EC488997F70D647EA22A86FDD7.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1_BuiltData.uasset'
+[2019.01.08-08.43.06:974][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.08-08.43.07:057][243]LogSlate: Window 'Character_Astartes' being destroyed
+[2019.01.08-08.43.07:067][243]LogSlate: Window 'Character_Astartes' being destroyed
+[2019.01.08-08.43.10:632][433]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Stats/Character_Stats.Character_Stats
+[2019.01.08-08.43.32:255][365]LogSlate: Took 0.051613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.08-08.44.06:460][828]BlueprintLog: New page: Compile Character_Stats
+[2019.01.08-08.44.07:402][849]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/Character_StatsBCFFCB94418F172481C241831114A1B4.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Blueprints/Characters/Stats/Character_Stats.uasset'
+[2019.01.08-08.44.12:904][100]LogSlate: Window 'Character_Stats' being destroyed
+[2019.01.08-08.44.12:916][100]LogSlate: Window 'Character_Stats' being destroyed
+[2019.01.08-08.44.17:793][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/map1" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.08-08.44.18:157][382]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/map10BEF2F014B84B89C893217903FC610CA.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1.umap'
+[2019.01.08-08.44.18:205][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/map1_BuiltData" FILE="../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1_BuiltData.uasset" SILENT=true
+[2019.01.08-08.44.18:310][382]LogSavePackage: Moving '../../../../../Unreal/UnrealProject/WarhammerOnline/Saved/map1_BuiltData5964FF78478257FE8CDA4DA8EB7CD356.tmp' to '../../../../../Unreal/UnrealProject/WarhammerOnline/Content/Maps/map1_BuiltData.uasset'
+[2019.01.08-08.44.19:699][445]LogSlate: Window 'WarhammerOnline - Unreal Editor' being destroyed
+[2019.01.08-08.44.19:700][445]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.08-08.44.20:120][446]Cmd: QUIT_EDITOR
+[2019.01.08-08.44.20:515][446]LogExit: Preparing to exit.
+[2019.01.08-08.44.21:513][446]LogExit: Editor shut down
+[2019.01.08-08.44.21:515][446]LogExit: Transaction tracking system shut down
+[2019.01.08-08.44.22:698][446]LogExit: Object subsystem successfully closed.
+[2019.01.08-08.44.22:719][446]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.08-08.44.22:728][446]LogD3D11RHI: Shutdown
+[2019.01.08-08.44.22:728][446]LogD3D11RHI: CleanupD3DDevice
+[2019.01.08-08.44.22:731][446]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.08-08.44.23:201][446]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (606)
+[2019.01.08-08.44.23:201][446]LogModuleManager: Shutting down and abandoning module BlueprintGraph (604)
+[2019.01.08-08.44.23:201][446]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (602)
+[2019.01.08-08.44.23:201][446]LogModuleManager: Shutting down and abandoning module SceneOutliner (600)
+[2019.01.08-08.44.23:201][446]LogModuleManager: Shutting down and abandoning module AddContentDialog (598)
+[2019.01.08-08.44.23:203][446]LogModuleManager: Shutting down and abandoning module WidgetCarousel (597)
+[2019.01.08-08.44.23:203][446]LogModuleManager: Shutting down and abandoning module EditorWidgets (594)
+[2019.01.08-08.44.23:203][446]LogModuleManager: Shutting down and abandoning module CollectionManager (592)
+[2019.01.08-08.44.23:257][446]LogModuleManager: Shutting down and abandoning module StatsViewer (590)
+[2019.01.08-08.44.23:257][446]LogModuleManager: Shutting down and abandoning module FoliageEdit (588)
+[2019.01.08-08.44.23:309][446]LogModuleManager: Shutting down and abandoning module LandscapeEditor (586)
+[2019.01.08-08.44.23:330][446]LogModuleManager: Shutting down and abandoning module MeshPaintMode (584)
+[2019.01.08-08.44.23:352][446]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (582)
+[2019.01.08-08.44.23:352][446]LogModuleManager: Shutting down and abandoning module ActorPickerMode (580)
+[2019.01.08-08.44.23:352][446]LogModuleManager: Shutting down and abandoning module GeometryMode (578)
+[2019.01.08-08.44.23:352][446]LogModuleManager: Shutting down and abandoning module TextureAlignMode (576)
+[2019.01.08-08.44.23:352][446]LogModuleManager: Shutting down and abandoning module BspMode (574)
+[2019.01.08-08.44.23:352][446]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (572)
+[2019.01.08-08.44.23:352][446]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (570)
+[2019.01.08-08.44.23:352][446]LogModuleManager: Shutting down and abandoning module AutomationWorker (568)
+[2019.01.08-08.44.23:352][446]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (566)
+[2019.01.08-08.44.23:353][446]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.01.08-08.44.23:353][446]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (562)
+[2019.01.08-08.44.23:379][446]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (560)
+[2019.01.08-08.44.23:393][446]LogModuleManager: Shutting down and abandoning module PlacementMode (559)
+[2019.01.08-08.44.23:393][446]LogModuleManager: Shutting down and abandoning module MaterialEditor (558)
+[2019.01.08-08.44.23:393][446]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (554)
+[2019.01.08-08.44.23:393][446]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (552)
+[2019.01.08-08.44.23:393][446]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (550)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (548)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (546)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (544)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (542)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (540)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (538)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (536)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (534)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (532)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (530)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module CharacterAI (528)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module SmartSnapping (526)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module SessionServices (524)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module ViewportSnapping (522)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module ViewportInteraction (520)
+[2019.01.08-08.44.23:413][446]LogModuleManager: Shutting down and abandoning module ClothPainter (518)
+[2019.01.08-08.44.23:424][446]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (517)
+[2019.01.08-08.44.23:439][446]LogModuleManager: Shutting down and abandoning module LogVisualizer (514)
+[2019.01.08-08.44.23:461][446]LogModuleManager: Shutting down and abandoning module IntroTutorials (512)
+[2019.01.08-08.44.23:493][446]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (511)
+[2019.01.08-08.44.23:493][446]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (508)
+[2019.01.08-08.44.23:493][446]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (506)
+[2019.01.08-08.44.23:493][446]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (504)
+[2019.01.08-08.44.23:493][446]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (502)
+[2019.01.08-08.44.23:494][446]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (501)
+[2019.01.08-08.44.25:446][446]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (498)
+[2019.01.08-08.44.25:446][446]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (496)
+[2019.01.08-08.44.25:446][446]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (494)
+[2019.01.08-08.44.25:446][446]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (492)
+[2019.01.08-08.44.25:447][446]LogModuleManager: Shutting down and abandoning module InputBindingEditor (490)
+[2019.01.08-08.44.25:468][446]LogModuleManager: Shutting down and abandoning module MergeActors (488)
+[2019.01.08-08.44.25:479][446]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (486)
+[2019.01.08-08.44.25:485][446]LogModuleManager: Shutting down and abandoning module LocalizationService (485)
+[2019.01.08-08.44.25:494][446]LogModuleManager: Shutting down and abandoning module HardwareTargeting (482)
+[2019.01.08-08.44.25:494][446]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (480)
+[2019.01.08-08.44.25:507][446]LogModuleManager: Shutting down and abandoning module UndoHistory (478)
+[2019.01.08-08.44.25:512][446]LogModuleManager: Shutting down and abandoning module XmlParser (476)
+[2019.01.08-08.44.25:512][446]LogModuleManager: Shutting down and abandoning module Blutility (474)
+[2019.01.08-08.44.25:516][446]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (472)
+[2019.01.08-08.44.25:516][446]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (471)
+[2019.01.08-08.44.25:516][446]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (468)
+[2019.01.08-08.44.25:516][446]LogModuleManager: Shutting down and abandoning module SettingsEditor (466)
+[2019.01.08-08.44.25:516][446]LogModuleManager: Shutting down and abandoning module ProjectLauncher (464)
+[2019.01.08-08.44.25:538][446]LogModuleManager: Shutting down and abandoning module SessionFrontend (462)
+[2019.01.08-08.44.25:541][446]LogModuleManager: Shutting down and abandoning module ProfilerClient (460)
+[2019.01.08-08.44.25:554][446]LogModuleManager: Shutting down and abandoning module DeviceManager (458)
+[2019.01.08-08.44.25:565][446]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (457)
+[2019.01.08-08.44.25:620][446]LogModuleManager: Shutting down and abandoning module AutomationController (454)
+[2019.01.08-08.44.25:620][446]LogModuleManager: Shutting down and abandoning module AutomationWindow (452)
+[2019.01.08-08.44.25:650][446]LogModuleManager: Shutting down and abandoning module Layers (450)
+[2019.01.08-08.44.25:691][446]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (448)
+[2019.01.08-08.44.25:691][446]LogModuleManager: Shutting down and abandoning module DetailCustomizations (446)
+[2019.01.08-08.44.25:691][446]LogModuleManager: Shutting down and abandoning module PackagesDialog (444)
+[2019.01.08-08.44.25:691][446]LogModuleManager: Shutting down and abandoning module Persona (442)
+[2019.01.08-08.44.25:716][446]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (441)
+[2019.01.08-08.44.25:716][446]LogModuleManager: Shutting down and abandoning module AnimGraph (439)
+[2019.01.08-08.44.25:716][446]LogModuleManager: Shutting down and abandoning module Kismet (436)
+[2019.01.08-08.44.25:724][446]LogModuleManager: Shutting down and abandoning module GraphEditor (434)
+[2019.01.08-08.44.25:724][446]LogModuleManager: Shutting down and abandoning module ClassViewer (432)
+[2019.01.08-08.44.25:725][446]LogModuleManager: Shutting down and abandoning module Toolbox (430)
+[2019.01.08-08.44.25:726][446]LogModuleManager: Shutting down and abandoning module DesktopPlatform (429)
+[2019.01.08-08.44.25:726][446]LogModuleManager: Shutting down and abandoning module ModuleUI (426)
+[2019.01.08-08.44.25:729][446]LogModuleManager: Shutting down and abandoning module MovieSceneTools (424)
+[2019.01.08-08.44.25:729][446]LogModuleManager: Shutting down and abandoning module OutputLog (422)
+[2019.01.08-08.44.25:735][446]LogModuleManager: Shutting down and abandoning module GammaUI (420)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module Documentation (418)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (416)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module MovieScene (414)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (412)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module LauncherPlatform (410)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module AnalyticsET (408)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module PortalServices (406)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module PortalRpc (404)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module MessagingRpc (402)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module AIModule (400)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module GameplayDebugger (399)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module AITestSuite (397)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module NavigationSystem (395)
+[2019.01.08-08.44.25:742][446]LogModuleManager: Shutting down and abandoning module ProfilerService (392)
+[2019.01.08-08.44.25:862][446]LogModuleManager: Shutting down and abandoning module TaskGraph (390)
+[2019.01.08-08.44.25:862][446]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (388)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (386)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module OculusInput (384)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (382)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module EditableMesh (380)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (378)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module CableComponent (376)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module AudioCapture (374)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (372)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module AndroidPermission (370)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (368)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (366)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (364)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module MediaCompositing (362)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module LinearTimecode (360)
+[2019.01.08-08.44.25:863][446]LogModuleManager: Shutting down and abandoning module ImgMedia (358)
+[2019.01.08-08.44.25:868][446]LogModuleManager: Shutting down and abandoning module HTML5Networking (356)
+[2019.01.08-08.44.25:869][446]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (354)
+[2019.01.08-08.44.25:869][446]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (352)
+[2019.01.08-08.44.25:869][446]LogModuleManager: Shutting down and abandoning module BackChannel (350)
+[2019.01.08-08.44.25:869][446]LogModuleManager: Shutting down and abandoning module AppleVision (348)
+[2019.01.08-08.44.25:869][446]LogModuleManager: Shutting down and abandoning module AppleImageUtils (346)
+[2019.01.08-08.44.25:869][446]LogModuleManager: Shutting down and abandoning module AlembicImporter (344)
+[2019.01.08-08.44.25:878][446]LogModuleManager: Shutting down and abandoning module AlembicLibrary (343)
+[2019.01.08-08.44.25:896][446]LogModuleManager: Shutting down and abandoning module GeometryCache (342)
+[2019.01.08-08.44.25:896][446]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (341)
+[2019.01.08-08.44.25:896][446]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (336)
+[2019.01.08-08.44.25:900][446]LogModuleManager: Shutting down and abandoning module DatasmithContent (334)
+[2019.01.08-08.44.25:900][446]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (332)
+[2019.01.08-08.44.25:901][446]LogModuleManager: Shutting down and abandoning module PluginBrowser (330)
+[2019.01.08-08.44.25:940][446]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (328)
+[2019.01.08-08.44.25:946][446]LogModuleManager: Shutting down and abandoning module PolygonModeling (326)
+[2019.01.08-08.44.25:946][446]LogModuleManager: Shutting down and abandoning module MeshEditor (324)
+[2019.01.08-08.44.25:947][446]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (322)
+[2019.01.08-08.44.25:947][446]LogModuleManager: Shutting down and abandoning module CryptoKeys (320)
+[2019.01.08-08.44.25:947][446]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
+[2019.01.08-08.44.25:947][446]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (316)
+[2019.01.08-08.44.25:947][446]LogModuleManager: Shutting down and abandoning module UObjectPlugin (314)
+[2019.01.08-08.44.25:947][446]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (312)
+[2019.01.08-08.44.25:947][446]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (310)
+[2019.01.08-08.44.25:947][446]LogModuleManager: Shutting down and abandoning module GitSourceControl (308)
+[2019.01.08-08.44.25:952][446]LogModuleManager: Shutting down and abandoning module SourceControl (307)
+[2019.01.08-08.44.25:952][446]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (304)
+[2019.01.08-08.44.25:952][446]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
+[2019.01.08-08.44.25:952][446]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
+[2019.01.08-08.44.25:952][446]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
+[2019.01.08-08.44.25:991][446]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
+[2019.01.08-08.44.26:055][446]LogModuleManager: Shutting down and abandoning module MeshPaint (295)
+[2019.01.08-08.44.26:066][446]LogModuleManager: Shutting down and abandoning module WarhammerOnline (292)
+[2019.01.08-08.44.26:066][446]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
+[2019.01.08-08.44.26:066][446]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
+[2019.01.08-08.44.26:066][446]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
+[2019.01.08-08.44.26:066][446]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
+[2019.01.08-08.44.26:067][446]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
+[2019.01.08-08.44.26:068][446]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
+[2019.01.08-08.44.26:068][446]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
+[2019.01.08-08.44.26:068][446]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
+[2019.01.08-08.44.26:068][446]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
+[2019.01.08-08.44.26:168][446]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
+[2019.01.08-08.44.26:270][446]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (270)
+[2019.01.08-08.44.26:270][446]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2019.01.08-08.44.26:270][446]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2019.01.08-08.44.26:270][446]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2019.01.08-08.44.26:270][446]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2019.01.08-08.44.26:270][446]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2019.01.08-08.44.26:270][446]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2019.01.08-08.44.26:272][446]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2019.01.08-08.44.26:309][446]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2019.01.08-08.44.26:309][446]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2019.01.08-08.44.26:310][446]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2019.01.08-08.44.26:310][446]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2019.01.08-08.44.26:312][446]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2019.01.08-08.44.26:312][446]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2019.01.08-08.44.26:312][446]LogModuleManager: Shutting down and abandoning module AISupportModule (242)
+[2019.01.08-08.44.26:312][446]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (240)
+[2019.01.08-08.44.26:312][446]LogModuleManager: Shutting down and abandoning module AdvancedSessions (238)
+[2019.01.08-08.44.26:312][446]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2019.01.08-08.44.26:312][446]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2019.01.08-08.44.26:312][446]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2019.01.08-08.44.26:314][446]LogModuleManager: Shutting down and abandoning module Media (231)
+[2019.01.08-08.44.26:320][446]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.01.08-08.44.26:320][446]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.01.08-08.44.26:320][446]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.01.08-08.44.26:320][446]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.01.08-08.44.26:320][446]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.01.08-08.44.26:320][446]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.01.08-08.44.26:320][446]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.01.08-08.44.26:321][446]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.01.08-08.44.26:321][446]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.01.08-08.44.26:321][446]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.01.08-08.44.26:321][446]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.01.08-08.44.26:321][446]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.01.08-08.44.26:321][446]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.01.08-08.44.26:321][446]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.01.08-08.44.26:321][446]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.01.08-08.44.26:321][446]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.01.08-08.44.26:322][446]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.01.08-08.44.26:322][446]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.01.08-08.44.26:322][446]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.01.08-08.44.26:322][446]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module MRMesh (186)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module Core (176)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module LevelSequence (174)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (167)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2019.01.08-08.44.26:327][446]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2019.01.08-08.44.26:328][446]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2019.01.08-08.44.26:329][446]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.01.08-08.44.26:391][446]LogDerivedDataCache: Shutdown
+[2019.01.08-08.44.26:392][446]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.01.08-08.44.26:392][446]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.01.08-08.44.26:392][446]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.01.08-08.44.26:392][446]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.01.08-08.44.26:392][446]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.01.08-08.44.26:392][446]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.01.08-08.44.26:392][446]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.01.08-08.44.26:392][446]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.01.08-08.44.26:393][446]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.01.08-08.44.26:401][446]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.01.08-08.44.26:401][446]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.01.08-08.44.26:407][446]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.01.08-08.44.26:407][446]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2019.01.08-08.44.26:490][446]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2019.01.08-08.44.26:491][446]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2019.01.08-08.44.26:491][446]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2019.01.08-08.44.26:492][446]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.01.08-08.44.26:492][446]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.01.08-08.44.26:525][446]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.01.08-08.44.26:525][446]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.08-08.44.26:525][446]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B22209620-4920-98CD-5680-229A0E592BBA%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.20.3-0%2B%2B%2BUE4%2BRelease-4.20&UserID=797f30044c940ea113d7608d38615c3e%7Ccec6d2080c8b49f3b7d752523df8e451%7Cf5dbca86-ab5f-4812-838b-93cceb8f3f91&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2019.01.08-08.44.26:532][446]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.01.08-08.44.26:533][446]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.01.08-08.44.26:533][446]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.01.08-08.44.26:533][446]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.01.08-08.44.26:533][446]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.01.08-08.44.26:533][446]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.01.08-08.44.26:533][446]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.01.08-08.44.26:533][446]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.01.08-08.44.26:533][446]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.01.08-08.44.26:533][446]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.01.08-08.44.26:534][446]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.08-08.44.26:534][446]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.01.08-08.44.26:534][446]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.08-08.44.26:534][446]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.08-08.44.26:534][446]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.08-08.44.26:534][446]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.08-08.44.26:534][446]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.08-08.44.26:534][446]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.08-08.44.26:534][446]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.08-08.44.26:535][446]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.08-08.44.26:535][446]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.08-08.44.26:535][446]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.08-08.44.26:535][446]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.08-08.44.26:535][446]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.08-08.44.26:535][446]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.08-08.44.26:536][446]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.08-08.44.26:536][446]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.08-08.44.26:536][446]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.08-08.44.26:536][446]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.08-08.44.26:536][446]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.08-08.44.26:539][446]LogExit: Exiting.
+[2019.01.08-08.44.26:555][446]Log file closed, 01/08/19 13:44:26
